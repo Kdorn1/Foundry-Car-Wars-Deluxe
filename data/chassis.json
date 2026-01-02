@@ -1,0 +1,87 @@
+{
+  "chassis": {
+    "cycle": [
+      {
+        "id": "cycle",
+        "name": "Cycle Chassis",
+        "costMultiplier": 1.0,
+        "maxWeightMultiplier": 1.0,
+        "allowedBodyCategories": ["cycle"],
+        "minWheels": 2,
+        "maxWheels": 2,
+        "specialRules": [
+          "Chassis cost and weight included in body",
+          "Only valid for cycle bodies"
+        ]
+      }
+    ],
+
+    "light": [
+      {
+        "id": "light",
+        "name": "Light Chassis",
+        "costMultiplier": 1.0,
+        "flatCostAdjustment": -60,
+        "maxWeightMultiplier": 0.9,
+        "allowedBodyCategories": ["car"],
+        "minWheels": 4,
+        "maxWheels": 4,
+        "specialRules": [
+          "Standard chassis for small/light cars"
+        ]
+      }
+    ],
+
+    "standard": [
+      {
+        "id": "standard",
+        "name": "Standard Chassis",
+        "costMultiplier": 1.0,
+        "maxWeightMultiplier": 1.0,
+        "allowedBodyCategories": ["car", "pickup", "camper", "van"],
+        "minWheels": 4,
+        "maxWheels": 6,
+        "specialRules": [
+          "Default chassis for most cars"
+        ]
+      }
+    ],
+
+    "heavy": [
+      {
+        "id": "heavy",
+        "name": "Heavy Chassis",
+        "costMultiplier": 1.0,
+        "flatCostAdjustment": 150,
+        "maxWeightMultiplier": 1.1,
+        "allowedBodyCategories": ["car", "pickup", "camper", "van"],
+        "minWheels": 4,
+        "maxWheels": 6,
+        "specialRules": [
+          "Increases structural strength",
+          "Allows higher max weight"
+        ]
+      }
+    ],
+
+    "extra-heavy": [
+      {
+        "id": "extra-heavy",
+        "name": "Extra-Heavy Chassis",
+        "costMultiplier": 1.0,
+        "flatCostAdjustment": 300,
+        "maxWeightMultiplier": 1.2,
+        "allowedBodyCategories": ["car", "pickup", "camper", "van"],
+        "minWheels": 6,
+        "maxWheels": 6,
+        "requiresSixWheelsOverWeight": 5500,
+        "specialRules": [
+          "Required for vehicles over 5500 lbs",
+          "Required for 6-wheel vehicles",
+          "Required for pickups and larger bodies over 5500 lbs",
+          "Strongest available chassis"
+        ]
+      }
+    ]
+  }
+}

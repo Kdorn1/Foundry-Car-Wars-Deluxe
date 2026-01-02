@@ -1,0 +1,75 @@
+param(
+    [string]$Root = "C:\Users\Feindevil.SANCTUARY\OneDrive\carwars-system"
+)
+
+# Phase 1 forbidden patterns
+$ForbiddenPatterns = @(
+    "actor\.update",
+    "canvas",
+    "token",
+    "ChatMessage",
+    "ui\.",
+    "Hooks\.",
+    "game\.",
+
+    # Logic leakage into schema/data
+    "speed",
+    "hc",
+    "hazard",
+    "collision",
+    "control",
+    "skid",
+    "spinout",
+
+    # UI leakage
+    "\.html",
+    "\.hbs",
+    "render",
+    "template",
+
+    # Dice logic
+    "roll",
+    "2d6",
+    "Roll",
+
+    # Side effects
+    "await",
+    "async",
+    "new "
+)
+
+Write-Host "Scanning project for Phase 1 compliance..." -ForegroundColor Cyan
+
+$results = @()
+
+Get-ChildItem -Path $Root -Recurse -File | ForEach-Object {
+    $file = $_.FullName
+    $content = Get-Content $file -Raw
+
+    $failReason = $null
+
+    foreach ($pattern in $ForbiddenPatterns) {
+        if ($content -match $pattern) {
+            $failReason = "Contains forbidden pattern: $pattern"
+            break
+        }
+    }
+
+    # JSON validity check for .json files
+    if (-not $failReason -and $_.Extension -eq ".json") {
+        try {
+            $null = $content | ConvertFrom-Json -ErrorAction Stop
+        }
+        catch {
+            $failReason = "Invalid JSON structure"
+        }
+    }
+
+    $results += [PSCustomObject]@{
+        File = $file
+        Phase1_OK = [bool](-not $failReason)
+        Reason = $failReason
+    }
+}
+
+$results | Format-Table -AutoSize

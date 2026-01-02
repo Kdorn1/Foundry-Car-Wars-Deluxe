@@ -1,0 +1,25 @@
+<form class="carwars vehicle-sheet" autocomplete="off">
+  <header class="sheet-header">
+    <h1>
+      <input name="name" type="text" value="{{actor.name}}" placeholder="Vehicle Name"/>
+    </h1>
+  </header>
+{{> "systems/carwars-system/templates/actor/partials/validation-panel.html" validation=system.validation }}
+
+  <section class="sheet-body">
+    <div class="form-group">
+      <label>Body Type</label>
+      <input type="text" name="system.bodyType" value="{{system.bodyType}}"/>
+    </div>
+
+    <div class="form-group">
+      <label>Armor</label>
+      <input type="number" name="system.armor" value="{{system.armor}}"/>
+    </div>
+
+    <div class="form-group">
+      <label>Weapons (simple list for now)</label>
+      <textarea name="system.weapons">{{system.weapons}}</textarea>
+    </div>
+  </section>
+</form>

@@ -1,0 +1,17 @@
+{
+  "id": "carwars-system",
+  "title": "Car Wars (Custom System)",
+  "description": "A Foundry VTT v13 system shell for Car Wars.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    { "name": "Kevin" }
+  ],
+  "esmodules": ["module/carwars.js"],
+  "styles": ["styles/carwars.css"],
+  "packs": [],
+   "flags": { "carwars-system": { "dataPath": "systems/carwars-system/data" } } }
+

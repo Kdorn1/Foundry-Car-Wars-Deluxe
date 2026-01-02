@@ -1,0 +1,45 @@
+.cw-validation-panel {
+  border: 1px solid #444;
+  padding: 8px;
+  margin-bottom: 10px;
+  background: #1a1a1a;
+  color: #ddd;
+  font-size: 13px;
+}
+
+.cw-validation-section {
+  margin-bottom: 10px;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.cw-validation-section h3 {
+  margin: 0 0 4px 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cw-validation-section ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.cw-validation-section.errors {
+  border-left: 4px solid #ff4444;
+  background: rgba(255, 50, 50, 0.1);
+}
+
+.cw-validation-section.warnings {
+  border-left: 4px solid #ffbb33;
+  background: rgba(255, 200, 50, 0.1);
+}
+
+.cw-validation-section.info {
+  border-left: 4px solid #33b5e5;
+  background: rgba(50, 150, 255, 0.1);
+}
+
+.cw-validation-section.valid {
+  border-left: 4px solid #00C851;
+  background: rgba(0, 200, 100, 0.1);
+}

@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "assets"
+		},
+		{
+			"path": "module"
+		},
+		{
+			"path": "packs"
+		},
+		{
+			"path": "styles"
+		},
+		{
+			"path": "templates"
+		}
+	],
+	"settings": {}
+}

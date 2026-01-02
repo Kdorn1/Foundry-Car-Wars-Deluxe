@@ -1,0 +1,14 @@
+.carwars .sheet-header {
+  margin-bottom: 10px;
+}
+
+.carwars .form-group {
+  margin: 8px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.carwars label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}

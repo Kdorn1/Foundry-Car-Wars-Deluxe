@@ -1,0 +1,288 @@
+{
+  "accessories": [
+    {
+      "id": "active-suspension",
+      "name": "Active Suspension",
+      "category": "accessories",
+      "cost": 4000,
+      "spaces": 0,
+      "weight": 100,
+      "dp": 0,
+      "specialRules": [
+        "handlingBonus:1",
+        "+1 to HC of vehicle"
+      ],
+      "notes": "+1 to HC of vehicle"
+    },
+    {
+      "id": "anti-lock-brakes",
+      "name": "Anti-lock Brakes",
+      "category": "accessories",
+      "cost": 100,
+      "spaces": 0,
+      "weight": 0,
+      "dp": 0,
+      "specialRules": [
+        "noTireDamageFromBraking",
+        "brakingHazardModifier:-1",
+        "No tire dmg from braking",
+        "Braking hazards -D1"
+      ],
+      "notes": "No tire dmg from braking. Braking hazards -D1"
+    },
+    {
+      "id": "armored-rear-refrigerator",
+      "name": "Armored Rear Refrigerator",
+      "category": "accessories",
+      "cost": 250,
+      "spaces": 1,
+      "weight": 50,
+      "dp": 2,
+      "specialRules": [
+        "fireproof",
+        "Fireproof"
+      ],
+      "notes": "Fireproof"
+    },
+    {
+      "id": "armored-windings",
+      "name": "Armored Windings",
+      "category": "accessories",
+      "cost": 100,
+      "spaces": 0,
+      "weight": 0,
+      "dp": 0,
+      "specialRules": [
+        "fireproof",
+        "Fireproof"
+      ],
+      "notes": "Fireproof"
+    },
+    {
+      "id": "armored-seatkits",
+      "name": "Armored Seatkits",
+      "category": "accessories",
+      "cost": 200,
+      "spaces": 1,
+      "weight": 50,
+      "dp": 2,
+      "specialRules": [],
+      "notes": ""
+    },
+    {
+      "id": "armored-wheel-hubs",
+      "name": "Armored Wheel Hubs",
+      "category": "accessories",
+      "cost": 400,
+      "spaces": 0,
+      "weight": 0,
+      "dp": 0,
+      "specialRules": [
+        "wheelArmorBonus:$15per4thPoint",
+        "maxWheelWeight:40",
+        "+$15/4th Point",
+        "Max 40lb/Wheel"
+      ],
+      "notes": "+$15/4th Point. Max 40lb/Wheel"
+    },
+    {
+      "id": "auto-target-acquisition",
+      "name": "Automatic Target Acquisition Device",
+      "category": "accessories",
+      "cost": 1000,
+      "spaces": 0,
+      "weight": 0,
+      "dp": 0,
+      "specialRules": [
+        "toHitBonus:10",
+        "perWeaponCost:1000",
+        "+10 to hit",
+        "1000 per veap connected"
+      ],
+      "notes": "+10 to hit, 1000 per veap connected"
+    },
+    {
+      "id": "body-through-concealment",
+      "name": "Body Through Concealment",
+      "category": "accessories",
+      "cost": 200,
+      "spaces": 0,
+      "weight": 0,
+      "dp": 0,
+      "specialRules": [
+        "concealment:true",
+        "EACH"
+      ],
+      "notes": "EACH"
+    },
+    {
+      "id": "body-blades",
+      "name": "Body Blades",
+      "category": "accessories",
+      "cost": 500,
+      "spaces": 1,
+      "weight": 50,
+      "dp": 5,
+      "specialRules": [
+        "armorEquivalent:3",
+        "SAME as 3 pts armor"
+      ],
+      "notes": "SAME as 3 pts armor"
+    },
+    {
+      "id": "bulk-ammo-boxes",
+      "name": "Bulk Ammo Boxes",
+      "category": "accessories",
+      "cost": 200,
+      "spaces": 1,
+      "weight": 50,
+      "dp": 0,
+      "specialRules": [],
+      "notes": ""
+    },
+    {
+      "id": "bumper-spikes",
+      "name": "Bumper Spikes",
+      "category": "accessories",
+      "cost": 250,
+      "spaces": 1,
+      "weight": 50,
+      "dp": 5,
+      "specialRules": [
+        "armorEquivalent:5",
+        "reducedWeight:0.75",
+        "3/4 wt same as 5pts armor"
+      ],
+      "notes": "3/4 wt same as 5pts armor"
+    },
+    {
+      "id": "cancel-targeting",
+      "name": "Cancel Targeting",
+      "category": "accessories",
+      "cost": 100,
+      "spaces": 0,
+      "weight": 0,
+      "dp": 0,
+      "specialRules": [],
+      "notes": ""
+    },
+    {
+      "id": "car-top-carrier-2",
+      "name": "Car Top Carrier - 2 space",
+      "category": "accessories",
+      "cost": 200,
+      "spaces": 2,
+      "weight": 100,
+      "dp": 0,
+      "specialRules": [
+        "armorCost:$5per2",
+        "armorPointRatio:1",
+        "One Square inch armor at $5/2 / point"
+      ],
+      "notes": "One Square inch armor at $5/2 / point"
+    },
+    {
+      "id": "car-top-carrier-3",
+      "name": "Car Top Carrier - 3 space",
+      "category": "accessories",
+      "cost": 300,
+      "spaces": 3,
+      "weight": 150,
+      "dp": 0,
+      "specialRules": [
+        "armorCost:$7per3",
+        "armorPointRatio:1",
+        "armor at $7/3 / point"
+      ],
+      "notes": "armor at $7/3 / point"
+    },
+    {
+      "id": "car-top-carrier-4",
+      "name": "Car Top Carrier - 4 space",
+      "category": "accessories",
+      "cost": 400,
+      "spaces": 4,
+      "weight": 200,
+      "dp": 0,
+      "specialRules": [
+        "armorCost:$11per4",
+        "armorPointRatio:1",
+        "armor at $11/4 / point"
+      ],
+      "notes": "armor at $11/4 / point"
+    },
+    {
+      "id": "component-armor",
+      "name": "Component Armor",
+      "category": "accessories",
+      "cost": 150,
+      "spaces": 1,
+      "weight": 50,
+      "dp": 2,
+      "specialRules": [
+        "componentArmor:true",
+        "armorEfficiency:65lbPer2DP",
+        "maxComponentWeight:20",
+        "65-2lb / point",
+        "Space max 20lb"
+      ],
+      "notes": "65-2lb / point - Space max 20lb"
+    },
+    {
+      "id": "component-gunner",
+      "name": "Component Gunner",
+      "category": "accessories",
+      "cost": 200,
+      "spaces": 0,
+      "weight": 0,
+      "dp": 0,
+      "specialRules": [
+        "toHitBonus:1",
+        "handlingBonus:1",
+        "+1 to Hit OR +1 to HC"
+      ],
+      "notes": "+1 to Hit OR +1 to HC"
+    },
+    {
+      "id": "component-gunner-autopilot-software",
+      "name": "Component Gunner Autopilot Software",
+      "category": "accessories",
+      "cost": 1000,
+      "spaces": 0,
+      "weight": 0,
+      "dp": 0,
+      "specialRules": [],
+      "notes": ""
+    },
+    {
+      "id": "component-weapon-pod-1",
+      "name": "Component Weapon Pod - One-space",
+      "category": "accessories",
+      "cost": 500,
+      "spaces": 1,
+      "weight": 50,
+      "dp": 0,
+      "specialRules": [
+        "weaponSpaceGranted:3",
+        "Uses 1 but gives 3 Weapon Spaces"
+      ],
+      "notes": "Uses 1 but gives 3 Weapon Spaces"
+    },
+    {
+      "id": "component-weapon-pod-2",
+      "name": "Component Weapon Pod - Two-space",
+      "category": "accessories",
+      "cost": 1000,
+      "spaces": 2,
+      "weight": 100,
+      "dp": 0,
+      "specialRules": [
+        "weaponSpaceGranted:4",
+        "Uses 2 but gives 4 Weapon Spaces"
+      ],
+      "notes": "Uses 2 but gives 4 Weapon Spaces"
+    }
+  ]
+}
+    
+    

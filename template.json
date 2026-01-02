@@ -1,0 +1,13 @@
+{
+  "Actor": {
+    "types": ["vehicle", "driver"],
+    "templates": {
+      "vehicle": {},
+      "driver": {}
+    }
+  },
+  "Item": {
+    "types": ["weapon", "armor", "powerplant", "tire", "accessory", "suspension"],
+    "templates": {}
+  }
+}

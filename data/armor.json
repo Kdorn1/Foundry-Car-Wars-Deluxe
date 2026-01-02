@@ -1,0 +1,77 @@
+{
+  "armor": {
+    "normal": {
+      "id": "armor-normal",
+      "name": "Normal Armor",
+      "costPerPoint": 11,
+      "weightPerPoint": 5,
+      "specialRules": []
+    },
+    "fp": {
+      "id": "armor-fp",
+      "name": "Fireproof Armor",
+      "costPerPoint": 22,
+      "weightPerPoint": 5,
+      "specialRules": [
+        "Fireproof"
+      ]
+    },
+    "lr": {
+      "id": "armor-lr",
+      "name": "Laser Reflective Armor",
+      "costPerPoint": 12.1,
+      "weightPerPoint": 5.5,
+      "specialRules": [
+        "Laser reflective"
+      ]
+    },
+    "lrfp": {
+      "id": "armor-lrfp",
+      "name": "Laser Reflective Fireproof Armor",
+      "costPerPoint": 27.5,
+      "weightPerPoint": 5.5,
+      "specialRules": [
+        "Laser reflective",
+        "Fireproof"
+      ]
+    },
+    "rp": {
+      "id": "armor-rp",
+      "name": "Ramplate Armor",
+      "costPerPoint": 22,
+      "weightPerPoint": 5,
+      "specialRules": [
+        "Used for Ramplate calculations"
+      ]
+    },
+    "rpfp": {
+      "id": "armor-rpfp",
+      "name": "Ramplate Fireproof Armor",
+      "costPerPoint": 44,
+      "weightPerPoint": 5,
+      "specialRules": [
+        "Used for Ramplate calculations",
+        "Fireproof"
+      ]
+    },
+    "metal": {
+      "id": "armor-metal",
+      "name": "Metal Armor",
+      "costPerPoint": 27.5,
+      "weightPerPoint": 25,
+      "specialRules": [
+        "Heavy metal armor"
+      ]
+    },
+    "lr-metal": {
+      "id": "armor-lr-metal",
+      "name": "Laser Reflective Metal Armor",
+      "costPerPoint": 28.6,
+      "weightPerPoint": 25,
+      "specialRules": [
+        "Laser reflective",
+        "Heavy metal armor"
+      ]
+    }
+  }
+}

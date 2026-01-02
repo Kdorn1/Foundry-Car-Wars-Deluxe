@@ -1,0 +1,488 @@
+{
+  "bodies": {
+    "cycle": [
+      {
+        "id": "light-cycle",
+        "name": "Light Cycle",
+        "category": "cycle",
+        "cost": 200,
+        "weight": 250,
+        "maxWeight": 800,
+        "spaces": 4,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 10,
+        "armorWeightPerPoint": 4,
+        "specialRules": [
+          "Uses cycle tires only",
+          "Uses cycle power plants only",
+          "Cannot mount turrets",
+          "May mount only cycle-class weapons"
+        ]
+      },
+      {
+        "id": "medium-cycle",
+        "name": "Medium Cycle",
+        "category": "cycle",
+        "cost": 300,
+        "weight": 300,
+        "maxWeight": 1100,
+        "spaces": 5,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 11,
+        "armorWeightPerPoint": 5,
+        "specialRules": [
+          "Uses cycle tires only",
+          "Uses cycle power plants only",
+          "Cannot mount turrets",
+          "May mount only cycle-class weapons"
+        ]
+      },
+      {
+        "id": "heavy-cycle",
+        "name": "Heavy Cycle",
+        "category": "cycle",
+        "cost": 400,
+        "weight": 350,
+        "maxWeight": 1300,
+        "spaces": 7,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 12,
+        "armorWeightPerPoint": 5,
+        "specialRules": [
+          "Uses cycle tires only",
+          "Uses cycle power plants only",
+          "Cannot mount turrets",
+          "May mount only cycle-class weapons"
+        ]
+      }
+    ],
+
+    "trike": [
+      {
+        "id": "light-trike",
+        "name": "Light Trike",
+        "category": "trike",
+        "cost": 250,
+        "weight": 300,
+        "maxWeight": 1600,
+        "spaces": 8,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 11,
+        "armorWeightPerPoint": 4,
+        "specialRules": []
+      },
+      {
+        "id": "medium-trike",
+        "name": "Medium Trike",
+        "category": "trike",
+        "cost": 300,
+        "weight": 500,
+        "maxWeight": 2100,
+        "spaces": 11,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 12,
+        "armorWeightPerPoint": 7,
+        "specialRules": []
+      },
+      {
+        "id": "heavy-trike",
+        "name": "Heavy Trike",
+        "category": "trike",
+        "cost": 400,
+        "weight": 700,
+        "maxWeight": 1800,
+        "spaces": 12,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 14,
+        "armorWeightPerPoint": 8,
+        "specialRules": []
+      },
+      {
+        "id": "x-heavy-trike",
+        "name": "X-Heavy Trike",
+        "category": "trike",
+        "cost": 550,
+        "weight": 950,
+        "maxWeight": 3500,
+        "spaces": 14,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 16,
+        "armorWeightPerPoint": 9,
+        "specialRules": []
+      }
+    ],
+
+    "reverse-trike": [
+      {
+        "id": "reverse-light-trike",
+        "name": "Reverse Light Trike",
+        "category": "reverse-trike",
+        "cost": 375,
+        "weight": 300,
+        "maxWeight": 1600,
+        "spaces": 7,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 12,
+        "armorWeightPerPoint": 5,
+        "specialRules": []
+      },
+      {
+        "id": "reverse-medium-trike",
+        "name": "Reverse Medium Trike",
+        "category": "reverse-trike",
+        "cost": 450,
+        "weight": 500,
+        "maxWeight": 2100,
+        "spaces": 9,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 12,
+        "armorWeightPerPoint": 5,
+        "specialRules": []
+      },
+      {
+        "id": "reverse-heavy-trike",
+        "name": "Reverse Heavy Trike",
+        "category": "reverse-trike",
+        "cost": 600,
+        "weight": 700,
+        "maxWeight": 1800,
+        "spaces": 11,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 14,
+        "armorWeightPerPoint": 6,
+        "specialRules": []
+      },
+      {
+        "id": "reverse-x-heavy-trike",
+        "name": "Reverse X-Heavy Trike",
+        "category": "reverse-trike",
+        "cost": 825,
+        "weight": 950,
+        "maxWeight": 3500,
+        "spaces": 13,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 16,
+        "armorWeightPerPoint": 9,
+        "specialRules": []
+      }
+    ],
+      "car": [
+      {
+        "id": "subcompact",
+        "name": "Subcompact",
+        "category": "car",
+        "cost": 300,
+        "weight": 1000,
+        "maxWeight": 2300,
+        "spaces": 7,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 11,
+        "armorWeightPerPoint": 6,
+        "specialRules": []
+      },
+      {
+        "id": "compact",
+        "name": "Compact",
+        "category": "car",
+        "cost": 400,
+        "weight": 1300,
+        "maxWeight": 3700,
+        "spaces": 10,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 13,
+        "armorWeightPerPoint": 7,
+        "specialRules": []
+      },
+      {
+        "id": "mid-sized",
+        "name": "Mid-Sized",
+        "category": "car",
+        "cost": 800,
+        "weight": 1600,
+        "maxWeight": 4800,
+        "spaces": 13,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 16,
+        "armorWeightPerPoint": 8,
+        "specialRules": []
+      },
+      {
+        "id": "sedan",
+        "name": "Sedan",
+        "category": "car",
+        "cost": 700,
+        "weight": 1700,
+        "maxWeight": 5100,
+        "spaces": 16,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 18,
+        "armorWeightPerPoint": 9,
+        "specialRules": []
+      },
+      {
+        "id": "luxury",
+        "name": "Luxury",
+        "category": "car",
+        "cost": 900,
+        "weight": 1800,
+        "maxWeight": 5500,
+        "spaces": 19,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 19,
+        "armorWeightPerPoint": 9,
+        "specialRules": []
+      },
+      {
+        "id": "station-wagon",
+        "name": "Station Wagon",
+        "category": "car",
+        "cost": 800,
+        "weight": 1800,
+        "maxWeight": 5500,
+        "spaces": 14,
+        "cargoSpaces": 7,
+        "armorCostPerPoint": 20,
+        "armorWeightPerPoint": 11,
+        "specialRules": []
+      }
+    ],
+    "pickup": [
+      {
+        "id": "pickup",
+        "name": "Pickup",
+        "category": "pickup",
+        "cost": 900,
+        "weight": 2100,
+        "maxWeight": 6500,
+        "spaces": 13,
+        "cargoSpaces": 11,
+        "armorCostPerPoint": 22,
+        "armorWeightPerPoint": 11,
+        "specialRules": []
+      }
+    ],
+
+    "camper": [
+      {
+        "id": "camper",
+        "name": "Camper",
+        "category": "camper",
+        "cost": 1400,
+        "weight": 2300,
+        "maxWeight": 6500,
+        "spaces": 17,
+        "cargoSpaces": 9,
+        "armorCostPerPoint": 30,
+        "armorWeightPerPoint": 14,
+        "specialRules": []
+      }
+    ],
+
+    "van": [
+      {
+        "id": "van",
+        "name": "Van",
+        "category": "van",
+        "cost": 1000,
+        "weight": 2000,
+        "maxWeight": 6000,
+        "spaces": 24,
+        "cargoSpaces": 6,
+        "armorCostPerPoint": 30,
+        "armorWeightPerPoint": 14,
+        "specialRules": []
+      }
+    ],
+    "racing": [
+      {
+        "id": "formula-one",
+        "name": "Formula One",
+        "category": "racing",
+        "cost": 6500,
+        "weight": 600,
+        "maxWeight": 4000,
+        "spaces": 18,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 22,
+        "armorWeightPerPoint": 6,
+        "specialRules": [
+          "Optimized for speed",
+          "Restricted accessory and weapon options",
+          "Requires racing suspension"
+        ]
+      },
+      {
+        "id": "can-am",
+        "name": "Can-Am",
+        "category": "racing",
+        "cost": 6500,
+        "weight": 800,
+        "maxWeight": 4500,
+        "spaces": 18,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 24,
+        "armorWeightPerPoint": 12,
+        "specialRules": [
+          "Optimized for speed",
+          "Restricted accessory and weapon options",
+          "Requires racing suspension"
+        ]
+      },
+      {
+        "id": "sprint",
+        "name": "Sprint",
+        "category": "racing",
+        "cost": 5800,
+        "weight": 3000,
+        "maxWeight": 3200,
+        "spaces": 11,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 15,
+        "armorWeightPerPoint": 7,
+        "specialRules": [
+          "Optimized for speed",
+          "Restricted accessory and weapon options",
+          "Requires racing suspension"
+        ]
+      },
+      {
+        "id": "funny-car",
+        "name": "Funny Car",
+        "category": "racing",
+        "cost": 6600,
+        "weight": 700,
+        "maxWeight": 4500,
+        "spaces": 20,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 26,
+        "armorWeightPerPoint": 13,
+        "specialRules": [
+          "Optimized for speed",
+          "Restricted accessory and weapon options",
+          "Requires racing suspension"
+        ]
+      },
+      {
+        "id": "dragster",
+        "name": "Dragster",
+        "category": "racing",
+        "cost": 6200,
+        "weight": 600,
+        "maxWeight": 4000,
+        "spaces": 16,
+        "cargoSpaces": 0,
+        "armorCostPerPoint": 20,
+        "armorWeightPerPoint": 8,
+        "specialRules": [
+          "Optimized for speed",
+          "Restricted accessory and weapon options",
+          "Requires racing suspension"
+        ]
+      }
+    ],
+    "body-mod": [
+      {
+        "id": "no-mod",
+        "name": "No Mod",
+        "category": "body-mod",
+        "costMultiplier": 1.0,
+        "weightMultiplier": 1.0,
+        "armorCostMultiplier": 1.0,
+        "armorWeightMultiplier": 1.0,
+        "specialRules": []
+      },
+      {
+        "id": "ca-frame",
+        "name": "CA Frame",
+        "category": "body-mod",
+        "costMultiplier": 1.0,
+        "weightMultiplier": 1.0,
+        "armorCostMultiplier": 1.0,
+        "armorWeightMultiplier": 1.0,
+        "specialRules": [
+          "Takes double damage in rams"
+        ]
+      },
+      {
+        "id": "streamlined",
+        "name": "Streamlined",
+        "category": "body-mod",
+        "costMultiplier": 1.0,
+        "weightMultiplier": 1.0,
+        "armorCostMultiplier": 1.0,
+        "armorWeightMultiplier": 1.0,
+        "specialRules": [
+          "Raises top speed and MPG by 10%"
+        ]
+      },
+      {
+        "id": "sloped",
+        "name": "Sloped",
+        "category": "body-mod",
+        "costMultiplier": 1.1,
+        "weightMultiplier": 1.0,
+        "armorCostMultiplier": 1.0,
+        "armorWeightMultiplier": 1.0,
+        "specialRules": [
+          "-1 to be hit"
+        ]
+      },
+      {
+        "id": "sloped-streamlined",
+        "name": "Sloped Streamlined",
+        "category": "body-mod",
+        "costMultiplier": 1.1,
+        "weightMultiplier": 1.0,
+        "armorCostMultiplier": 1.0,
+        "armorWeightMultiplier": 1.0,
+        "specialRules": [
+          "-1 to be hit",
+          "Raises top speed and MPG by 10%"
+        ]
+      },
+      {
+        "id": "ca-sloped",
+        "name": "CA Sloped",
+        "category": "body-mod",
+        "costMultiplier": 1.1,
+        "weightMultiplier": 1.0,
+        "armorCostMultiplier": 1.0,
+        "armorWeightMultiplier": 1.0,
+        "specialRules": [
+          "Takes double damage in rams",
+          "-1 to be hit"
+        ]
+      },
+      {
+        "id": "ca-streamlined",
+        "name": "CA Streamlined",
+        "category": "body-mod",
+        "costMultiplier": 1.0,
+        "weightMultiplier": 1.0,
+        "armorCostMultiplier": 1.0,
+        "armorWeightMultiplier": 1.0,
+        "specialRules": [
+          "Takes double damage in rams",
+          "Raises top speed and MPG by 10%"
+        ]
+      },
+      {
+        "id": "ca-sloped-streamlined",
+        "name": "CA Sloped Streamlined",
+        "category": "body-mod",
+        "costMultiplier": 1.1,
+        "weightMultiplier": 1.0,
+        "armorCostMultiplier": 1.0,
+        "armorWeightMultiplier": 1.0,
+        "specialRules": [
+          "Takes double damage in rams",
+          "-1 to be hit",
+          "Raises top speed and MPG by 10%"
+        ]
+      }
+    ]
+  }
+}
+
+
+    

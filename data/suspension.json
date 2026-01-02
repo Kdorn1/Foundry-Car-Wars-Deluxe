@@ -1,0 +1,102 @@
+{
+  "suspension": {
+    "cycle": [
+      {
+        "id": "cycle-light",
+        "name": "Cycle Light",
+        "category": "cycle",
+        "cost": 0,
+        "handlingBonus": 0,
+        "vanHandlingBonus": 0,
+        "subcompactHandlingBonus": 0,
+        "specialRules": []
+      },
+      {
+        "id": "cycle-improved",
+        "name": "Cycle Improved",
+        "category": "cycle",
+        "cost": 300,
+        "handlingBonus": 1,
+        "vanHandlingBonus": 0,
+        "subcompactHandlingBonus": 0,
+        "specialRules": []
+      },
+      {
+        "id": "cycle-heavy",
+        "name": "Cycle Heavy",
+        "category": "cycle",
+        "cost": 600,
+        "handlingBonus": 2,
+        "vanHandlingBonus": 0,
+        "subcompactHandlingBonus": 0,
+        "specialRules": []
+      },
+      {
+        "id": "cycle-offroad",
+        "name": "Cycle Off-Road",
+        "category": "cycle",
+        "cost": 900,
+        "handlingBonus": 2,
+        "vanHandlingBonus": 0,
+        "subcompactHandlingBonus": 0,
+        "specialRules": []
+      }
+    ],
+    "car": [
+      {
+        "id": "light",
+        "name": "Light Suspension",
+        "category": "car",
+        "cost": 0,
+        "handlingBonus": 1,
+        "vanHandlingBonus": 0,
+        "subcompactHandlingBonus": 2,
+        "specialRules": []
+      },
+      {
+        "id": "improved",
+        "name": "Improved Suspension",
+        "category": "car",
+        "cost": 300,
+        "handlingBonus": 2,
+        "vanHandlingBonus": 1,
+        "subcompactHandlingBonus": 3,
+        "specialRules": []
+      },
+      {
+        "id": "heavy",
+        "name": "Heavy Suspension",
+        "category": "car",
+        "cost": 450,
+        "handlingBonus": 3,
+        "vanHandlingBonus": 2,
+        "subcompactHandlingBonus": 4,
+        "specialRules": []
+      },
+      {
+        "id": "offroad",
+        "name": "Off-Road Suspension",
+        "category": "car",
+        "cost": 1500,
+        "handlingBonus": 2,
+        "vanHandlingBonus": 3,
+        "subcompactHandlingBonus": 2,
+        "specialRules": []
+      }
+    ],
+    "racing": [
+      {
+        "id": "racing",
+        "name": "Racing Suspension",
+        "category": "racing",
+        "cost": 0,
+        "handlingBonus": 5,
+        "vanHandlingBonus": 0,
+        "subcompactHandlingBonus": 0,
+        "specialRules": [
+          "Only valid for racing bodies"
+        ]
+      }
+    ]
+  }
+}
