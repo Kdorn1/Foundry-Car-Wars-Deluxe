@@ -33,7 +33,6 @@ export function computeHazard({
     skidHazard +
     otherHazard;
 
-  // RAW: HC decreases by total hazard
   const newHC = currentHC - totalHazard;
 
   return {
@@ -48,4 +47,36 @@ export function computeHazard({
  */
 export function sumHazards(...values) {
   return values.reduce((a, b) => a + (b ?? 0), 0);
+}
+
+/**
+ * Phase 2 wrapper expected by orchestrators.
+ * Applies hazard logic and returns a structured result.
+ */
+export function applyHazards(actor, movementState) {
+  const currentHC = movementState.handlingStatus ?? 0;
+
+  const maneuverHazard = movementState.lastHazard ?? 0;
+  const collisionHazard = movementState.collisionHazard ?? 0;
+  const skidHazard = movementState.skidHazard ?? 0;
+  const otherHazard = movementState.otherHazard ?? 0;
+
+  const result = computeHazard({
+    currentHC,
+    maneuverHazard,
+    collisionHazard,
+    skidHazard,
+    otherHazard
+  });
+
+  return {
+    hazardsApplied: {
+      maneuverHazard,
+      collisionHazard,
+      skidHazard,
+      otherHazard
+    },
+    totalHazard: result.totalHazard,
+    newHC: result.newHC
+  };
 }

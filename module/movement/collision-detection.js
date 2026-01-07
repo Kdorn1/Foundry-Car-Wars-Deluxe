@@ -117,3 +117,6 @@ export function detectCollision(tokenA, tokenB) {
     massB: actorB.system.weight ?? 1
   };
 }
+
+// Alias for orchestrator compatibility
+export const detectCollisions = detectCollision;

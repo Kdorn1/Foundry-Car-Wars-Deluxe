@@ -36,13 +36,8 @@ export class MovementEngine {
 
   async execute(maneuverId) {
     const mv = this.actor.system.movement ?? {};
-
-    // Phase 2: use lastSpeed (currentSpeed is deprecated)
     const currentSpeed = mv.lastSpeed ?? 0;
 
-    // ------------------------------------------------------------
-    // RAW: Conforming movement overrides all maneuvers
-    // ------------------------------------------------------------
     const token = this.actor.getActiveTokens()[0];
 
     if (token) {
@@ -54,22 +49,17 @@ export class MovementEngine {
         if (primary && tokensAreTouching(primary, token)) {
           await this.actor.update({ "system.movement.isConforming": true });
 
-          // RAW: slide along primary
           await slideAlongPrimary(primary, token, { gridSteps: 1 });
 
           await updateConformingState(primary, token);
-          return; // skip maneuver
+          return;
         }
 
-        // No longer conforming
         await clearConformingForToken(token);
         await this.actor.update({ "system.movement.isConforming": false });
       }
     }
 
-    // ------------------------------------------------------------
-    // Phase 2: Remove templates (UI layer will replace this later)
-    // ------------------------------------------------------------
     MovementTemplate.removeFor(this.actor);
     LaneChangeTemplate.removeFor(this.actor);
     TurnArcTemplate.removeFor(this.actor);
@@ -77,9 +67,6 @@ export class MovementEngine {
     BootleggerTemplate.removeFor(this.actor);
     SpinoutTemplate.removeFor(this.actor);
 
-    // ------------------------------------------------------------
-    // Lookup maneuver metadata
-    // ------------------------------------------------------------
     const maneuver = ManeuverRegistry.get(maneuverId);
 
     if (maneuver?.difficulty != null) {
@@ -88,18 +75,12 @@ export class MovementEngine {
       });
     }
 
-    // ------------------------------------------------------------
-    // Phase 2: Perform maneuver (no dice, no crash routing here)
-    // ------------------------------------------------------------
     await performManeuver(this.actor, maneuverId, currentSpeed);
-
-    // Phase 2: DO NOT react to crash outcomes here.
-    // UI + crash-router + movement-state handle everything.
   }
 }
 
 // ------------------------------------------------------------
-// Canvas Conversion Helpers (unchanged)
+// Canvas Conversion Helpers — dynamic, no hard-coded values
 // ------------------------------------------------------------
 
 export function inchesPerTurn(speedMph) {
@@ -116,22 +97,29 @@ export function movementThisPhase(vehicle) {
 }
 
 export function inchesToGridUnits(inches) {
-  const gridDistance = canvas.grid?.distance || 1;
-  return inches / gridDistance;
+  const distancePerGrid = canvas.scene?.grid?.distance || 1;
+  return inches / distancePerGrid;
 }
 
 export function inchesToPixels(inches) {
-  const gridSize = canvas.grid?.size || 100;
-  return inchesToGridUnits(inches) * gridSize;
+  const distancePerGrid = canvas.scene?.grid?.distance || 1;
+  const pixelsPerGrid = canvas.scene?.grid?.size || 100;
+  return (inches / distancePerGrid) * pixelsPerGrid;
 }
 
 export function gridUnitsToInches(units) {
-  const gridDistance = canvas.grid?.distance || 1;
-  return units * gridDistance;
+  const distancePerGrid = canvas.scene?.grid?.distance || 1;
+  return units * distancePerGrid;
 }
 
 export function pixelsToInches(px) {
-  const gridSize = canvas.grid?.size || 100;
-  const units = px / gridSize;
-  return gridUnitsToInches(units);
+  const pixelsPerGrid = canvas.scene?.grid?.size || 100;
+  const distancePerGrid = canvas.scene?.grid?.distance || 1;
+  const units = px / pixelsPerGrid;
+  return units * distancePerGrid;
+}
+
+export async function runMovementEngine(actor, maneuverId) {
+  const engine = new MovementEngine(actor);
+  await engine.execute(maneuverId);
 }

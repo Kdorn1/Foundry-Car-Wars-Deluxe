@@ -122,3 +122,11 @@ export function tokensAreTouching(tokenA, tokenB) {
     ay2 > by1
   );
 }
+
+/**
+ * Provide named export for modules expecting getConformingInfo.
+ */
+export function getConformingInfo(token) {
+  if (!token) return null;
+  return token.getFlag(FLAG_SCOPE, FLAG_KEY) ?? null;
+}

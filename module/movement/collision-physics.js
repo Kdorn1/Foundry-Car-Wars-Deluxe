@@ -159,3 +159,8 @@ export async function resolveCollisionPhysics(collisionType, event) {
     controlOutcome
   };
 }
+
+// ------------------------------------------------------------
+// Additional export required by importers
+// ------------------------------------------------------------
+export { resolveCollisionPhysics as computeCollisionPhysics };

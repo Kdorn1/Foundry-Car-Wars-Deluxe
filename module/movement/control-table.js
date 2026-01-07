@@ -84,3 +84,8 @@ export function computeControlRoll({ speed, difficulty, handlingStatus }) {
     speed
   };
 }
+
+/**
+ * Provide named export for modules expecting applyControlRoll.
+ */
+export const applyControlRoll = computeControlRoll;

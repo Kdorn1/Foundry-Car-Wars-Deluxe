@@ -1,0 +1,1 @@
+(Invoke-WebRequest "http://localhost:30000/systems/carwars-system/module/carwars.js" -UseBasicParsing).Content.Split("`n")[0..7] -join "`n"

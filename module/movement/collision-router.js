@@ -76,3 +76,8 @@ export async function routeCollision(collisionEvent) {
     ...collisionOutcome
   };
 }
+
+// ------------------------------------------------------------
+// Additional exports required by importers
+// ------------------------------------------------------------
+export { determineCollisionType, resolveCollisionPhysics };

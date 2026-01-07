@@ -1,15 +1,15 @@
 // module/movement/orchestrator/movement-phase-orchestrator.js
 // Master orchestrator for a full movement phase.
 
-import { runManeuverFlow } from "./maneuver-flow.js";
-import { runMovementFlow } from "./movement-flow.js";
-import { runHazardFlow } from "./hazard-flow.js";
-import { runControlFlow } from "./control-flow.js";
-import { runCollisionFlow } from "./collision-flow.js";
-import { runCrashFlow } from "./crash-flow.js";
+import { runManeuverFlow } from '../movement-api.js';
+import { runMovementFlow } from '../movement-api.js';
+import { runHazardFlow } from '../movement-api.js';
+import { runControlFlow } from '../movement-api.js';
+import { runCollisionFlow } from '../movement-api.js';
+import { runCrashFlow } from '../movement-api.js';
 
-import { createMovementPhaseResult } from "./movement-phase-result.js";
-import { validateMovementPhaseResult } from "./movement-phase-validator.js";
+import { createMovementPhaseResult } from '../movement-api.js';
+import { validateMovementPhaseResult } from '../movement-api.js';
 
 export async function runMovementPhase(actor, movementState) {
   const result = createMovementPhaseResult();
@@ -46,4 +46,5 @@ export async function runMovementPhase(actor, movementState) {
   }
 
   return result;
-}
+} export { runMovementPhase };
+

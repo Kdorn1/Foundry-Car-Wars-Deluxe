@@ -1,8 +1,8 @@
 // module/movement/orchestrator/collision-flow.js
 // Function: Runs collision detection and collision resolution, returning all collision outcomes.
 
-import { detectCollisions } from "../../movement/collision-detection.js";
-import { resolveCollision } from "../../movement/collision-engine.js";
+import { detectCollisions } from '../movement-api.js';
+import { resolveCollision } from '../movement-api.js';
 
 export function runCollisionFlow(actor, movementState) {
   const detected = detectCollisions(actor, movementState);
@@ -17,3 +17,6 @@ export function runCollisionFlow(actor, movementState) {
     collisions
   };
 }
+
+// Additional export required by importers
+export { detectCollisions };

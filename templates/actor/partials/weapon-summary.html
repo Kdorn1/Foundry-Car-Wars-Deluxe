@@ -1,0 +1,31 @@
+<div class="weapon-summary">
+
+  {{#if system.weapons}}
+    {{#each system.weapons}}
+      <div class="weapon-summary-row">
+        <div class="weapon-name">
+          <strong>{{this.name}}</strong>
+        </div>
+
+        <div class="weapon-location">
+          <label>Location:</label> {{this.location}}
+        </div>
+
+        <div class="weapon-ammo">
+          <label>Ammo:</label> {{this.ammo}}
+        </div>
+
+        <div class="weapon-arc">
+          <label>Arc:</label> {{this.arc}}
+        </div>
+
+        <div class="weapon-group">
+          <label>Group:</label> {{this.group}}
+        </div>
+      </div>
+    {{/each}}
+  {{else}}
+    <p>No weapons mounted.</p>
+  {{/if}}
+
+</div>

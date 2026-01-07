@@ -1,7 +1,7 @@
 // module/movement/orchestrator/hazard-flow.js
 // Function: Applies the hazard engine and computes HC changes after the maneuver.
 
-import { applyHazards } from "../../movement/hazard-engine.js";
+import { applyHazards } from '../movement-api.js';
 
 export function runHazardFlow(actor, movementState) {
   // Hazard engine returns: { hazardsApplied, newHC, totalHazard }

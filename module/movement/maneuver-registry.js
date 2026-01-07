@@ -86,8 +86,23 @@ export function getManeuver(id) {
 }
 
 /**
+ * Alias for getManeuver — used by modules expecting getManeuverById.
+ */
+export const getManeuverById = getManeuver;
+
+/**
  * List all maneuvers as an array.
  */
 export function listManeuvers() {
   return Object.values(MANEUVERS);
 }
+
+/**
+ * Provide a registry object for modules expecting ManeuverRegistry.
+ */
+export const ManeuverRegistry = {
+  MANEUVERS,
+  getManeuver,
+  getManeuverById,
+  listManeuvers
+};

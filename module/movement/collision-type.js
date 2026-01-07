@@ -110,3 +110,8 @@ export function resolveCollisionType({
     defenderSpeed
   };
 }
+
+// ------------------------------------------------------------
+// Additional export required by importers
+// ------------------------------------------------------------
+export { resolveCollisionType as determineCollisionType };

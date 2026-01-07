@@ -1,7 +1,7 @@
 // module/movement/orchestrator/movement-phase-validator.js
 // Function: Validates a movement-phase result object against the schema.
 
-import { MovementPhaseSchema } from "./movement-phase-schema.js";
+import { MovementPhaseSchema } from '../movement-api.js';
 
 export function validateMovementPhaseResult(result) {
   const errors = [];

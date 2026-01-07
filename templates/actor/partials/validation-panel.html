@@ -1,40 +1,38 @@
-<div class="cw-validation-panel">
+<div class="validation-panel">
 
-  {{#if validation.errors.length}}
-  <div class="cw-validation-section errors">
-    <h3>Errors ({{validation.errors.length}})</h3>
+  {{!-- ========================= --}}
+  {{!-- ERRORS                    --}}
+  {{!-- ========================= --}}
+  {{#if system.validation.errors.length}}
+  <div class="validation-section validation-errors">
+    <h3>Errors ({{system.validation.errors.length}})</h3>
     <ul>
-      {{#each validation.errors}}
-      <li>{{this}}</li>
+      {{#each system.validation.errors}}
+      <li class="validation-entry error">{{this}}</li>
       {{/each}}
     </ul>
   </div>
   {{/if}}
 
-  {{#if validation.warnings.length}}
-  <div class="cw-validation-section warnings">
-    <h3>Warnings ({{validation.warnings.length}})</h3>
+  {{!-- ========================= --}}
+  {{!-- WARNINGS                  --}}
+  {{!-- ========================= --}}
+  {{#if system.validation.warnings.length}}
+  <div class="validation-section validation-warnings">
+    <h3>Warnings ({{system.validation.warnings.length}})</h3>
     <ul>
-      {{#each validation.warnings}}
-      <li>{{this}}</li>
+      {{#each system.validation.warnings}}
+      <li class="validation-entry warning">{{this}}</li>
       {{/each}}
     </ul>
   </div>
   {{/if}}
 
-  {{#if validation.info.length}}
-  <div class="cw-validation-section info">
-    <h3>Info ({{validation.info.length}})</h3>
-    <ul>
-      {{#each validation.info}}
-      <li>{{this}}</li>
-      {{/each}}
-    </ul>
-  </div>
-  {{/if}}
-
-  {{#unless validation.errors.length}}
-  <div class="cw-validation-section valid">
+  {{!-- ========================= --}}
+  {{!-- VALID BUILD MESSAGE       --}}
+  {{!-- ========================= --}}
+  {{#unless system.validation.errors.length}}
+  <div class="validation-section validation-valid">
     <h3>Build Valid</h3>
     <p>No errors detected.</p>
   </div>

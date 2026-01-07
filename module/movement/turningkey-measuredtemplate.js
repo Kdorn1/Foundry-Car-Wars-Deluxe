@@ -7,16 +7,14 @@ import { TemplateRenderer } from "./templates.js";
 import { MANEUVERS } from "./maneuver-registry.js";
 import { inchesToPixels } from "./movement-engine.js";
 
-export class TurningKeyMeasuredTemplate extends MeasuredTemplate {
+// Use the v13+ namespaced MeasuredTemplate
+export class TurningKeyMeasuredTemplate extends foundry.canvas.placeables.MeasuredTemplate {
 
   // ------------------------------------------------------------
   // Override draw() to render a curved Turning Key arc
   // ------------------------------------------------------------
   async draw() {
     await super.draw();
-
-    // Clear default ray graphics
-    this.clear();
 
     const maneuverId = this.document.getFlag("carwars-system", "maneuverId");
     const direction = this.document.getFlag("carwars-system", "direction");
@@ -34,9 +32,9 @@ export class TurningKeyMeasuredTemplate extends MeasuredTemplate {
       return this;
     }
 
-    // Geometry inputs
-    const startX = this.document.x;
-    const startY = this.document.y;
+    // Geometry inputs — MUST MATCH TemplateRenderer.previewManeuver
+    const startX = token.center.x;
+    const startY = token.center.y;
     const facing = token.rotation;
     const forwardPx = inchesToPixels(maneuver.footprint);
 
@@ -48,35 +46,27 @@ export class TurningKeyMeasuredTemplate extends MeasuredTemplate {
     // Draw the arc using the same renderer as previews
     const arc = TemplateRenderer._drawArc(startX, startY, facing, angleOffset, forwardPx, color);
 
-    // Add PIXI graphics to template
+    // Clear any existing children and add PIXI graphics to template
+    this.removeChildren();
     this.addChild(arc);
 
     return this;
   }
 
   // ------------------------------------------------------------
-  // Override refresh() so arc updates during drag/rotate
+  // IMPORTANT: Do NOT override refresh()
+  // Foundry handles refresh → draw lifecycle correctly.
   // ------------------------------------------------------------
-  refresh() {
-    super.refresh();
-    this.draw();
-  }
 }
 
 
 // ------------------------------------------------------------
 // Register custom template type + class (Foundry V13+)
 // ------------------------------------------------------------
-//Hooks.once("init", () => {
+Hooks.once("init", () => {
 
-  // 1. Register the template type key
-  //CONST.MEASURED_TEMPLATE_TYPES.turningKey = "turningKey";
+  // Register the custom class for this template type
+  CONFIG.MeasuredTemplate.objectClass.turningKey = TurningKeyMeasuredTemplate;
 
-  // 2. Register the human-readable label
-  //TEMPLATE.TYPES.turningKey = "Turning Key";
-
-  // 3. Register the custom class for this type
-  //CONFIG.MeasuredTemplate.objectClass.turningKey = TurningKeyMeasuredTemplate;
-
-  //console.log("🔵 [TurningKey] Registered TurningKeyMeasuredTemplate (v13 compatible)");
-//});
+  console.log("🔵 [TurningKey] Registered TurningKeyMeasuredTemplate (v13 compatible)");
+});

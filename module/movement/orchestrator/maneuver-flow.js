@@ -1,10 +1,10 @@
 // module/movement/orchestrator/maneuver-flow.js
 // Function: Looks up the maneuver and produces the initial movement state.
 
-import { getManeuverById } from "../../movement/maneuver-registry.js";
-import { performManeuver } from "../../movement/perform-maneuver.js";
+import { getManeuverById } from '../movement-api.js';
+import { performManeuver } from '../movement-api.js';
 
-export function runManeuverFlow(actor, maneuverId) {
+export async function runManeuverFlow(actor, maneuverId) {
   const maneuver = getManeuverById(maneuverId);
   if (!maneuver) {
     return {
@@ -17,10 +17,13 @@ export function runManeuverFlow(actor, maneuverId) {
     };
   }
 
-  const movementState = performManeuver(actor, maneuver);
+  const speed = actor.system.movement?.lastSpeed ?? 0;
+
+  const movementState = await performManeuver(actor, maneuverId, speed);
 
   return {
     maneuver,
     movementState
   };
 }
+

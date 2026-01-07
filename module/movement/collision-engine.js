@@ -163,3 +163,8 @@ function computePostCollisionSpeeds(type, V1, V2, T1, T2) {
       return { attackerFinalSpeed: V1, defenderFinalSpeed: V2 };
   }
 }
+
+// ------------------------------------------------------------
+// Additional export required by importers
+// ------------------------------------------------------------
+export { getDamageModifier };

@@ -1,14 +1,13 @@
 // module/movement/templates.js
 // ------------------------------------------------------------
 // Car Wars Deluxe Edition — Turning Key Template Renderer
-// Step B: Curved Arc Rendering (Option A+)
+// RAW-accurate Turning Key Arc Geometry
 // ------------------------------------------------------------
 
 import { MANEUVERS } from "./maneuver-registry.js";
 import { inchesToPixels } from "./movement-engine.js";
 import { getControlModifier } from "./control-table.js";
 import { TurningKeyTemplate } from "./turningkey-template.js";
-
 
 export class TemplateRenderer {
 
@@ -30,18 +29,15 @@ export class TemplateRenderer {
 
     this.clear();
 
-    const forwardPx = inchesToPixels(maneuver.footprint);
+    const radiusPx = inchesToPixels(maneuver.footprint);
     const startX = token.center.x;
     const startY = token.center.y;
     const facing = token.rotation;
 
     const angleOffset = this._getAngleOffset(maneuver, direction);
-    const finalAngle = facing + angleOffset;
-
     const color = this._getLegalityColor(token, maneuver);
 
-    // Draw curved arc instead of straight line
-    const preview = this._drawArc(startX, startY, facing, angleOffset, forwardPx, color);
+    const preview = this._drawArc(startX, startY, facing, angleOffset, radiusPx, color);
 
     canvas.stage.addChild(preview);
     this.activePreview = preview;
@@ -57,51 +53,44 @@ export class TemplateRenderer {
   }
 
   // ------------------------------------------------------------
-  // Step B: Curved Arc Rendering
+  // RAW-accurate Turning Key Arc Rendering
   // ------------------------------------------------------------
-  static _drawArc(startX, startY, facing, angleOffset, forwardPx, color) {
-    const preview = new PIXI.Graphics();
-    preview.lineStyle(4, color, 0.9);
+  static _drawArc(startX, startY, facing, angleOffset, radiusPx, color) {
+    const g = new PIXI.Graphics();
+    g.lineStyle(4, color, 0.9);
 
-    // Convert angles to radians
     const startRad = (facing * Math.PI) / 180;
-    const endRad = ((facing + angleOffset) * Math.PI) / 180;
+    const sweepRad = (angleOffset * Math.PI) / 180;
 
-    // Approximate radius: footprint * 1.5 gives a nice curve
-    const radius = forwardPx * 1.5;
+    // Arc center is offset PERPENDICULAR to facing by radius
+    const side = sweepRad < 0 ? -1 : 1;
+    const centerX = startX + Math.cos(startRad + side * Math.PI / 2) * radiusPx;
+    const centerY = startY + Math.sin(startRad + side * Math.PI / 2) * radiusPx;
 
-    // Arc center offset 90° to the left or right of facing
-    const side = angleOffset > 0 ? 1 : -1;
-    const centerX = startX + Math.cos(startRad + side * Math.PI / 2) * radius;
-    const centerY = startY + Math.sin(startRad + side * Math.PI / 2) * radius;
+    // Arc starts at angle pointing from center to token
+    const arcStart = Math.atan2(startY - centerY, startX - centerX);
+    const arcEnd = arcStart + sweepRad;
 
     console.log(`[TurningKey] Arc center: (${centerX}, ${centerY})`);
-    console.log(`[TurningKey] Arc radius: ${radius}`);
+    console.log(`[TurningKey] Arc radius: ${radiusPx}`);
 
-    preview.arc(
-      centerX,
-      centerY,
-      radius,
-      startRad,
-      endRad,
-      angleOffset < 0 // clockwise if turning left
-    );
+    g.arc(centerX, centerY, radiusPx, arcStart, arcEnd, sweepRad < 0);
 
-    return preview;
+    return g;
   }
 
   // ------------------------------------------------------------
-  // Angle offset logic (Option A)
+  // Angle offset logic (RAW maneuver angles)
   // ------------------------------------------------------------
   static _getAngleOffset(maneuver, direction) {
     const dir = direction === "right" ? 1 : -1;
 
     switch (maneuver.type) {
-      case "drift": return 10 * dir;
-      case "bend": return 20 * dir;
+      case "drift": return 15 * dir;
       case "swerve": return 30 * dir;
+      case "bend": return 45 * dir;
       case "hard-swerve": return 45 * dir;
-      case "tight-bend": return 60 * dir;
+      case "tight-bend": return 90 * dir;
       default:
         console.warn(`[TurningKey] Unknown maneuver type: ${maneuver.type}`);
         return 0;

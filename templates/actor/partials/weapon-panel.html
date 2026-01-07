@@ -1,0 +1,72 @@
+<div class="weapon-panel">
+
+  {{#if system.weapons}}
+    {{#each system.weapons}}
+      <div class="weapon-entry">
+
+        <!-- ========================= -->
+        <!-- Weapon Header -->
+        <!-- ========================= -->
+        <div class="weapon-header">
+          <strong class="weapon-name">{{this.name}}</strong>
+          <span class="weapon-location">({{this.location}})</span>
+        </div>
+
+        <!-- ========================= -->
+        <!-- Weapon Stats Row -->
+        <!-- ========================= -->
+        <div class="weapon-stats grid-4col">
+
+          <div class="weapon-stat weapon-ammo">
+            <label>Ammo</label>
+            <span>{{this.ammo}}</span>
+          </div>
+
+          <div class="weapon-stat weapon-arc">
+            <label>Arc</label>
+            <span>{{this.arc}}</span>
+          </div>
+
+          <div class="weapon-stat weapon-group">
+            <label>Group</label>
+            <span>{{this.group}}</span>
+          </div>
+
+          <div class="weapon-controls">
+            <button type="button"
+                    class="weapon-fire"
+                    data-weapon-id="{{this.id}}">
+              Fire
+            </button>
+
+            <button type="button"
+                    class="weapon-reload"
+                    data-weapon-id="{{this.id}}">
+              Reload
+            </button>
+          </div>
+
+        </div>
+
+        <!-- ========================= -->
+        <!-- Future Expansion Hooks -->
+        <!-- ========================= -->
+        {{!--
+          Add these later if desired:
+          <div class="weapon-extra">
+            <div class="weapon-tohit">To-Hit: {{this.toHit}}</div>
+            <div class="weapon-damage">Damage: {{this.damage}}</div>
+            <div class="weapon-dp">DP: {{this.dp}}</div>
+            <div class="weapon-effect">Effect: {{this.effect}}</div>
+            <div class="weapon-special">Special: {{this.specialRules}}</div>
+          </div>
+        --}}
+      </div>
+
+      <hr class="weapon-divider"/>
+    {{/each}}
+  {{else}}
+    <p class="weapon-none">No weapons mounted.</p>
+  {{/if}}
+
+</div>

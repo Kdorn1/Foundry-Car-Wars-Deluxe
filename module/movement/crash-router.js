@@ -50,3 +50,11 @@ export async function routeCrash(actor, controlResult) {
 
   return crashOutcome;
 }
+
+// ------------------------------------------------------------
+// Additional exports required by importers
+// ------------------------------------------------------------
+export { resolveCrashTable1, resolveCrashTable2 };
+export function runCrashTable(actor, crashData) {
+  return resolveCrashTable(actor, crashData);
+}

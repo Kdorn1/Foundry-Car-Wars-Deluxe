@@ -1,0 +1,181 @@
+<form class="carwars vehicle-sheet" autocomplete="off">
+
+  <!-- ========================= -->
+  <!-- HEADER -->
+  <!-- ========================= -->
+  <header class="sheet-header">
+    <h1>
+      <input name="name" type="text" value="{{actor.name}}" placeholder="Vehicle Name"/>
+    </h1>
+  </header>
+
+  <!-- ========================= -->
+  <!-- TAB NAVIGATION -->
+  <!-- ========================= -->
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="overview">Overview</a>
+    <a class="item" data-tab="movement">Movement</a>
+    <a class="item" data-tab="armor">Armor</a>
+    <a class="item" data-tab="weapons">Weapons</a>
+    <a class="item" data-tab="crew">Crew</a>
+    <a class="item" data-tab="systems">Systems</a>
+    <a class="item" data-tab="construction">Construction</a>
+    <a class="item" data-tab="validation">Validation</a>
+  </nav>
+
+  <!-- ========================= -->
+  <!-- TAB CONTENT WRAPPER -->
+  <!-- ========================= -->
+  <section class="sheet-body">
+
+    <!-- ====================================================== -->
+    <!-- OVERVIEW TAB -->
+    <!-- ====================================================== -->
+    <section class="tab overview" data-group="primary" data-tab="overview">
+
+      <h2>Vehicle Overview</h2>
+
+      <div class="grid-2col">
+
+        <div>
+          <div class="form-group">
+            <label>Type</label>
+            <input type="text" name="system.type" value="{{system.type}}"/>
+          </div>
+
+          <div class="form-group">
+            <label>Chassis</label>
+            <input type="text" name="system.meta.chassis" value="{{system.meta.chassis}}"/>
+          </div>
+
+          <div class="form-group">
+            <label>Suspension</label>
+            <input type="text" name="system.meta.suspension" value="{{system.meta.suspension}}"/>
+          </div>
+
+          <div class="form-group">
+            <label>Acceleration</label>
+            <input type="number" name="system.meta.acceleration" value="{{system.meta.acceleration}}"/>
+          </div>
+        </div>
+
+        <div>
+          <div class="form-group">
+            <label>Handling Class</label>
+            <input type="number" name="system.meta.handlingClass" value="{{system.meta.handlingClass}}"/>
+          </div>
+
+          <div class="form-group">
+            <label>Total Weight</label>
+            <input type="number" value="{{system.meta.weight}}" disabled/>
+          </div>
+
+          <div class="form-group">
+            <label>Total Cost</label>
+            <input type="number" value="{{system.meta.cost}}" disabled/>
+          </div>
+
+        </div>
+
+      </div>
+
+      <hr/>
+
+      <h3>Armor Summary</h3>
+      {{> "systems/carwars-system/templates/actor/partials/armor-panel.html"}}
+
+      <h3>Weapon Summary</h3>
+      {{> "systems/carwars-system/templates/actor/partials/weapon-summary.html"}}
+
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- MOVEMENT TAB -->
+    <!-- ====================================================== -->
+    <section class="tab movement" data-group="primary" data-tab="movement">
+
+      <h2>Movement & Maneuvers</h2>
+
+      {{> "systems/carwars-system/templates/actor/partials/movement-panel.html"}}
+
+      <hr/>
+
+      <h3>Hazards</h3>
+      {{> "systems/carwars-system/templates/actor/partials/hazard-display.html"}}
+
+      <h3>Handling Tracker</h3>
+      {{> "systems/carwars-system/templates/actor/partials/hc-tracker.html"}}
+
+      <h3>Speed Control</h3>
+      {{> "systems/carwars-system/templates/actor/partials/speed-control.html"}}
+
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- ARMOR TAB -->
+    <!-- ====================================================== -->
+    <section class="tab armor" data-group="primary" data-tab="armor">
+
+      <h2>Armor Layout</h2>
+
+      {{> "systems/carwars-system/templates/actor/partials/armor-panel.html"}}
+
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- WEAPONS TAB -->
+    <!-- ====================================================== -->
+    <section class="tab weapons" data-group="primary" data-tab="weapons">
+
+      <h2>Weapons</h2>
+
+      {{> "systems/carwars-system/templates/actor/partials/weapon-panel.html"}}
+
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- CREW TAB -->
+    <!-- ====================================================== -->
+    <section class="tab crew" data-group="primary" data-tab="crew">
+
+      <h2>Crew</h2>
+
+      {{> "systems/carwars-system/templates/actor/partials/crew-panel.html"}}
+
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- SYSTEMS TAB -->
+    <!-- ====================================================== -->
+    <section class="tab systems" data-group="primary" data-tab="systems">
+
+      <h2>Vehicle Systems</h2>
+
+      {{> "systems/carwars-system/templates/actor/partials/systems-panel.html"}}
+
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- CONSTRUCTION TAB -->
+    <!-- ====================================================== -->
+    <section class="tab construction" data-group="primary" data-tab="construction">
+
+      <h2>Vehicle Construction</h2>
+
+      {{> "systems/carwars-system/templates/actor/partials/construction-panel.html"}}
+
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- VALIDATION TAB -->
+    <!-- ====================================================== -->
+    <section class="tab validation" data-group="primary" data-tab="validation">
+
+      <h2>Validation</h2>
+
+      {{> "systems/carwars-system/templates/actor/partials/validation-panel.html"}}
+
+    </section>
+
+  </section>
+</form>

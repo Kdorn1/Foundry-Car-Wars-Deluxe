@@ -3,7 +3,7 @@
 // RAW Car Wars Deluxe Edition — Maneuver Resolution (Phase 2)
 // ------------------------------------------------------------
 
-import { ManeuverRegistry } from "./maneuver-registry.js";
+import { getManeuverById } from "./maneuver-registry.js";
 import { applyControlRoll } from "./control-table.js";
 import { updateMovementState } from "./movement-state.js";
 
@@ -20,10 +20,9 @@ import { updateMovementState } from "./movement-state.js";
  * - stores a pending control roll in movement state
  */
 export async function performManeuver(actor, maneuverId, speedMph) {
-  const system = actor.system;
-  const mv = system.movement ?? {};
+  const mv = actor.system.movement ?? {};
 
-  const maneuver = ManeuverRegistry.get(maneuverId);
+  const maneuver = getManeuverById(maneuverId);
   if (!maneuver) {
     console.warn(`Unknown maneuver: ${maneuverId}`);
     return;
@@ -74,10 +73,6 @@ export async function performManeuver(actor, maneuverId, speedMph) {
 
   // ------------------------------------------------------------
   // Phase 2: Store pending control roll in movement state
-  // UI will:
-  // - show control roll card
-  // - roll dice
-  // - call crash router if needed
   // ------------------------------------------------------------
   await updateMovementState(actor, {
     maneuver: maneuverId,
@@ -94,8 +89,7 @@ export async function performManeuver(actor, maneuverId, speedMph) {
 // RAW Bootlegger Reverse (special maneuver)
 // ------------------------------------------------------------
 async function handleBootlegger(actor, maneuver, speedMph, totalHazard) {
-  const system = actor.system;
-  const mv = system.movement ?? {};
+  const mv = actor.system.movement ?? {};
 
   if (actor.system?.vehicleType === "cycle") {
     ui.notifications.warn("Cycles cannot perform a bootlegger reverse.");
@@ -121,7 +115,7 @@ async function handleBootlegger(actor, maneuver, speedMph, totalHazard) {
   const nextSpeed = 0;
 
   await updateMovementState(actor, {
-    maneuver: maneuver.id,
+    maneuver: maneuver.id ?? maneuver.maneuverId,
     difficulty: maneuver.difficulty ?? 0,
     hazard: totalHazard,
     speed: speedMph,
@@ -135,3 +129,8 @@ async function handleBootlegger(actor, maneuver, speedMph, totalHazard) {
     crashOutcome: null
   });
 }
+
+// ------------------------------------------------------------
+// Exports (explicit for API generator compatibility)
+// ------------------------------------------------------------
+export { performManeuver as executeManeuver };

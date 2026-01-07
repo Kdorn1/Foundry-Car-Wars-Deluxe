@@ -1,0 +1,121 @@
+<form class="carwars driver-sheet" autocomplete="off">
+
+  <!-- ========================= -->
+  <!-- HEADER -->
+  <!-- ========================= -->
+  <header class="sheet-header">
+    <h1>
+      <input name="name" type="text" value="{{actor.name}}" placeholder="Driver Name"/>
+    </h1>
+  </header>
+
+  <!-- ========================= -->
+  <!-- TAB NAVIGATION -->
+  <!-- ========================= -->
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="profile">Profile</a>
+    <a class="item" data-tab="skills">Skills</a>
+    <a class="item" data-tab="equipment">Equipment</a>
+    <a class="item" data-tab="status">Status</a>
+  </nav>
+
+  <!-- ========================= -->
+  <!-- TAB CONTENT WRAPPER -->
+  <!-- ========================= -->
+  <section class="sheet-body">
+
+    <!-- ====================================================== -->
+    <!-- PROFILE TAB -->
+    <!-- ====================================================== -->
+    <section class="tab profile" data-group="primary" data-tab="profile">
+
+      <h2>Driver Profile</h2>
+
+      <div class="form-group">
+        <label>Role</label>
+        <input type="text" name="system.role" value="{{system.role}}"/>
+      </div>
+
+      <div class="form-group">
+        <label>Experience Level</label>
+        <input type="text" name="system.experience" value="{{system.experience}}"/>
+      </div>
+
+      <div class="form-group">
+        <label>Notes</label>
+        <textarea name="system.notes">{{system.notes}}</textarea>
+      </div>
+
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- SKILLS TAB -->
+    <!-- ====================================================== -->
+    <section class="tab skills" data-group="primary" data-tab="skills">
+
+      <h2>Skills</h2>
+
+      <div class="form-group">
+        <label>Driving Skill</label>
+        <input type="number" name="system.skills.driving" value="{{system.skills.driving}}"/>
+      </div>
+
+      <div class="form-group">
+        <label>Gunnery Skill</label>
+        <input type="number" name="system.skills.gunnery" value="{{system.skills.gunnery}}"/>
+      </div>
+
+      <div class="form-group">
+        <label>Mechanic Skill</label>
+        <input type="number" name="system.skills.mechanic" value="{{system.skills.mechanic}}"/>
+      </div>
+
+      <div class="form-group">
+        <label>Other Skills</label>
+        <textarea name="system.skills.other">{{system.skills.other}}</textarea>
+      </div>
+
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- EQUIPMENT TAB -->
+    <!-- ====================================================== -->
+    <section class="tab equipment" data-group="primary" data-tab="equipment">
+
+      <h2>Equipment</h2>
+
+      <div class="form-group">
+        <label>Personal Gear</label>
+        <textarea name="system.equipment.gear">{{system.equipment.gear}}</textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Weapons</label>
+        <textarea name="system.equipment.weapons">{{system.equipment.weapons}}</textarea>
+      </div>
+
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- STATUS TAB -->
+    <!-- ====================================================== -->
+    <section class="tab status" data-group="primary" data-tab="status">
+
+      <h2>Status</h2>
+
+      <div class="form-group">
+        <label>Damage</label>
+        <input type="number" name="system.damage" value="{{system.damage}}"/>
+      </div>
+
+      <div class="form-group">
+        <label>Condition</label>
+        <input type="text" name="system.condition" value="{{system.condition}}"/>
+      </div>
+
+      <button type="button" class="driver-action" data-action="focus">Driver Focus</button>
+
+    </section>
+
+  </section>
+</form>

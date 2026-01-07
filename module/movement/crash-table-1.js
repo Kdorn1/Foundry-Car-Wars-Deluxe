@@ -84,3 +84,8 @@ export async function resolveCrashTable1(actor, controlResult, maneuverType = ""
     margin: value
   };
 }
+
+// ------------------------------------------------------------
+// Additional exports required by importers
+// ------------------------------------------------------------
+export { resolveSkid, resolveRoll, resolveVault };

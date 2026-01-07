@@ -1,0 +1,218 @@
+<div class="movement-panel">
+
+  <!-- ========================= -->
+  <!-- Speed and Phase Control   -->
+  <!-- ========================= -->
+  <section class="movement-section movement-speed-phase">
+
+    <div class="movement-speed-block">
+      <div class="movement-field movement-speed-current">
+        <label>Current Speed</label>
+        <div class="movement-speed-controls">
+          <button type="button"
+                  class="movement-control speed-down"
+                  data-action="speed-down">
+            -
+          </button>
+          <span class="movement-value">
+            {{system.movement.currentSpeed}}
+          </span>
+          <button type="button"
+                  class="movement-control speed-up"
+                  data-action="speed-up">
+            +
+          </button>
+        </div>
+      </div>
+
+      <div class="movement-field movement-speed-last">
+        <label>Last Speed</label>
+        <span class="movement-value">
+          {{system.movement.lastSpeed}}
+        </span>
+      </div>
+
+      <div class="movement-field movement-speed-temp">
+        <label>Temporary Speed</label>
+        <span class="movement-value">
+          {{system.movement.temporarySpeed}}
+        </span>
+      </div>
+    </div>
+
+    <div class="movement-phase-block">
+      <div class="movement-field movement-phases-per-turn">
+        <label>Phases / Turn</label>
+        <span class="movement-value">
+          {{system.movement.phasesPerTurn}}
+        </span>
+      </div>
+
+      <div class="movement-field movement-current-phase">
+        <label>Current Phase</label>
+        <span class="movement-value">
+          {{system.movement.phase}}
+        </span>
+      </div>
+
+      <div class="movement-phase-controls">
+        <button type="button"
+                class="movement-control phase-prev"
+                data-action="phase-prev">
+          ‹
+        </button>
+        <button type="button"
+                class="movement-control phase-next"
+                data-action="phase-next">
+          ›
+        </button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ========================= -->
+  <!-- Handling and Status       -->
+  <!-- ========================= -->
+  <section class="movement-section movement-handling-status">
+
+    <div class="movement-hc-block">
+      <div class="movement-field movement-current-hc">
+        <label>Current HC</label>
+        <span class="movement-value">
+          {{system.movement.currentHC}}
+        </span>
+      </div>
+
+      <div class="movement-field movement-handling-status">
+        <label>Handling Status</label>
+        <span class="movement-value">
+          {{system.movement.handlingStatus}}
+        </span>
+      </div>
+
+      <div class="movement-field movement-control-target">
+        <label>Control Target</label>
+        <span class="movement-value">
+          {{system.movement.controlTarget}}
+        </span>
+      </div>
+    </div>
+
+    <div class="movement-status-block">
+      <div class="movement-flag movement-flag-skid {{#if system.movement.isSkidding}}active{{/if}}">
+        <label>Skid</label>
+        <span class="movement-indicator">
+          {{#if system.movement.isSkidding}}Yes{{else}}No{{/if}}
+        </span>
+      </div>
+
+      <div class="movement-flag movement-flag-spinout {{#if system.movement.isSpinout}}active{{/if}}">
+        <label>Spinout</label>
+        <span class="movement-indicator">
+          {{#if system.movement.isSpinout}}Yes{{else}}No{{/if}}
+        </span>
+      </div>
+
+      <div class="movement-flag movement-flag-conforming {{#if system.movement.isConforming}}active{{/if}}">
+        <label>Conforming</label>
+        <span class="movement-indicator">
+          {{#if system.movement.isConforming}}Yes{{else}}No{{/if}}
+        </span>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ========================= -->
+  <!-- Hazards and Maneuver Info -->
+  <!-- ========================= -->
+  <section class="movement-section movement-hazards-maneuver">
+
+    <div class="movement-hazards-block">
+      <div class="movement-field movement-hazards-total">
+        <label>Hazards</label>
+        <div class="movement-hazard-controls">
+          <button type="button"
+                  class="movement-control hazard-down"
+                  data-action="hazard-down">
+            -
+          </button>
+          <span class="movement-value">
+            {{system.movement.hazards}}
+          </span>
+          <button type="button"
+                  class="movement-control hazard-up"
+                  data-action="hazard-up">
+            +
+          </button>
+        </div>
+      </div>
+
+      <div class="movement-field movement-hazard-terrain">
+        <label>Terrain Hazard</label>
+        <span class="movement-value">
+          {{system.movement.terrainHazard}}
+        </span>
+      </div>
+
+      <div class="movement-field movement-hazard-decel">
+        <label>Decel Hazard</label>
+        <span class="movement-value">
+          {{system.movement.decelHazard}}
+        </span>
+      </div>
+
+      <div class="movement-field movement-last-maneuver">
+        <label>Last Maneuver D</label>
+        <span class="movement-value">
+          {{system.movement.lastManeuverDifficulty}}
+        </span>
+      </div>
+    </div>
+
+    <div class="movement-maneuver-block">
+      <div class="movement-field movement-maneuver-select">
+        <label>Maneuver</label>
+        <select class="maneuver-select">
+          {{!-- Options should be populated by your movement-phase-ui-adapter or updater --}}
+        </select>
+      </div>
+
+      <div class="movement-maneuver-controls">
+        <button type="button"
+                class="movement-control apply-maneuver"
+                data-action="apply-maneuver">
+          Apply Maneuver
+        </button>
+
+        <button type="button"
+                class="movement-control control-roll"
+                data-action="control-roll">
+          Control Roll
+        </button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ========================= -->
+  <!-- Skid Data (Optional)      -->
+  <!-- ========================= -->
+  <section class="movement-section movement-skid-data">
+    <div class="movement-field movement-skid-direction">
+      <label>Skid Direction</label>
+      <span class="movement-value">
+        {{system.movement.skidData.direction}}
+      </span>
+    </div>
+
+    <div class="movement-field movement-skid-distance">
+      <label>Skid Distance</label>
+      <span class="movement-value">
+        {{system.movement.skidData.distance}}
+      </span>
+    </div>
+  </section>
+
+</div>

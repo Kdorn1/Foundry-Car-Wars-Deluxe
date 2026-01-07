@@ -1,7 +1,7 @@
 // module/movement/orchestrator/control-flow.js
 // Function: Determines if a control roll is required and prepares the roll request object.
 
-import { computeControlRoll } from "../../movement/control-table.js";
+import { computeControlRoll } from '../movement-api.js';
 
 export function runControlFlow(actor, movementState, hazardState) {
   const control = computeControlRoll(actor, movementState, hazardState);

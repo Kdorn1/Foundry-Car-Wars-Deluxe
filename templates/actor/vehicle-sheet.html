@@ -1,25 +1,106 @@
 <form class="carwars vehicle-sheet" autocomplete="off">
+
   <header class="sheet-header">
     <h1>
       <input name="name" type="text" value="{{actor.name}}" placeholder="Vehicle Name"/>
     </h1>
   </header>
-{{> "systems/carwars-system/templates/actor/partials/validation-panel.html" validation=system.validation }}
+
+  <!-- Validation Panel -->
+  {{> "systems/carwars-system/templates/actor/partials/validation-panel.html"}}
+
+  <!-- Tab Navigation -->
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="core">Core</a>
+    <a class="item" data-tab="movement">Movement</a>
+    <a class="item" data-tab="armor">Armor</a>
+    <a class="item" data-tab="crew">Crew</a>
+    <a class="item" data-tab="systems">Systems</a>
+    <a class="item" data-tab="construction">Construction</a>
+    <a class="item" data-tab="hazards">Hazards</a>
+    <a class="item" data-tab="speed">Speed</a>
+    <a class="item" data-tab="hc">HC</a>
+    <a class="item" data-tab="weapons">Weapons</a>
+    <a class="item" data-tab="summary">Summary</a>
+  </nav>
 
   <section class="sheet-body">
-    <div class="form-group">
-      <label>Body Type</label>
-      <input type="text" name="system.bodyType" value="{{system.bodyType}}"/>
+
+    <!-- Core Tab -->
+    <div class="tab" data-group="primary" data-tab="core">
+      <div class="form-group">
+        <label>Body Type</label>
+        <input type="text" name="system.bodyType" value="{{system.bodyType}}"/>
+      </div>
+
+      <div class="form-group">
+        <label>Armor</label>
+        <input type="number" name="system.armor" value="{{system.armor}}"/>
+      </div>
+
+      <div class="form-group">
+        <label>Weapons (simple list for now)</label>
+        <textarea name="system.weapons">{{system.weapons}}</textarea>
+      </div>
     </div>
 
-    <div class="form-group">
-      <label>Armor</label>
-      <input type="number" name="system.armor" value="{{system.armor}}"/>
+    <!-- Movement Tab -->
+    <div class="tab" data-group="primary" data-tab="movement">
+      {{> "systems/carwars-system/templates/actor/partials/movement-panel.html"}}
     </div>
 
-    <div class="form-group">
-      <label>Weapons (simple list for now)</label>
-      <textarea name="system.weapons">{{system.weapons}}</textarea>
+    <!-- Armor Tab -->
+    <div class="tab" data-group="primary" data-tab="armor">
+      {{> "systems/carwars-system/templates/actor/partials/armor-panel.html"}}
     </div>
+
+    <!-- Crew Tab -->
+    <div class="tab" data-group="primary" data-tab="crew">
+
+      <!-- Crew Management Controls -->
+      <div class="crew-controls">
+        <button type="button" class="add-crew-member" data-action="addCrew">Add Crew Member</button>
+      </div>
+
+      <!-- Crew Panel -->
+      {{> "systems/carwars-system/templates/actor/partials/crew-panel.html"}}
+    </div>
+
+    <!-- Systems Tab -->
+    <div class="tab" data-group="primary" data-tab="systems">
+      {{> "systems/carwars-system/templates/actor/partials/systems-panel.html"}}
+    </div>
+
+    <!-- Construction Tab -->
+    <div class="tab" data-group="primary" data-tab="construction">
+      {{> "systems/carwars-system/templates/actor/partials/construction-panel.html"}}
+    </div>
+
+    <!-- Hazards Tab -->
+    <div class="tab" data-group="primary" data-tab="hazards">
+      {{> "systems/carwars-system/templates/actor/partials/hazard-display.html"}}
+    </div>
+
+    <!-- Speed Tab -->
+    <div class="tab" data-group="primary" data-tab="speed">
+      {{> "systems/carwars-system/templates/actor/partials/speed-control.html"}}
+    </div>
+
+    <!-- HC Tracker Tab -->
+    <div class="tab" data-group="primary" data-tab="hc">
+      {{> "systems/carwars-system/templates/actor/partials/hc-tracker.html"}}
+    </div>
+
+    <!-- Weapons Tab -->
+    <div class="tab" data-group="primary" data-tab="weapons">
+      {{> "systems/carwars-system/templates/actor/partials/weapon-panel.html"}}
+    </div>
+
+    <!-- Weapon Summary Tab -->
+    <div class="tab" data-group="primary" data-tab="summary">
+      {{> "systems/carwars-system/templates/actor/partials/weapon-summary.html"}}
+    </div>
+
   </section>
+
 </form>

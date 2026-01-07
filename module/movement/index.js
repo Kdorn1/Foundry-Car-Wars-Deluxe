@@ -1,8 +1,9 @@
 // module/movement/index.js
 // Public interface for the entire movement subsystem.
 
-// Phase 3 Orchestrator
+// Orchestrator (Phase 3) + UI Adapter (Phase 5)
 export { runMovementPhase } from "./orchestrator/index.js";
+export { runMovementPhaseForUI } from "./movement-phase-ui-adapter.js";
 
 // Movement Engine (core movement logic)
 export { runMovementEngine } from "./movement-engine.js";

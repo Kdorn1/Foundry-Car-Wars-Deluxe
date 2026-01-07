@@ -1,0 +1,158 @@
+<div class="systems-panel">
+
+  <!-- ========================= -->
+  <!-- POWERPLANT                -->
+  <!-- ========================= -->
+  <section class="system-section system-powerplant">
+    <h3 class="system-header">Powerplant</h3>
+
+    <div class="system-field">
+      <label>ID</label>
+      <span class="system-value">{{system.components.powerplant.id}}</span>
+    </div>
+
+    <div class="system-field">
+      <label>DP</label>
+      <span class="system-value">{{system.components.powerplant.dp}}</span>
+    </div>
+
+    <div class="system-field">
+      <label>On Fire</label>
+      <span class="system-value">
+        {{#if system.components.powerplant.onFire}}Yes{{else}}No{{/if}}
+      </span>
+    </div>
+
+    <div class="system-field">
+      <label>Destroyed</label>
+      <span class="system-value">
+        {{#if system.components.powerplant.destroyed}}Yes{{else}}No{{/if}}
+      </span>
+    </div>
+  </section>
+
+  <!-- ========================= -->
+  <!-- GAS TANK                  -->
+  <!-- ========================= -->
+  <section class="system-section system-gastank">
+    <h3 class="system-header">Gas Tank</h3>
+
+    <div class="system-field">
+      <label>ID</label>
+      <span class="system-value">{{system.components.gasTank.id}}</span>
+    </div>
+
+    <div class="system-field">
+      <label>Gallons</label>
+      <span class="system-value">{{system.components.gasTank.gallons}}</span>
+    </div>
+
+    <div class="system-field">
+      <label>DP</label>
+      <span class="system-value">{{system.components.gasTank.dp}}</span>
+    </div>
+
+    <div class="system-field">
+      <label>On Fire</label>
+      <span class="system-value">
+        {{#if system.components.gasTank.onFire}}Yes{{else}}No{{/if}}
+      </span>
+    </div>
+
+    <div class="system-field">
+      <label>Destroyed</label>
+      <span class="system-value">
+        {{#if system.components.gasTank.destroyed}}Yes{{else}}No{{/if}}
+      </span>
+    </div>
+  </section>
+
+  <!-- ========================= -->
+  <!-- TIRES                     -->
+  <!-- ========================= -->
+  <section class="system-section system-tires">
+    <h3 class="system-header">Tires</h3>
+
+    <div class="system-field">
+      <label>ID</label>
+      <span class="system-value">{{system.components.tires.id}}</span>
+    </div>
+
+    <div class="system-field">
+      <label>Options</label>
+      <span class="system-value">
+        {{#each system.components.tires.optionIds}}
+          {{this}}{{#unless @last}}, {{/unless}}
+        {{/each}}
+      </span>
+    </div>
+
+    <div class="system-field">
+      <label>Quantity</label>
+      <span class="system-value">{{system.components.tires.quantity}}</span>
+    </div>
+
+    <div class="system-field">
+      <label>DP / Tire</label>
+      <span class="system-value">{{system.components.tires.dpPerTire}}</span>
+    </div>
+
+    <div class="system-field">
+      <label>Blown</label>
+      <span class="system-value">{{system.components.tires.blownCount}}</span>
+    </div>
+  </section>
+
+  <!-- ========================= -->
+  <!-- WEAPONS                   -->
+  <!-- ========================= -->
+  <section class="system-section system-weapons">
+    <h3 class="system-header">Weapons</h3>
+
+    {{#if system.components.weapons.length}}
+      <ul class="system-list">
+        {{#each system.components.weapons}}
+          <li class="system-entry">
+            <strong>{{this.id}}</strong>
+            <span class="system-sub">Mount: {{this.mount}}</span>
+            <span class="system-sub">Ammo: {{this.ammoCurrent}} / {{this.ammoMax}}</span>
+            <span class="system-sub">DP: {{this.dp}}</span>
+            <span class="system-sub">
+              Destroyed: {{#if this.destroyed}}Yes{{else}}No{{/if}}
+            </span>
+          </li>
+        {{/each}}
+      </ul>
+    {{else}}
+      <p class="system-empty">No weapons installed.</p>
+    {{/if}}
+  </section>
+
+  <!-- ========================= -->
+  <!-- ACCESSORIES               -->
+  <!-- ========================= -->
+  <section class="system-section system-accessories">
+    <h3 class="system-header">Accessories</h3>
+
+    {{#if system.components.accessories.length}}
+      <ul class="system-list">
+        {{#each system.components.accessories}}
+          <li class="system-entry">
+            <strong>{{this.id}}</strong>
+            <span class="system-sub">DP: {{this.dp}}</span>
+            <span class="system-sub">
+              Destroyed: {{#if this.destroyed}}Yes{{else}}No{{/if}}
+            </span>
+            <span class="system-sub">Space Used: {{this.spaceUsed}}</span>
+            <span class="system-sub">Space Granted: {{this.spaceGranted}}</span>
+            <span class="system-sub">Weight Override: {{this.weightOverride}}</span>
+            <span class="system-sub">Cost Override: {{this.costOverride}}</span>
+          </li>
+        {{/each}}
+      </ul>
+    {{else}}
+      <p class="system-empty">No accessories installed.</p>
+    {{/if}}
+  </section>
+
+</div>

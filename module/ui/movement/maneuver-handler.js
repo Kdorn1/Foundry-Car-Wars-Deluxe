@@ -9,3 +9,6 @@ export async function onManeuverSelected(actor, maneuverId) {
 
   return result; // Phase 4 dispatcher will handle routing
 }
+
+// Additional export required by importers
+export { onManeuverSelected as storeManeuver };

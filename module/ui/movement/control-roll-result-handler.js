@@ -9,8 +9,11 @@ export async function handleControlRollResult(actor, control, rollTotal) {
   const success = rollTotal >= control.target;
 
   if (success) {
-    // No crash — update HC and movement state
-    updateMovementPanel(control.finalState);
+    // Successful control roll → apply the final movement state
+    if (control.finalState) {
+      updateMovementPanel(control.finalState);
+    }
+
     return { success: true };
   }
 
@@ -21,7 +24,9 @@ export async function handleControlRollResult(actor, control, rollTotal) {
   renderCrashCard(crashResult);
 
   // Update movement panel with crash outcome
-  updateMovementPanel(crashResult.finalState);
+  if (crashResult.finalState) {
+    updateMovementPanel(crashResult.finalState);
+  }
 
   return {
     success: false,

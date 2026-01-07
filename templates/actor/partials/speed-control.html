@@ -1,0 +1,42 @@
+<div class="speed-control">
+
+  <!-- Current Speed -->
+  <div class="speed-row speed-current">
+    <label>Current Speed</label>
+
+    <div class="speed-buttons">
+      <button type="button"
+              class="movement-control speed-down"
+              data-action="speed-down">
+        -
+      </button>
+
+      <span class="speed-value">
+        {{system.movement.currentSpeed}}
+      </span>
+
+      <button type="button"
+              class="movement-control speed-up"
+              data-action="speed-up">
+        +
+      </button>
+    </div>
+  </div>
+
+  <!-- Last Speed -->
+  <div class="speed-row speed-last">
+    <label>Last Speed</label>
+    <span class="speed-value">
+      {{system.movement.lastSpeed}}
+    </span>
+  </div>
+
+  <!-- Temporary Speed (collision, RAW) -->
+  <div class="speed-row speed-temp">
+    <label>Temporary Speed</label>
+    <span class="speed-value">
+      {{system.movement.temporarySpeed}}
+    </span>
+  </div>
+
+</div>

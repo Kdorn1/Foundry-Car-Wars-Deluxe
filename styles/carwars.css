@@ -1,3 +1,7 @@
+/* ========================================================= */
+/* Car Wars System — Global Sheet Styles                     */
+/* ========================================================= */
+
 .carwars .sheet-header {
   margin-bottom: 10px;
 }
@@ -11,4 +15,457 @@
 .carwars label {
   font-weight: bold;
   margin-bottom: 4px;
+}
+
+/* ========================================================= */
+/* Weapon Panel Styles                                        */
+/* ========================================================= */
+
+.carwars .weapon-panel {
+  padding: 0.5rem;
+}
+
+.carwars .weapon-entry {
+  padding: 0.5rem 0;
+}
+
+.carwars .weapon-header {
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+}
+
+.carwars .weapon-name {
+  font-weight: bold;
+}
+
+.carwars .weapon-location {
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+
+.carwars .weapon-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.carwars .weapon-stat label {
+  display: block;
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+.carwars .weapon-controls button {
+  margin-right: 0.25rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.carwars .weapon-divider {
+  border: none;
+  border-bottom: 1px solid #333;
+  margin: 0.5rem 0;
+}
+
+.carwars .weapon-none {
+  opacity: 0.7;
+  font-style: italic;
+}
+/* ========================================================= */
+/* Hazard Display Styles                                      */
+/* ========================================================= */
+
+.carwars .hazard-display {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #333;
+  border-radius: 3px;
+}
+
+.carwars .hazard-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carwars .hazard-row label {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.carwars .hazard-value {
+  font-weight: bold;
+  min-width: 2rem;
+  text-align: center;
+}
+
+.carwars .hazard-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.carwars .hazard-controls button {
+  width: 1.5rem;
+  padding: 0.1rem 0;
+  text-align: center;
+}
+/* ========================================================= */
+/* HC Tracker Styles                                          */
+/* ========================================================= */
+
+.carwars .hc-tracker {
+  padding: 0.5rem;
+  border: 1px solid #333;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.carwars .hc-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carwars .hc-row label {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.carwars .hc-value {
+  font-weight: bold;
+  min-width: 2rem;
+  text-align: center;
+}
+
+.carwars .hc-track-bar {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  gap: 0.15rem;
+  margin-top: 0.25rem;
+}
+
+.carwars .hc-track-slot {
+  text-align: center;
+  padding: 0.2rem 0;
+  font-size: 0.7rem;
+  border: 1px solid #444;
+  border-radius: 2px;
+  opacity: 0.6;
+}
+
+.carwars .hc-track-slot.active {
+  background-color: #224455;
+  border-color: #337799;
+  color: #fff;
+  opacity: 1;
+  font-weight: bold;
+}
+/* ========================================================= */
+/* Speed Control Styles                                       */
+/* ========================================================= */
+
+.carwars .speed-control {
+  padding: 0.5rem;
+  border: 1px solid #333;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.carwars .speed-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carwars .speed-row label {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.carwars .speed-value {
+  font-weight: bold;
+  min-width: 2rem;
+  text-align: center;
+}
+
+.carwars .speed-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.carwars .speed-buttons button {
+  width: 1.5rem;
+  padding: 0.1rem 0;
+  text-align: center;
+}
+/* ========================================================= */
+/* Crew Panel Styles                                          */
+/* ========================================================= */
+
+.carwars .crew-panel {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.carwars .crew-section {
+  border: 1px solid #333;
+  border-radius: 3px;
+  padding: 0.5rem;
+}
+
+.carwars .crew-header {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.25rem;
+}
+
+.carwars .crew-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.carwars .crew-field label {
+  font-size: 0.8rem;
+  opacity: 0.8;
+  margin-bottom: 0.15rem;
+}
+
+.carwars .crew-field input,
+.carwars .crew-field textarea {
+  width: 100%;
+  padding: 0.25rem;
+  border: 1px solid #444;
+  border-radius: 3px;
+  background: #111;
+  color: #eee;
+}
+
+.carwars .crew-field textarea {
+  min-height: 3rem;
+}
+
+.carwars .occupant-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.carwars .occupant-entry {
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #333;
+}
+
+.carwars .occupant-entry:last-child {
+  border-bottom: none;
+}
+
+.carwars .occupant-empty {
+  opacity: 0.7;
+  font-style: italic;
+}
+/* ========================================================= */
+/* Systems Panel Styles                                       */
+/* ========================================================= */
+
+.carwars .systems-panel {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.carwars .system-section {
+  border: 1px solid #333;
+  border-radius: 3px;
+  padding: 0.5rem;
+}
+
+.carwars .system-header {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.25rem;
+}
+
+.carwars .system-field {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.35rem;
+}
+
+.carwars .system-field label {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.carwars .system-value {
+  font-weight: bold;
+}
+
+.carwars .system-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.carwars .system-entry {
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.carwars .system-entry:last-child {
+  border-bottom: none;
+}
+
+.carwars .system-sub {
+  font-size: 0.75rem;
+  opacity: 0.85;
+}
+
+.carwars .system-empty {
+  opacity: 0.7;
+  font-style: italic;
+}
+/* ========================================================= */
+/* Construction Panel Styles                                  */
+/* ========================================================= */
+
+.carwars .construction-panel {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.carwars .construction-section {
+  border: 1px solid #333;
+  border-radius: 3px;
+  padding: 0.5rem;
+}
+
+.carwars .construction-header {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.25rem;
+}
+
+.carwars .construction-subheader {
+  margin: 0.5rem 0 0.25rem 0;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+.carwars .construction-field {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.35rem;
+}
+
+.carwars .construction-field label {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.carwars .construction-value {
+  font-weight: bold;
+}
+
+.carwars .construction-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.carwars .construction-entry {
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #333;
+}
+
+.carwars .construction-entry:last-child {
+  border-bottom: none;
+}
+
+.carwars .construction-empty {
+  opacity: 0.7;
+  font-style: italic;
+}
+
+/* Validation colors */
+.carwars .construction-errors .construction-error {
+  color: #ff6666;
+  font-weight: bold;
+}
+
+.carwars .construction-warnings .construction-warning {
+  color: #ffcc66;
+  font-weight: bold;
+}
+/* ========================================================= */
+/* Validation Panel Styles                                    */
+/* ========================================================= */
+
+.carwars .validation-panel {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.carwars .validation-section {
+  border: 1px solid #333;
+  border-radius: 3px;
+  padding: 0.5rem;
+}
+
+.carwars .validation-section h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.25rem;
+}
+
+.carwars .validation-entry {
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #333;
+}
+
+.carwars .validation-entry:last-child {
+  border-bottom: none;
+}
+
+.carwars .validation-entry.error {
+  color: #ff6666;
+  font-weight: bold;
+}
+
+.carwars .validation-entry.warning {
+  color: #ffcc66;
+  font-weight: bold;
+}
+
+.carwars .validation-valid {
+  border-color: #335533;
+}
+
+.carwars .validation-valid h3 {
+  color: #88cc88;
 }

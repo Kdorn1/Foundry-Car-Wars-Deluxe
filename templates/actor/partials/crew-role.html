@@ -1,0 +1,89 @@
+{{!-- crew-role.html
+     Expects each crew entry to include a plain `crewActor` object provided by async getData()
+     Entry context: { uuid, role, crewActor, ... } and Handlebars index available as @index
+--}}
+
+<section class="crew-section crew-role" data-index="{{@index}}" data-uuid="{{uuid}}">
+  <h3 class="crew-header" style="text-transform: capitalize;">{{role}}</h3>
+
+  {{#if crewActor}}
+    <div class="crew-row">
+      <div class="crew-avatar">
+        {{#if crewActor.img}}
+          <img src="{{crewActor.img}}" alt="{{crewActor.name}}" />
+        {{else}}
+          <i class="fas fa-user-circle fa-2x muted"></i>
+        {{/if}}
+      </div>
+
+      <div class="crew-details">
+        <div class="crew-field">
+          <label>Name</label>
+          <input type="text" disabled value="{{crewActor.name}}" />
+        </div>
+
+        <div class="crew-field">
+          <label>Skills</label>
+          <div class="crew-inline">
+            {{#if crewActor.system.skills}}
+              {{#each crewActor.system.skills}}
+                <span class="chip">{{this}}</span>{{#unless @last}} {{/unless}}
+              {{/each}}
+            {{else}}
+              <span class="muted">—</span>
+            {{/if}}
+          </div>
+        </div>
+
+        <div class="crew-field">
+          <label>Equipment</label>
+          <div class="crew-inline">
+            {{#if crewActor.system.equipment}}
+              {{#each crewActor.system.equipment}}
+                <span class="chip">{{this}}</span>{{#unless @last}} {{/unless}}
+              {{/each}}
+            {{else}}
+              <span class="muted">—</span>
+            {{/if}}
+          </div>
+        </div>
+
+        <div class="crew-field">
+          <label>Damage</label>
+          <input type="text" disabled value="{{crewActor.system.damage}}" />
+        </div>
+
+        <div class="crew-field">
+          <label>Notes</label>
+          <textarea disabled>{{crewActor.system.notes}}</textarea>
+        </div>
+      </div>
+
+      <div class="crew-actions">
+        <button type="button" class="crew-open-actor" data-uuid="{{uuid}}" title="Open actor sheet">
+          <i class="fas fa-user"></i> Open
+        </button>
+
+        <select class="crew-role-select" data-index="{{@index}}">
+          <option value="driver" {{#if (eq role "driver")}}selected{{/if}}>Driver</option>
+          <option value="gunner" {{#if (eq role "gunner")}}selected{{/if}}>Gunner</option>
+          <option value="passenger" {{#if (eq role "passenger")}}selected{{/if}}>Passenger</option>
+        </select>
+
+        <button type="button" class="crew-detach" data-index="{{@index}}" title="Remove">
+          <i class="fas fa-unlink"></i>
+        </button>
+      </div>
+    </div>
+
+  {{else}}
+    <div class="crew-missing">
+      <p class="muted">Linked actor not found ({{uuid}}).</p>
+      <div class="crew-actions">
+        <button type="button" class="crew-remove-missing" data-index="{{@index}}" data-uuid="{{uuid}}">
+          <i class="fas fa-trash"></i> Remove missing link
+        </button>
+      </div>
+    </div>
+  {{/if}}
+</section>

@@ -1,0 +1,57 @@
+# Phase 5 Diagnostic Script for Car Wars System
+# Run this from the root of your system folder.
+
+Write-Host "=== PHASE 5 DIAGNOSTIC ===`n"
+
+# Helper function
+function Test-File {
+    param($Path)
+    if (Test-Path $Path) {
+        Write-Host "[PASS] $Path" -ForegroundColor Green
+    } else {
+        Write-Host "[FAIL] $Path" -ForegroundColor Red
+    }
+}
+
+# -----------------------------
+# 1. Actor Sheet Wiring
+# -----------------------------
+Write-Host "`n-- Actor Sheet Files --"
+Test-File "module\actor\actor-sheet.js"
+Test-File "templates\actor\partials\movement-panel.html"
+
+# -----------------------------
+# 2. UI Layer Files
+# -----------------------------
+Write-Host "`n-- UI Movement Files --"
+$uiFiles = @(
+    "module\ui\movement\movement-phase-service.js",
+    "module\ui\movement\movement-phase-dispatcher.js",
+    "module\ui\movement\movement-panel-updater.js",
+    "module\ui\movement\maneuver-handler.js",
+    "module\ui\movement\control-roll-result-handler.js"
+)
+
+foreach ($file in $uiFiles) {
+    Test-File $file
+}
+
+# -----------------------------
+# 3. Movement Subsystem Entry Point
+# -----------------------------
+Write-Host "`n-- Movement Subsystem Entry Point --"
+Test-File "module\movement\index.js"
+
+# -----------------------------
+# 4. UI Adapter File (Critical Missing Piece)
+# -----------------------------
+Write-Host "`n-- UI Adapter File (Phase 5 Critical) --"
+Test-File "module\movement\movement-phase-ui-adapter.js"
+
+# -----------------------------
+# 5. Orchestrator
+# -----------------------------
+Write-Host "`n-- Orchestrator Files --"
+Test-File "module\movement\orchestrator\index.js"
+
+Write-Host "`n=== DIAGNOSTIC COMPLETE ==="

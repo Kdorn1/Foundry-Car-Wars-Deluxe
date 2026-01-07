@@ -92,3 +92,8 @@ export function computeMovementState(current = {}, data = {}) {
 
   return mv;
 }
+
+// ------------------------------------------------------------
+// Named exports expected by other modules
+// ------------------------------------------------------------
+export { computeMovementState as updateMovementState };

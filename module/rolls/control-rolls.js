@@ -87,3 +87,6 @@ Hooks.on("renderChatMessage", (message, html) => {
     });
   });
 });
+
+// Additional export required by importers
+export { routeCrash };

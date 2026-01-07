@@ -86,3 +86,8 @@ export async function resolveCrashTable2(actor, controlResult) {
 
   return crashOutcome;
 }
+
+// ------------------------------------------------------------
+// Additional exports required by importers
+// ------------------------------------------------------------
+export { resolveFishtail, resolveCrashTable1 };

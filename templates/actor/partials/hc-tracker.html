@@ -1,0 +1,30 @@
+<div class="hc-tracker">
+
+  <!-- Current HC -->
+  <div class="hc-row hc-current">
+    <label>Current HC</label>
+    <span class="hc-value">
+      {{system.movement.currentHC}}
+    </span>
+  </div>
+
+  <!-- Handling Status Track (–6 to +6) -->
+  <div class="hc-row hc-status">
+    <label>Handling Status</label>
+    <span class="hc-value">
+      {{system.movement.handlingStatus}}
+    </span>
+  </div>
+
+  <!-- Visual Track -->
+  <div class="hc-track-bar">
+    {{!-- Track positions from -6 to +6 --}}
+    {{#each (range -6 7)}}
+      <div class="hc-track-slot
+                  {{#if (eq this ../system.movement.handlingStatus)}}active{{/if}}">
+        {{this}}
+      </div>
+    {{/each}}
+  </div>
+
+</div>

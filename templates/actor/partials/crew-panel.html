@@ -1,0 +1,28 @@
+<div class="crew-panel">
+
+  <!-- ========================= -->
+  <!-- DYNAMIC CREW ROLES        -->
+  <!-- ========================= -->
+  {{#each system.crew}}
+    {{!-- Pass the uuid, role and index into the reusable partial --}}
+    {{> "systems/carwars-system/templates/actor/partials/crew-role.html" uuid=uuid role=role index=@index}}
+  {{/each}}
+
+  <!-- ========================= -->
+  <!-- OCCUPANTS SECTION         -->
+  <!-- ========================= -->
+  <section class="crew-section crew-occupants">
+    <h3 class="crew-header">Occupants</h3>
+
+    {{#if system.crewOccupants.length}}
+      <ul class="occupant-list">
+        {{#each system.crewOccupants}}
+          <li class="occupant-entry">{{this}}</li>
+        {{/each}}
+      </ul>
+    {{else}}
+      <p class="occupant-empty">No additional occupants.</p>
+    {{/if}}
+  </section>
+
+</div>

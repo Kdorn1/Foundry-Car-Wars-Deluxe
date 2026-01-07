@@ -1,0 +1,49 @@
+<div class="hazard-display">
+
+  <!-- Total Hazards -->
+  <div class="hazard-row hazard-total">
+    <label>Total Hazards</label>
+    <div class="hazard-controls">
+      <button type="button"
+              class="movement-control hazard-down"
+              data-action="hazard-down">
+        -
+      </button>
+
+      <span class="hazard-value">
+        {{system.movement.hazards}}
+      </span>
+
+      <button type="button"
+              class="movement-control hazard-up"
+              data-action="hazard-up">
+        +
+      </button>
+    </div>
+  </div>
+
+  <!-- Terrain Hazard -->
+  <div class="hazard-row hazard-terrain">
+    <label>Terrain Hazard</label>
+    <span class="hazard-value">
+      {{system.movement.terrainHazard}}
+    </span>
+  </div>
+
+  <!-- Deceleration Hazard -->
+  <div class="hazard-row hazard-decel">
+    <label>Decel Hazard</label>
+    <span class="hazard-value">
+      {{system.movement.decelHazard}}
+    </span>
+  </div>
+
+  <!-- Last Maneuver Difficulty -->
+  <div class="hazard-row hazard-last-maneuver">
+    <label>Last Maneuver D</label>
+    <span class="hazard-value">
+      {{system.movement.lastManeuverDifficulty}}
+    </span>
+  </div>
+
+</div>

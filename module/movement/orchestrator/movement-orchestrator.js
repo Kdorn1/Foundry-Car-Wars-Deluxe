@@ -1,11 +1,11 @@
 // module/movement/orchestrator/movement-orchestrator.js
 // Function: Top-level orchestrator that runs a full movement phase using pure logic modules.
 
-import { runManeuverFlow } from "./maneuver-flow.js";
-import { runHazardFlow } from "./hazard-flow.js";
-import { runControlFlow } from "./control-flow.js";
-import { runCollisionFlow } from "./collision-flow.js";
-import { runCrashFlow } from "./crash-flow.js";
+import { runManeuverFlow } from '../movement-api.js';
+import { runHazardFlow } from '../movement-api.js';
+import { runControlFlow } from '../movement-api.js';
+import { runCollisionFlow } from '../movement-api.js';
+import { runCrashFlow } from '../movement-api.js';
 
 export async function runMovementPhase(actor, maneuverId) {
   const result = {
