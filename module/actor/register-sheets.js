@@ -1,63 +1,37 @@
 // module/actor/register-sheets.js
-// Registers custom actor sheets for Car Wars system
+// Modern sheet registration for Car Wars (Foundry V12+)
 
-import { CarWarsVehicleSheet, CarWarsDriverSheet } from "./actor-sheet.js";
+import { CarWarsVehicleSheet, CarWarsDriverSheet } from "../actor/actor-sheet.js";
+import { CarWarsItemSheet } from "../item/carwars-item-sheet.js";
 
-/**
- * Register all custom actor sheets for the Car Wars system.
- */
 export function registerActorSheets() {
-  try {
-    // Prefer the global Actors collection when available, otherwise fall back to the v13-specific alias
-    const ActorsCollection = globalThis.Actors ?? foundry?.documents?.collections?.Actors ?? null;
-    const CoreActorSheet = globalThis.ActorSheet ?? foundry?.appv1?.sheets?.ActorSheet ?? null;
+  console.log("🟦 [carwars] registerActorSheets() called.");
 
-    if (!ActorsCollection) {
-      console.warn("🟨 [carwars] Actors collection not found; skipping sheet registration.");
-      return;
-    }
+  // Use the actual system ID from system.json: "carwars-system"
+  const SYSTEM_ID = "carwars-system";
 
-    // Attempt to unregister the core sheet if present (defensive)
-    try {
-      if (CoreActorSheet && typeof ActorsCollection.unregisterSheet === "function") {
-        ActorsCollection.unregisterSheet("core", CoreActorSheet);
-        console.log("🟦 [carwars] Unregistered core ActorSheet.");
-      }
-    } catch (e) {
-      console.warn("🟨 [carwars] Could not unregister core sheet (continuing):", e);
-    }
+  // ------------------------------------------------------------
+  // Actor Sheets (preferred V12 API)
+  // ------------------------------------------------------------
+  Actors.registerSheet(SYSTEM_ID, CarWarsVehicleSheet, {
+    types: ["vehicle"],
+    label: "Car Wars Vehicle Sheet",
+    makeDefault: true
+  });
 
-    // Register vehicle sheet
-    try {
-      if (typeof ActorsCollection.registerSheet === "function") {
-        ActorsCollection.registerSheet("carwars-system", CarWarsVehicleSheet, {
-          label: "CarWars Vehicle Sheet",
-          types: ["vehicle"],
-          makeDefault: true
-        });
-        console.log("🟦 [carwars] Registered CarWarsVehicleSheet for type: vehicle");
-      } else {
-        console.warn("🟨 [carwars] ActorsCollection.registerSheet is not a function; vehicle sheet not registered.");
-      }
-    } catch (e) {
-      console.error("🟥 [carwars] Failed to register vehicle sheet:", e);
-    }
+  Actors.registerSheet(SYSTEM_ID, CarWarsDriverSheet, {
+    types: ["driver"],
+    label: "Car Wars Driver Sheet",
+    makeDefault: true
+  });
 
-    // Register driver sheet
-    try {
-      if (typeof ActorsCollection.registerSheet === "function") {
-        ActorsCollection.registerSheet("carwars-system", CarWarsDriverSheet, {
-          label: "CarWars Driver Sheet",
-          types: ["driver"],
-          makeDefault: true
-        });
-        console.log("🟦 [carwars] Registered CarWarsDriverSheet for type: driver");
-      }
-    } catch (e) {
-      console.error("🟥 [carwars] Failed to register driver sheet:", e);
-    }
-
-  } catch (err) {
-    console.error("🟥 [carwars] registerActorSheets() failed:", err);
-  }
+  // ------------------------------------------------------------
+  // Item Sheets
+  // ------------------------------------------------------------
+  Items.registerSheet(SYSTEM_ID, CarWarsItemSheet, {
+    // Adjust "base" if your actual item types differ
+    types: ["base"],
+    label: "Car Wars Item Sheet",
+    makeDefault: true
+  });
 }

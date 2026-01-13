@@ -1,11 +1,9 @@
-// module/rules/apply/apply-weapons.js
-
-export function applyWeapons(actor, rules) {
+export function applyWeapons(actor, rules, rulesData) {
   const weapons = actor.items.filter(i => i.type === "weapon");
 
   for (const w of weapons) {
     const weaponId = w.system.key;
-    const weaponData = game.cw.catalog.weapons.find(we => we.id === weaponId);
+    const weaponData = rulesData.weapons?.[weaponId];
     if (!weaponData) continue;
 
     rules.weight += weaponData.weight;

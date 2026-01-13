@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Standard Tire",
+    "type": "tire",
+    "system": {
+      "id": "standard",
+      "name": "Standard Tire",
+      "category": "base",
+      "cost": 50,
+      "weight": 30,
+      "dp": 4,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Heavy-Duty Tire",
+    "type": "tire",
+    "system": {
+      "id": "heavy-duty",
+      "name": "Heavy-Duty Tire",
+      "category": "base",
+      "cost": 100,
+      "weight": 40,
+      "dp": 6,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Puncture-Resistant Tire",
+    "type": "tire",
+    "system": {
+      "id": "pr",
+      "name": "Puncture-Resistant Tire",
+      "category": "base",
+      "cost": 200,
+      "weight": 50,
+      "dp": 9,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Solid Tire",
+    "type": "tire",
+    "system": {
+      "id": "solid",
+      "name": "Solid Tire",
+      "category": "base",
+      "cost": 500,
+      "weight": 75,
+      "dp": 12,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Plasticore Tire",
+    "type": "tire",
+    "system": {
+      "id": "plasticore",
+      "name": "Plasticore Tire",
+      "category": "base",
+      "cost": 1000,
+      "weight": 150,
+      "dp": 25,
+      "specialRules": [
+        "Cannot use Radial, Off-Road, or Steel options"
+      ]
+    }
+  }
+]

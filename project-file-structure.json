@@ -1,0 +1,4442 @@
+[
+  {
+    "RelativePath": "apibuild",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\apibuild",
+    "IsDirectory": false,
+    "Extension": "",
+    "SizeBytes": 2379,
+    "LastModified": "2026-01-05T14:04:12.1002173-05:00",
+    "SHA256": "126545927584A7ED662006041C8FE5C60B26C1AD0AA7CE91D9E9ABB12D3221FA",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "apibuild.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\apibuild.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 4322,
+    "LastModified": "2026-01-05T14:51:49.9264971-05:00",
+    "SHA256": "1A0EF3954CF488EF6B3E3F867D00C1FA1B14CB7D16EEEF2251FAC51ABD63E369",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "archive",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\archive",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T13:30:10.2704416-05:00",
+    "SHA256": null,
+    "Depth": 1
+  },
+  {
+    "RelativePath": "archive\\driver-sheet.hbs",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\archive\\driver-sheet.hbs",
+    "IsDirectory": false,
+    "Extension": ".hbs",
+    "SizeBytes": 3941,
+    "LastModified": "2026-01-05T20:09:31.2380493-05:00",
+    "SHA256": "DFCFCC3AAB7D16AAB2DBC6B4D34B43147506C83495161B1A36278CE14C3FFDB9",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "archive\\vehicle-sheet.hbs",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\archive\\vehicle-sheet.hbs",
+    "IsDirectory": false,
+    "Extension": ".hbs",
+    "SizeBytes": 6010,
+    "LastModified": "2026-01-05T20:05:47.3696646-05:00",
+    "SHA256": "28CC4445C10C3BC601D6DE5E2B58266CD22505FBE0F07DFF5F1A8B91EF3DFF1F",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "assets",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\assets",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-05T17:03:22.6407427-05:00",
+    "SHA256": null,
+    "Depth": 1
+  },
+  {
+    "RelativePath": "assets\\CW-Turning-Key.webp",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\assets\\CW-Turning-Key.webp",
+    "IsDirectory": false,
+    "Extension": ".webp",
+    "SizeBytes": 158020,
+    "LastModified": "2026-01-05T17:01:02.2142077-05:00",
+    "SHA256": "E24DC999FEE1265BEFC08B7005F0974A77020278770418B1AE0F9B0B7038F303",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "assets\\icons",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\assets\\icons",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:18:40.8588531-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "assets\\templates",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\assets\\templates",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:18:54.4619002-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "assets\\turning-key,svg.xml",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\assets\\turning-key,svg.xml",
+    "IsDirectory": false,
+    "Extension": ".xml",
+    "SizeBytes": 2116,
+    "LastModified": "2026-01-05T17:03:22.7085052-05:00",
+    "SHA256": "2232D66D8521F8813B03A69CD2DF29900A6C19676B4654D21233043E8B5728BF",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "assets\\ui",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\assets\\ui",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:18:49.4592657-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "carwars",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:56.2732301-05:00",
+    "SHA256": null,
+    "Depth": 1
+  },
+  {
+    "RelativePath": "carwars-report.txt",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars-report.txt",
+    "IsDirectory": false,
+    "Extension": ".txt",
+    "SizeBytes": 222610,
+    "LastModified": "2026-01-06T12:44:05.8901659-05:00",
+    "SHA256": "176D2BA2EF5E77C691F8255A315BCBB4A84F4B4BAA024C48FA97947C38B34D41",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "carwars-system.code-workspace",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars-system.code-workspace",
+    "IsDirectory": false,
+    "Extension": ".code-workspace",
+    "SizeBytes": 246,
+    "LastModified": "2026-01-06T09:42:25.611118-05:00",
+    "SHA256": "B035AE9561A50BAA0F770AB781B8C743B551158C7BC5F832A3F04912357A3BF1",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "carwars\\assets",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\assets",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:54.8147542-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "carwars\\assets\\icons",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\assets\\icons",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:18:40.8588531-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\assets\\templates",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\assets\\templates",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:18:54.4619002-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\assets\\ui",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\assets\\ui",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:18:49.4592657-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\carwars-system.code-workspace",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\carwars-system.code-workspace",
+    "IsDirectory": false,
+    "Extension": ".code-workspace",
+    "SizeBytes": 207,
+    "LastModified": "2025-12-20T10:31:56.8619794-05:00",
+    "SHA256": "639BA60FE627A354704268F5E293A525CF12EF9A39AD51C4C81BC257E9EDE286",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "carwars\\createfilestructure",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\createfilestructure",
+    "IsDirectory": false,
+    "Extension": "",
+    "SizeBytes": 1417,
+    "LastModified": "2025-12-31T08:14:23.382255-05:00",
+    "SHA256": "5DB4CDA2CA6C974E46FEF17469F4772D2ADC3DEA2FBDFBBF5F7E39EDEA2D8871",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "carwars\\createfilestructure.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\createfilestructure.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 1417,
+    "LastModified": "2025-12-31T08:15:03.4512691-05:00",
+    "SHA256": "5DB4CDA2CA6C974E46FEF17469F4772D2ADC3DEA2FBDFBBF5F7E39EDEA2D8871",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "carwars\\data",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\data",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:54.9066937-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "carwars\\data\\accessories.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\data\\accessories.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 6941,
+    "LastModified": "2025-12-30T23:30:20.9530389-05:00",
+    "SHA256": "3A5110912378A468890481B594448209DDED5266F1C7365F04D550E0623E8DF3",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\data\\armor.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\data\\armor.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 1746,
+    "LastModified": "2025-12-30T20:57:30.796909-05:00",
+    "SHA256": "2DD140C2F29C6147F97ECB6437473A0F1F316BF9CFF3CFD3B267F92AC9F0EDC3",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\data\\bodies.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\data\\bodies.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 12594,
+    "LastModified": "2025-12-30T20:22:03.6439415-05:00",
+    "SHA256": "667F34AF4220FB5EFBEC0B39E2C93BB8EBCAB3AFCF901C50E357479ED532B4D7",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\data\\chassis.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\data\\chassis.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 2272,
+    "LastModified": "2025-12-30T20:26:46.8185943-05:00",
+    "SHA256": "C84A27700467E75A4F404144BB6F847DDA4B8E2E27D55983CC8CBBD429A90E52",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\data\\engine-mods.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\data\\engine-mods.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 7350,
+    "LastModified": "2025-12-30T20:51:26.0600603-05:00",
+    "SHA256": "C1C66F871FE404CBCE75A1C77336A7FB544E0C7FC18CCFD675C4E4C642497A44",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\data\\gas-tanks.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\data\\gas-tanks.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 709,
+    "LastModified": "2025-12-30T20:52:24.6976663-05:00",
+    "SHA256": "2B4AFF51E8F37561D3CD360EA4F3B1A9B25E9DA32C7B59BD04FF09EA8E233FAF",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\data\\powerplants.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\data\\powerplants.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 6666,
+    "LastModified": "2025-12-30T20:50:14.4504879-05:00",
+    "SHA256": "115F3F5A80B734071FD3D178FDD85937BCCE1420A7CE67C4F4A16E009E35CB87",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\data\\suspension.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\data\\suspension.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 2505,
+    "LastModified": "2025-12-30T20:38:20.25331-05:00",
+    "SHA256": "1F1FAB21294F7831969F2C073A781E8776DB463D28BB45EA5BD0DD705E77B34D",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\data\\tire-options.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\data\\tire-options.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 3598,
+    "LastModified": "2025-12-30T20:43:13.4483471-05:00",
+    "SHA256": "7517D01B41EA18EB0B98A109D2594C1665C88FF2AE4A8559DD933069D131AC01",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\data\\tires.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\data\\tires.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 1227,
+    "LastModified": "2025-12-30T20:41:59.4903822-05:00",
+    "SHA256": "3A480E278E9F7442A95512F2C4B47F9E33025150226B1CF959768D9C27A9952B",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\data\\weapons.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\data\\weapons.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 83570,
+    "LastModified": "2025-12-30T22:43:25.7350395-05:00",
+    "SHA256": "F62007D7B5212D0D4C115036F8D218705004EE58B27CC25B024245557552C376",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\module",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.7548241-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "carwars\\module\\actor",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\actor",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.0642726-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\module\\actor\\actor-sheet.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\actor\\actor-sheet.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1388,
+    "LastModified": "2025-12-31T23:01:13.7598059-05:00",
+    "SHA256": "6F773D9F2B3932F8F9D92462F287395F4741BB0A396C8570731CD884FEA4A0E9",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\actor\\armor-init.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\actor\\armor-init.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 5321,
+    "LastModified": "2025-12-31T14:10:31.1231624-05:00",
+    "SHA256": "A69D5034812FCAD52844A1DC9CCFD527F0CB01948287BAA4D883289D84EFBB87",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\actor\\base-actor.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\actor\\base-actor.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 170,
+    "LastModified": "2025-12-30T09:42:14.6923612-05:00",
+    "SHA256": "E867809EBBAEDC7E4CFE81D128552CDB0FFB43CC9E1773356C0E4BB72D80D5AA",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\actor\\driver-data.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\actor\\driver-data.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 403,
+    "LastModified": "2025-12-20T17:17:40.8045343-05:00",
+    "SHA256": "D28C2D12D1125394B36B04CAD8F2CD78E94BA4B7ECD80050AF1496C91AF5E527",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\actor\\vehicle-data.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\actor\\vehicle-data.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 11202,
+    "LastModified": "2026-01-02T08:41:00.0713078-05:00",
+    "SHA256": "1FBA0D004F4AF6E23579A5D2A4EB71A3B8F0A55DF3AFBA30746747B3FB3E2FFF",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\carwars.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\carwars.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 7818,
+    "LastModified": "2025-12-31T11:19:05.4360425-05:00",
+    "SHA256": "4792438DD4A5F67D07CA1E1717201022733D2C4D13A18DACB73759114571F11A",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\module\\config.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\config.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 9,
+    "LastModified": "2025-12-20T10:34:10.9036274-05:00",
+    "SHA256": "E8E9EEA3276B2DE9A74FD257902DC74C846F6FC8653BBDDF45D738B71201F93D",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\module\\construction",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.1023417-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\catalog-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\catalog-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1305,
+    "LastModified": "2025-12-30T20:35:30.9652109-05:00",
+    "SHA256": "529FA5B7F0BF826117FCB0AC1BD67BBF5D6EBE19307D9911E60EBAF5B728F2BA",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\validation",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.2155184-05:00",
+    "SHA256": null,
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\validation.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 5093,
+    "LastModified": "2025-12-30T20:34:04.7133125-05:00",
+    "SHA256": "C5A0E26AF9E6118E3156513E807FA98C4360DE9D2E6981F9DFC07172BFCB8B62",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\index.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\validation\\index.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2222,
+    "LastModified": "2025-12-31T15:32:56.1162367-05:00",
+    "SHA256": "6D2F4CDA2D69C664FDCC87F90702DF0808D40F67CF7217F52382EDCC73CF11FA",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-accessories.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\validation\\validate-accessories.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 8622,
+    "LastModified": "2025-12-31T15:19:45.6884947-05:00",
+    "SHA256": "1E8174FFDC256123A41B98C2837091511249EA0C3937B803AAB89C078C595C18",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-armor.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\validation\\validate-armor.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 7233,
+    "LastModified": "2025-12-31T15:15:33.6707944-05:00",
+    "SHA256": "ECC0FE40E69CB71D88548859FBB355D5984B9D7BD31185B607771C6C8EB133C4",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-body.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\validation\\validate-body.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 6662,
+    "LastModified": "2025-12-31T15:12:45.1420543-05:00",
+    "SHA256": "42064DD6D3B0EE4260BB0503FA3FF6451A81F5DBE445E0EDFD48913E1220773C",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-chassis.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\validation\\validate-chassis.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 6011,
+    "LastModified": "2025-12-31T15:13:35.4262828-05:00",
+    "SHA256": "CD0BDF72EF69EF734A4394A4859EBAF2892D6A4A85065E42D1A9BAAE0BF82736",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-crew.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\validation\\validate-crew.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 5740,
+    "LastModified": "2025-12-31T15:28:20.0589743-05:00",
+    "SHA256": "26582287C5DD1300002F13788E006D4B64CCF4D338C7D8BE0172E2B7021B0D5D",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-gas-tank.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\validation\\validate-gas-tank.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 6232,
+    "LastModified": "2025-12-31T15:22:39.5475625-05:00",
+    "SHA256": "1094B02B6786CA346933C887C13F8ADC91A4DFF3082FF75319C74543BA7026E0",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-internal.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\validation\\validate-internal.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 6447,
+    "LastModified": "2025-12-31T15:26:55.8337534-05:00",
+    "SHA256": "D4C945E6A1DA054B220444CF054784B5885A2A0780BA6B0220E6A8D09A00C875",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-performance.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\validation\\validate-performance.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 6213,
+    "LastModified": "2025-12-31T15:26:01.1044537-05:00",
+    "SHA256": "DD397B46FE95DEFCD5676EAA3E0FC76971200F0F7DD4C5EB244367D9769F92F6",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-powerplant.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\validation\\validate-powerplant.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 6819,
+    "LastModified": "2025-12-31T15:21:50.3872952-05:00",
+    "SHA256": "8B0544E0EB49AD0E5B9AD3C2D3252F3CF3464092ECBE825D265AF6013414D05F",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-spaces.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\validation\\validate-spaces.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 5564,
+    "LastModified": "2025-12-31T15:24:22.1470031-05:00",
+    "SHA256": "C7D925424C997CCC862A3CCD7484ACAF82E74FF42AA5A5E769B3EFAF95B19137",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-suspension.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\validation\\validate-suspension.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 4964,
+    "LastModified": "2025-12-31T15:14:42.5936107-05:00",
+    "SHA256": "D72255D34FDD260B4298E352DD6EF4E1FF6C1121F54772005582796DB09102DF",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-tires.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\validation\\validate-tires.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 6353,
+    "LastModified": "2025-12-31T15:23:25.3153143-05:00",
+    "SHA256": "21FC02807398FE7BC2CBC7B11BAE427E1EFB9F88761DF8BA19865AE14E8ECBAB",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-vehicle.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\validation\\validate-vehicle.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 3474,
+    "LastModified": "2025-12-31T15:30:56.2797199-05:00",
+    "SHA256": "EBE8E37E1AC5AA00A7F31C24150D8D7C0CF34E1B0DD9253B1067D8AF1BF4C33E",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-weapons.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\validation\\validate-weapons.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 8295,
+    "LastModified": "2025-12-31T15:18:42.8636467-05:00",
+    "SHA256": "EF90753333797CFDD3130D8E6E0631D10CF24A515A37BDB855C0374BE4C3D121",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-weight.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\validation\\validate-weight.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 6614,
+    "LastModified": "2025-12-31T15:25:08.2001803-05:00",
+    "SHA256": "97064AAA37FAEFA289D584A8BD257DD360A3491F0C18ED940CD3F8EF3E889EBC",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validationbuilder.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\construction\\validationbuilder.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 1395,
+    "LastModified": "2025-12-31T14:17:38.1504862-05:00",
+    "SHA256": "DD73977FB5343E0191BF9F346C13D8323E82E6F9D5919F8A2B5729BB9ED741B2",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\item",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\item",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-31T08:21:25.499977-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\module\\movement",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.4588225-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\armor-damage-router.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\armor-damage-router.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 4109,
+    "LastModified": "2026-01-02T11:08:27.9008337-05:00",
+    "SHA256": "4388E05DDD99174CB9D88458F2D98AD9776CA0C4761FD834C64DCCA228014705",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\bootlegger-template.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\bootlegger-template.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2611,
+    "LastModified": "2025-12-31T10:43:40.0769314-05:00",
+    "SHA256": "0F2F6CD7D98394CA4EAC007052859FA8E7B49E1224943C56A45623C58C2DBB91",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\collision-detection.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\collision-detection.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 3306,
+    "LastModified": "2026-01-02T10:54:25.6835369-05:00",
+    "SHA256": "5AF49DB9942A958886D81C6AED992DEDB2A439480D21E39AEF078BD62AEF727C",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\collision-engine.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\collision-engine.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 5145,
+    "LastModified": "2026-01-02T11:09:34.5663233-05:00",
+    "SHA256": "EA5404D115B0CF725496179AB38479754BA978ED6EA138A15962E87D7FFD8672",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\collision-physics.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\collision-physics.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 4287,
+    "LastModified": "2026-01-02T10:51:02.3543671-05:00",
+    "SHA256": "6E0D5B580054DB0F018734E41020929F5E18BA999EA2DF53B9D6179351866995",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\collision-router.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\collision-router.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2473,
+    "LastModified": "2026-01-02T10:49:15.8123508-05:00",
+    "SHA256": "468257DA492763C9D4390C19CFEE79310630601E1BC12223AFAB792DA2A9556B",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\collision-type.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\collision-type.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 3564,
+    "LastModified": "2025-12-31T12:28:37.0064907-05:00",
+    "SHA256": "156C2FE7B635F3275CA1780D9221D7885AA51769F398AFC28F1BF384A80B38D4",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\conforming.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\conforming.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 3486,
+    "LastModified": "2026-01-02T10:41:51.45103-05:00",
+    "SHA256": "3AD16DC8DC6985391FD9766E036CE2905A43E2CC322ADD1CB5310020F82F80DD",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\control-table.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\control-table.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 3625,
+    "LastModified": "2026-01-05T12:39:36.4730485-05:00",
+    "SHA256": "A8BA40E59ECDFF82F6DEE4CD097DBE4C0599EDFD4D4ECC778AAFEBB12C60443E",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\crash-router.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\crash-router.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1464,
+    "LastModified": "2026-01-02T10:45:24.2222822-05:00",
+    "SHA256": "72A5831D9821F877ABC656ED27BDEB7B2B84963D705EEA147B6A9AC16588C9EB",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\crash-table-1.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\crash-table-1.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2626,
+    "LastModified": "2026-01-02T10:14:59.8540733-05:00",
+    "SHA256": "717CBFCF862BCF21B4300DA8AF2F6C81879C1AA3DD73A530C152868D3385E0FF",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\crash-table-2.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\crash-table-2.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2944,
+    "LastModified": "2026-01-02T10:16:43.6464082-05:00",
+    "SHA256": "444BC3C0E81B616AB250F79EA796521FCECDF45EE056C87542C2320A328D38FC",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\fishtail-physics.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\fishtail-physics.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 4791,
+    "LastModified": "2026-01-02T10:20:41.7002108-05:00",
+    "SHA256": "0CDF3373E9870ADA91929FEF095B0E173BA7975CA6119072388389C9023358A3",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\hazard-engine.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\hazard-engine.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1392,
+    "LastModified": "2026-01-02T11:17:42.3283106-05:00",
+    "SHA256": "04A9E7A71AB8A209A584F12682E8A751A237A6CE2F60A93E43871DA5D55AF6E5",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\index.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\index.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 718,
+    "LastModified": "2026-01-02T12:48:37.6094704-05:00",
+    "SHA256": "59965B7A1D9EF0ED31971269FFD6D549667B0E2D71EEA5E9A134AC272DFD9BFD",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\lane-change-template.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\lane-change-template.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2739,
+    "LastModified": "2025-12-31T10:10:13.3139482-05:00",
+    "SHA256": "CE651EF39A0395EB1803C960DEA4C85CE9215BF215A6859EB25EFBB63D211455",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\maneuver-registry.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\maneuver-registry.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1999,
+    "LastModified": "2026-01-02T11:12:50.8249105-05:00",
+    "SHA256": "D84E4220CA794750794F04695567E594D83A2DB6BA0A86D957D60A638A4ECD0B",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\movement-engine.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\movement-engine.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 4694,
+    "LastModified": "2026-01-02T10:39:44.676436-05:00",
+    "SHA256": "0EE004621A3338002822497286A9761803263E78308D7C3A005DA2A88E9D6C80",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\movement-state.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\movement-state.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 3857,
+    "LastModified": "2026-01-02T11:14:55.3969359-05:00",
+    "SHA256": "F7046E71F940506A48B35B9A5ABFB29A4AF9D6CE0DEF08D61F9C914E062C46B6",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\movement-template.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\movement-template.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2794,
+    "LastModified": "2025-12-31T09:56:43.1476124-05:00",
+    "SHA256": "3EE9DE014C6C59E08405F7A62CE3B48639B8D6B524DF9719675BE34A3BEE1F05",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\orchestrator",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.5472274-05:00",
+    "SHA256": null,
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\collision-flow.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\orchestrator\\collision-flow.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 620,
+    "LastModified": "2026-01-02T12:31:04.4090474-05:00",
+    "SHA256": "D4372BEBAE3846BA4EC5469340E27E4D46940C02E6698ACBAEFE9B5B61D5AF83",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\control-flow.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\orchestrator\\control-flow.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 543,
+    "LastModified": "2026-01-02T12:30:02.7701379-05:00",
+    "SHA256": "A17DC7EF2126B7FF051DD6E7D4C8AE6B349CA7C9CEC1695E9EF726A86633FE77",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\crash-flow.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\orchestrator\\crash-flow.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 605,
+    "LastModified": "2026-01-02T12:32:01.0241649-05:00",
+    "SHA256": "3E1C6308674A4DB454F93918446565639F0FEA71F156CB5A70D0F480CEE98B12",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\hazard-flow.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\orchestrator\\hazard-flow.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 532,
+    "LastModified": "2026-01-02T12:29:13.1584732-05:00",
+    "SHA256": "198CAF9478F8FB92D60488F9362C3952F3236EBE2247EB2FCE512A9846CCF8B4",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\index.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\orchestrator\\index.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 496,
+    "LastModified": "2026-01-02T13:03:14.023417-05:00",
+    "SHA256": "1B9A2AEAADE8485B300E1656E2653A05CF3DA9D872455EB8BBC3D89F25A19B0A",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\maneuver-flow.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\orchestrator\\maneuver-flow.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 713,
+    "LastModified": "2026-01-02T12:27:48.0224531-05:00",
+    "SHA256": "34952E68EBF75650A23FA6B0EDD223A31414A715A606A23CF627B0084652663D",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\movement-flow.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\orchestrator\\movement-flow.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 555,
+    "LastModified": "2026-01-02T12:58:59.5137672-05:00",
+    "SHA256": "E0EA809825AED4376D97ADFD44A502CF38731E2AFB400776E6003D974B03371C",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\movement-orchestrator.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\orchestrator\\movement-orchestrator.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1757,
+    "LastModified": "2026-01-02T12:26:54.9833074-05:00",
+    "SHA256": "FA1886A3638DBDBCDBD38325B4A10E8F3F87B01C8AE78C8EE073950AD363E1F6",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\movement-phase-orchestrator.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\orchestrator\\movement-phase-orchestrator.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1724,
+    "LastModified": "2026-01-02T12:44:52.3057281-05:00",
+    "SHA256": "0FD9406F11D0FAA467A6C044998B6A6D1AAE60B1B337E7051849A9069EEF625D",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\movement-phase-result.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\orchestrator\\movement-phase-result.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 437,
+    "LastModified": "2026-01-02T12:40:26.5937079-05:00",
+    "SHA256": "1D60DB284CFF21C18ACB1A4E0714AA14AD099D036D74C3FAB4E20774E5496B1C",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\movement-phase-schema.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\orchestrator\\movement-phase-schema.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 979,
+    "LastModified": "2026-01-02T12:42:13.6281412-05:00",
+    "SHA256": "FDEBD89947FB9764650DDDEFD4B7AEBADC91E1E9A6BD6B3CFC70B104960D1C30",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\movement-phase-ui-adapter.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\orchestrator\\movement-phase-ui-adapter.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 573,
+    "LastModified": "2026-01-02T13:02:45.972927-05:00",
+    "SHA256": "496F2942D97EA9CF62C972A481A2BB6AFE5C99568992E0EAFAF46ED18E198287",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\movement-phase-validator.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\orchestrator\\movement-phase-validator.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1729,
+    "LastModified": "2026-01-02T12:43:26.415429-05:00",
+    "SHA256": "A61406CCCBDD985BAED055B25A2D315EECB179237C31CC5F4FE5EFF075FEC2DD",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\perform-maneuver.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\perform-maneuver.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 4724,
+    "LastModified": "2026-01-02T10:29:40.7202571-05:00",
+    "SHA256": "079C8AB79005C9BBB4E9FD852A3F227C98F58B55DDB67E4205CEE7D81AA60C7F",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\phase-tracker.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\phase-tracker.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2087,
+    "LastModified": "2026-01-02T10:40:41.8036985-05:00",
+    "SHA256": "5171BFED099836B341508DC36AE58D337F709250F501759E9B53D41F3FBE9BB5",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\roll-physics.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\roll-physics.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 3188,
+    "LastModified": "2026-01-02T10:26:05.8105583-05:00",
+    "SHA256": "36641B9840B70AFBC03931ACBC1569F4617D8D2BEBDCC5A3CE268264EC70957E",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\skid-physics.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\skid-physics.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2811,
+    "LastModified": "2026-01-02T10:24:48.4771394-05:00",
+    "SHA256": "C59BB3C3BBF3099BC667603FAF5C6E4C671C7EFB1F70C2683B01DF8E525E6A25",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\skid-template.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\skid-template.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1835,
+    "LastModified": "2025-12-31T10:13:17.8863111-05:00",
+    "SHA256": "ECB7B2EE8532AE45289C77FDD53F66CB3640DB8A0A9CD923962D45CD2E445BFB",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\spinout-template.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\spinout-template.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1196,
+    "LastModified": "2025-12-31T11:01:33.0935667-05:00",
+    "SHA256": "F837CF9A2B0141E5AABA83CD1A084B5D9B68A559AB222B0877A741DDCC17BA9A",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\spinout.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\spinout.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1448,
+    "LastModified": "2026-01-02T10:44:28.6741371-05:00",
+    "SHA256": "93AA8638491D082BEA2EFAAF1C96BECBC598D5BC9A7BA5925186DC7CF3008D57",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\templates.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\templates.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 4091,
+    "LastModified": "2025-12-30T12:34:41.0699454-05:00",
+    "SHA256": "7B5E828264F9563994F9F9C7C4BF2801EAFC8D7B828929A053C59A0FDE07CEA1",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\temporary-speed.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\temporary-speed.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2991,
+    "LastModified": "2026-01-02T11:11:54.2880623-05:00",
+    "SHA256": "3620A61C0F5FF1EF8BE5A63DE4863DA37E6EDCB64AC01230C295C99643658BDD",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\turn-arc-template.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\turn-arc-template.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2945,
+    "LastModified": "2025-12-31T10:08:15.3304319-05:00",
+    "SHA256": "F66A1198205C57C6F3EC733010CCEFCAA73FE7BCD9825A97E674D8A03326906C",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\turningkey-measuredtemplate.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\turningkey-measuredtemplate.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2856,
+    "LastModified": "2025-12-30T13:56:14.4749119-05:00",
+    "SHA256": "43A989E0F850E2D43ADF8D8CF46D5A1B615F7CBFF3D69B522B622062BFCCE17E",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\turningkey-template.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\turningkey-template.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2972,
+    "LastModified": "2025-12-30T14:45:45.1847364-05:00",
+    "SHA256": "D9D7C3686B36818ED239304A726D5EABB506828B723461D765DAF177D5344C9F",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\vault-physics.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\movement\\vault-physics.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 4000,
+    "LastModified": "2026-01-02T10:27:47.9716667-05:00",
+    "SHA256": "C5F8F67205803AD0CA1BBF2907C6327224285BF26F4336213F69A346FBE45C17",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\rolls",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rolls",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.5718981-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\module\\rolls\\control-rolls.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rolls\\control-rolls.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 3038,
+    "LastModified": "2026-01-02T10:31:03.6204747-05:00",
+    "SHA256": "EB81A7F1A2636A0E7F911A68669369278B0C1062076EC15CF5DA2FDD37AD1922",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\rolls\\hazard.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rolls\\hazard.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\rules",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.6765518-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\apply",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.6643178-05:00",
+    "SHA256": null,
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply\\apply-accessories.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\apply\\apply-accessories.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1152,
+    "LastModified": "2025-12-31T08:29:21.716446-05:00",
+    "SHA256": "635D8C7FEEB88D49E48FD7E96E2D639C680921CA16CBEEC0AFD7E6C6FE8598BF",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply\\apply-armor.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\apply\\apply-armor.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 469,
+    "LastModified": "2025-12-31T08:28:54.683602-05:00",
+    "SHA256": "D5664167962B91C9F8C4A6262D50678B82C4E831CF8FC86FBA72318FC0185A3B",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply\\apply-body.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\apply\\apply-body.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 846,
+    "LastModified": "2025-12-31T09:37:08.7248604-05:00",
+    "SHA256": "3EEB5422BBEE6697C8B3D79148D64F5CB0ADF42FE2E506B943FC47016C27D072",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply\\apply-chassis.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\apply\\apply-chassis.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 357,
+    "LastModified": "2026-01-07T11:33:26.9395154-05:00",
+    "SHA256": "639D6D80512AD642D7B1AF7FCAC89AF3950CE87455B68D75CAC016A29E2CE57C",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply\\apply-engine.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\apply\\apply-engine.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 539,
+    "LastModified": "2025-12-31T08:28:18.2788617-05:00",
+    "SHA256": "B31ECF4DEFC39328554C8D090A32BD9A35BC57ACFD59C56E1BCF5E64C64044C5",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply\\apply-gas-tank.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\apply\\apply-gas-tank.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 439,
+    "LastModified": "2025-12-31T08:28:31.974364-05:00",
+    "SHA256": "CAE875CCBC0A5915E2370AC5531B39F4B87E4F1759A0B7ECB011929BE47258CC",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply\\apply-suspension.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\apply\\apply-suspension.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 594,
+    "LastModified": "2025-12-31T08:28:02.9903175-05:00",
+    "SHA256": "D44E8849F5C361DC539B05BD299AB39918831EFE7455CA0BA9A4140C27AB2A50",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply\\apply-tires.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\apply\\apply-tires.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 411,
+    "LastModified": "2025-12-31T08:28:43.2395458-05:00",
+    "SHA256": "BB437EDE7CE15CA044D7133501A62B33A7B451A0B58DD39455922CEFBE291B8E",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply\\apply-weapons.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\apply\\apply-weapons.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 534,
+    "LastModified": "2025-12-31T08:29:09.075392-05:00",
+    "SHA256": "3FED22F73638EC067EAB114A3AF1037830B6DB0A1473D62D2EAFC9B77DECD222",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\loaders",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.744516-05:00",
+    "SHA256": null,
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders\\accessories-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\loaders\\accessories-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 60,
+    "LastModified": "2025-12-31T08:15:05.5907942-05:00",
+    "SHA256": "15C3D26F65CC88E11A3303489FD9405160F64496797E410A28EF0F4EECBF9903",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders\\armor-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\loaders\\armor-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 54,
+    "LastModified": "2025-12-31T08:15:05.5860978-05:00",
+    "SHA256": "5A143548DC1699F8FF1AECF2F2FB63D507EAA8DA49929A6833E5A1F7D13BBBB5",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders\\body-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\loaders\\body-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 53,
+    "LastModified": "2025-12-31T08:15:05.5727799-05:00",
+    "SHA256": "1A4F9E24C7718CB57CEC0DFEAFDCE6CBE7B00EE2D279A5E68CCF652F8DEE8E1E",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders\\chassis-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\loaders\\chassis-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 56,
+    "LastModified": "2025-12-31T08:15:05.57596-05:00",
+    "SHA256": "195A444B4EC7D7A5DE749CBB40773F55B5A81DAE7526A5042480D3268CAEC18E",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders\\engine-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\loaders\\engine-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 55,
+    "LastModified": "2025-12-31T08:15:05.5788208-05:00",
+    "SHA256": "8F77141937CF9CCDE3746A5365B7DB73E3C3E25321B1F3EEA4D2FA91FEF7160A",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders\\gas-tank-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\loaders\\gas-tank-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 57,
+    "LastModified": "2025-12-31T08:15:05.5811974-05:00",
+    "SHA256": "C37F3216D4619DE938B5CEC4772308F27EF39DB8309E7AE575032D2F1C022C29",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders\\suspension-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\loaders\\suspension-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 59,
+    "LastModified": "2025-12-31T08:15:05.5769656-05:00",
+    "SHA256": "2B89125912A95D2585C7516C5F762D829AAEB674841B964D5F2668DDBDAEC3AD",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders\\tires-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\loaders\\tires-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 54,
+    "LastModified": "2025-12-31T08:15:05.5832206-05:00",
+    "SHA256": "6242B5018B34B8D7092081723F3CE6FF55C88FFDB687732615D3435D8F9FE8C8",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders\\weapons-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\loaders\\weapons-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 56,
+    "LastModified": "2025-12-31T08:15:05.5888159-05:00",
+    "SHA256": "3BF6F89FC4EDEBB1CBD27939F146D33DA24B693E5ABD67A0C36AA006047DCA8B",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\rule-engine.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\rules\\rule-engine.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2514,
+    "LastModified": "2025-12-31T09:34:55.4813505-05:00",
+    "SHA256": "B4E4CFC0DF2B91B273221C5DC2FF2AF538D3F027BAA756B64EED9A563E15DF65",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\ui",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\ui",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.8704672-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\chat",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\ui\\chat",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.798447-05:00",
+    "SHA256": null,
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\chat\\control-roll-card.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\ui\\chat\\control-roll-card.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 641,
+    "LastModified": "2026-01-02T13:50:58.0274424-05:00",
+    "SHA256": "78C9D61161781287017ECE09357F9B61B99B1AEFAEECDE7621B088A54764F8A1",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\chat\\crash-card.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\ui\\chat\\crash-card.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 518,
+    "LastModified": "2026-01-02T13:52:41.0914328-05:00",
+    "SHA256": "A68846CA90F5F75C968C59E8A189269F5E1D19D4F252AAAEB111FFFCCFED52A6",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\chat\\hazard-card.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\ui\\chat\\hazard-card.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 547,
+    "LastModified": "2026-01-02T13:50:14.5628267-05:00",
+    "SHA256": "B709B612794CB2EBE8539C8CA603A22C44655ECBB19A6886ACBE9DF71E4B22DF",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\combat",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\ui\\combat",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T13:45:07.9055365-05:00",
+    "SHA256": null,
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\helpers.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\ui\\helpers.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\hud.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\ui\\hud.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\movement",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\ui\\movement",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.8525466-05:00",
+    "SHA256": null,
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\movement\\control-roll-result-handler.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\ui\\movement\\control-roll-result-handler.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 928,
+    "LastModified": "2026-01-02T13:51:58.6948794-05:00",
+    "SHA256": "F831D8F312480BBE2BE70213C6D2E8A91BC72D486598AA7C5B60E4D643F37783",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\movement\\maneuver-handler.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\ui\\movement\\maneuver-handler.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 525,
+    "LastModified": "2026-01-02T16:46:41.20569-05:00",
+    "SHA256": "1A1C75CC0BF0F560B0AEB2FDAB25885CFE1A1402B139A3799C9D4D0A56652FC4",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\movement\\movement-panel-updater.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\ui\\movement\\movement-panel-updater.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 479,
+    "LastModified": "2026-01-02T13:53:45.0469813-05:00",
+    "SHA256": "754676943CF1DA02F0FF1DF0E07441315AB820EAA55AD8CE1744A8FFC875AA86",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\movement\\movement-phase-dispatcher.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\ui\\movement\\movement-phase-dispatcher.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 749,
+    "LastModified": "2026-01-02T13:49:23.9024361-05:00",
+    "SHA256": "CD4D5DBA450B2693DEB74784DA1E4DD36F25D9FEBA8C3421543BCD153CD4FFA6",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\movement\\movement-phase-service.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\ui\\movement\\movement-phase-service.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 513,
+    "LastModified": "2026-01-02T13:47:41.9958079-05:00",
+    "SHA256": "CA91F9CBDD2A881C1C852289A499EAAA3F71D76E88A9633F160737BA8AA4A3F1",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\pedestrian",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\ui\\pedestrian",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T13:44:56.2382117-05:00",
+    "SHA256": null,
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\utils",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\module\\ui\\utils",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T13:44:50.4326432-05:00",
+    "SHA256": null,
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\outputfilestructure.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\outputfilestructure.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 821,
+    "LastModified": "2026-01-02T11:59:01.3568778-05:00",
+    "SHA256": "216F990859A47508AAF6D4B3A0AB3F990658EFC9EF812F0D3391566BDD534693",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "carwars\\packs",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\packs",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.9509237-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "carwars\\packs\\accessories.db",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\packs\\accessories.db",
+    "IsDirectory": false,
+    "Extension": ".db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:41:17.8728037-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\packs\\armor.db",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\packs\\armor.db",
+    "IsDirectory": false,
+    "Extension": ".db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:38:59.5874707-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\packs\\chassis.db",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\packs\\chassis.db",
+    "IsDirectory": false,
+    "Extension": ".db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:41:56.266683-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\packs\\maneuvers.db",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\packs\\maneuvers.db",
+    "IsDirectory": false,
+    "Extension": ".db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:42:31.5117812-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\packs\\powerplants",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\packs\\powerplants",
+    "IsDirectory": false,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:39:11.4390073-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\packs\\suspension.db",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\packs\\suspension.db",
+    "IsDirectory": false,
+    "Extension": ".db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:41:29.2123635-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\packs\\tires.db",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\packs\\tires.db",
+    "IsDirectory": false,
+    "Extension": ".db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:40:30.4143855-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\packs\\vehicles.db",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\packs\\vehicles.db",
+    "IsDirectory": false,
+    "Extension": ".db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:42:44.0514738-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\packs\\weapons.db",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\packs\\weapons.db",
+    "IsDirectory": false,
+    "Extension": ".db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:38:38.7889336-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\phase1check",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\phase1check",
+    "IsDirectory": false,
+    "Extension": "",
+    "SizeBytes": 1520,
+    "LastModified": "2026-01-02T11:30:43.5804271-05:00",
+    "SHA256": "E9DC4764C2A944C86BBD8854245FF63126FBB2C8EAC41385E99FDCF365D4C581",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "carwars\\phase1check.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\phase1check.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 2173,
+    "LastModified": "2026-01-02T11:39:43.6805919-05:00",
+    "SHA256": "777C697A7B1D7FE2788187B35390576D6DB4B2D6AFC0CDAD8D720CCBDD0E0B8E",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "carwars\\README.md",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\README.md",
+    "IsDirectory": false,
+    "Extension": ".md",
+    "SizeBytes": 12,
+    "LastModified": "2026-01-02T16:18:12.2359411-05:00",
+    "SHA256": "48677CF32A5FEBBBE7F105334EA4024B81698856F2B3C06239DA924D281AA4B9",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "carwars\\styles",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\styles",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.9851842-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "carwars\\styles\\carwars.css",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\styles\\carwars.css",
+    "IsDirectory": false,
+    "Extension": ".css",
+    "SizeBytes": 213,
+    "LastModified": "2025-12-20T17:20:16.4133814-05:00",
+    "SHA256": "69A651A80D8C30C016D9268411E90529DF6B8DB301EE595AF6D187C8D4200774",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\styles\\sheets.css",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\styles\\sheets.css",
+    "IsDirectory": false,
+    "Extension": ".css",
+    "SizeBytes": 868,
+    "LastModified": "2025-12-31T22:59:18.0485643-05:00",
+    "SHA256": "763D53AF833A46DE4A7C6361E966F020CAC0F743B65B09B3F357293BB26B3880",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\synctofoundry.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\synctofoundry.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 2170,
+    "LastModified": "2025-12-30T10:18:51.0662175-05:00",
+    "SHA256": "B09332A89E172E92BAAF6C99DCA504C867F8C854F733F64E78334222192F0230",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "carwars\\system.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\system.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 455,
+    "LastModified": "2025-12-30T19:18:04.1711448-05:00",
+    "SHA256": "2363C9E4274EC43C5444D6A35F1B7C2526BAAEEBC133973845ED93791B861D04",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "carwars\\systemanalysis.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\systemanalysis.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 1030,
+    "LastModified": "2026-01-02T13:01:02.3252675-05:00",
+    "SHA256": "BF01C014303DEC6C75B00D50C6A15CD51D508002E436917067CBCF69EE8521CA",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "carwars\\template.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\template.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 255,
+    "LastModified": "2025-12-20T10:19:22.3525087-05:00",
+    "SHA256": "DDA8F8A022D37EB0B845BA05F4BB3076210D5B56F0A24CF1015FF5F9215D82CE",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "carwars\\templates",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:56.1326678-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\actor",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:56.0486914-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\driver-sheet.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\actor\\driver-sheet.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 567,
+    "LastModified": "2025-12-20T17:19:46.9673868-05:00",
+    "SHA256": "208D6A5AF330B2C55E0E14F58E0C868C89F5C1A40CEB7373AAAE316A3D876ED5",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\partials",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\actor\\partials",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:56.0995863-05:00",
+    "SHA256": null,
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\partials\\armor-panel.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\actor\\partials\\armor-panel.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\partials\\construction-panel.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\actor\\partials\\construction-panel.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\partials\\hazard-display.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\actor\\partials\\hazard-display.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\partials\\hc-tracker.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\actor\\partials\\hc-tracker.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\partials\\movement-panel.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\actor\\partials\\movement-panel.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\partials\\speed-control.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\actor\\partials\\speed-control.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\partials\\validation-panel.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\actor\\partials\\validation-panel.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 980,
+    "LastModified": "2025-12-31T22:58:51.562795-05:00",
+    "SHA256": "D1AFD51C47EBB218B5527577028A021938888E2B47D446A96BA4F729F1C7AD77",
+    "Depth": 5
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\vehicle-sheet.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\actor\\vehicle-sheet.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 845,
+    "LastModified": "2025-12-31T22:59:56.2150732-05:00",
+    "SHA256": "CD9BCE996CECE8FA3B4B7BAF36A0F2AA39F61715A3991DFFEC8E8731BE101761",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\templates\\chat",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\chat",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:56.1244497-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\templates\\chat\\control-roll-card.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\chat\\control-roll-card.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\templates\\chat\\maneuver-card.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\chat\\maneuver-card.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\templates\\item",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\item",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:56.173186-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "carwars\\templates\\item\\accessory-sheet.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\item\\accessory-sheet.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\templates\\item\\armor-sheet.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\item\\armor-sheet.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\templates\\item\\powerplant-sheet.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\item\\powerplant-sheet.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\templates\\item\\suspension-sheet.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\item\\suspension-sheet.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\templates\\item\\tire-sheet.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\item\\tire-sheet.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "carwars\\templates\\item\\weapon-sheet.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\carwars\\templates\\item\\weapon-sheet.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "comparefiles.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\comparefiles.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 3950,
+    "LastModified": "2026-01-05T14:02:11.1492505-05:00",
+    "SHA256": "B2D0B6EEA578BD21776E3AC5EFAD658EF9D275A1C8D869965B76B99F1A1C7BA1",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "console-export-2026-1-3_10-14-10.log",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\console-export-2026-1-3_10-14-10.log",
+    "IsDirectory": false,
+    "Extension": ".log",
+    "SizeBytes": 14917,
+    "LastModified": "2026-01-03T10:14:30.8119457-05:00",
+    "SHA256": "30B087DC456CD41BA6765DD99BB4AEC21383E8E8F37C4F0CBA161DCAFA4190B3",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "convert-json-to-items.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\convert-json-to-items.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 3107,
+    "LastModified": "2026-01-07T09:24:59.7007357-05:00",
+    "SHA256": "3F22BE58228FFA17391701315F1ACA0D378CE7BCEFFA7C12A39EB042A43EE3F7",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "createfilestructure",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\createfilestructure",
+    "IsDirectory": false,
+    "Extension": "",
+    "SizeBytes": 1417,
+    "LastModified": "2025-12-31T08:14:23.382255-05:00",
+    "SHA256": "5DB4CDA2CA6C974E46FEF17469F4772D2ADC3DEA2FBDFBBF5F7E39EDEA2D8871",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "createfilestructure.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\createfilestructure.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 1417,
+    "LastModified": "2025-12-31T08:15:03.4512691-05:00",
+    "SHA256": "5DB4CDA2CA6C974E46FEF17469F4772D2ADC3DEA2FBDFBBF5F7E39EDEA2D8871",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "data",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\data",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-07T08:08:26.7337216-05:00",
+    "SHA256": null,
+    "Depth": 1
+  },
+  {
+    "RelativePath": "data-audit-report.txt",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\data-audit-report.txt",
+    "IsDirectory": false,
+    "Extension": ".txt",
+    "SizeBytes": 2226,
+    "LastModified": "2026-01-07T12:12:29.2150937-05:00",
+    "SHA256": "35D01B7DC911705CF1654CA5228C66C290821E35A72C27F5148154DBDE043B14",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "data\\accessories.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\data\\accessories.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 6941,
+    "LastModified": "2025-12-30T23:30:20.9530389-05:00",
+    "SHA256": "3A5110912378A468890481B594448209DDED5266F1C7365F04D550E0623E8DF3",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "data\\armor.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\data\\armor.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 1746,
+    "LastModified": "2025-12-30T20:57:30.796909-05:00",
+    "SHA256": "2DD140C2F29C6147F97ECB6437473A0F1F316BF9CFF3CFD3B267F92AC9F0EDC3",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "data\\bodies.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\data\\bodies.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 12594,
+    "LastModified": "2025-12-30T20:22:03.6439415-05:00",
+    "SHA256": "667F34AF4220FB5EFBEC0B39E2C93BB8EBCAB3AFCF901C50E357479ED532B4D7",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "data\\chassis.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\data\\chassis.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 2272,
+    "LastModified": "2025-12-30T20:26:46.8185943-05:00",
+    "SHA256": "C84A27700467E75A4F404144BB6F847DDA4B8E2E27D55983CC8CBBD429A90E52",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "data\\engine-mods.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\data\\engine-mods.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 7350,
+    "LastModified": "2025-12-30T20:51:26.0600603-05:00",
+    "SHA256": "C1C66F871FE404CBCE75A1C77336A7FB544E0C7FC18CCFD675C4E4C642497A44",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "data\\gas-tanks.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\data\\gas-tanks.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 709,
+    "LastModified": "2025-12-30T20:52:24.6976663-05:00",
+    "SHA256": "2B4AFF51E8F37561D3CD360EA4F3B1A9B25E9DA32C7B59BD04FF09EA8E233FAF",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "data\\powerplants.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\data\\powerplants.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 6666,
+    "LastModified": "2025-12-30T20:50:14.4504879-05:00",
+    "SHA256": "115F3F5A80B734071FD3D178FDD85937BCCE1420A7CE67C4F4A16E009E35CB87",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "data\\suspension.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\data\\suspension.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 2505,
+    "LastModified": "2025-12-30T20:38:20.25331-05:00",
+    "SHA256": "1F1FAB21294F7831969F2C073A781E8776DB463D28BB45EA5BD0DD705E77B34D",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "data\\tire-options.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\data\\tire-options.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 3598,
+    "LastModified": "2025-12-30T20:43:13.4483471-05:00",
+    "SHA256": "7517D01B41EA18EB0B98A109D2594C1665C88FF2AE4A8559DD933069D131AC01",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "data\\tires.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\data\\tires.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 1227,
+    "LastModified": "2025-12-30T20:41:59.4903822-05:00",
+    "SHA256": "3A480E278E9F7442A95512F2C4B47F9E33025150226B1CF959768D9C27A9952B",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "data\\weapons.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\data\\weapons.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 83570,
+    "LastModified": "2026-01-03T15:51:11.0790858-05:00",
+    "SHA256": "F62007D7B5212D0D4C115036F8D218705004EE58B27CC25B024245557552C376",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "file-list.txt",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\file-list.txt",
+    "IsDirectory": false,
+    "Extension": ".txt",
+    "SizeBytes": 14522,
+    "LastModified": "2026-01-07T12:26:10.1381654-05:00",
+    "SHA256": "FCBA57CF0383B300E65F0903D452C86ADCC38E9D7B4E81F2AB3A92D5FEF3D875",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "filelisting",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\filelisting",
+    "IsDirectory": false,
+    "Extension": "",
+    "SizeBytes": 501,
+    "LastModified": "2026-01-06T19:45:08.8729064-05:00",
+    "SHA256": "93DA4BD3E623487B120537FF96D6AAA692338A24B35D705B83452C42A6503B6F",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "filelisting.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\filelisting.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 501,
+    "LastModified": "2026-01-06T19:45:24.6371795-05:00",
+    "SHA256": "93DA4BD3E623487B120537FF96D6AAA692338A24B35D705B83452C42A6503B6F",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "fixranges.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\fixranges.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 1721,
+    "LastModified": "2026-01-06T11:59:09.2041823-05:00",
+    "SHA256": "8EB1F64BAF2A4C91E840801E6DB869E459F2DD42562BD1158D6A3DAFE5E5461B",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "getcarwarsinfo",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\getcarwarsinfo",
+    "IsDirectory": false,
+    "Extension": "",
+    "SizeBytes": 141,
+    "LastModified": "2026-01-05T09:54:42.6011869-05:00",
+    "SHA256": "109E27ABE7F16380CAEF8D336DB8817267D183647B7799AC7AA4001396F01274",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "getcarwarsinfo.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\getcarwarsinfo.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 2363,
+    "LastModified": "2026-01-05T12:59:45.4719352-05:00",
+    "SHA256": "BFE9960122161FBA902DB695DF9E0861A79D06CA9791AD078E80B6F5B854472B",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "importexportmap.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\importexportmap.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 2668,
+    "LastModified": "2026-01-05T20:22:18.337666-05:00",
+    "SHA256": "630AC705088B00CD4CD417961A291E73CE8E000DD936D75A2C4482CB5C70DF54",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "json-scanner.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\json-scanner.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 1954,
+    "LastModified": "2026-01-07T12:14:26.5950905-05:00",
+    "SHA256": "6B365273D92D599F69E5BFECDA3722638B0EA1D5989C9074A313F4B09A4BFCBB",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "json-structure-summary.txt",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\json-structure-summary.txt",
+    "IsDirectory": false,
+    "Extension": ".txt",
+    "SizeBytes": 1059,
+    "LastModified": "2026-01-07T12:14:27.9039496-05:00",
+    "SHA256": "0ECC40A3E2B087533812B07F9654267BF1DB4FE918AA4DD87C4559047D27A481",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "jsonaudit.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\jsonaudit.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 3743,
+    "LastModified": "2026-01-07T08:09:00.2032707-05:00",
+    "SHA256": "79AB641961BDD9F013B418FA59D1F787AF79C4D006C52EE422CA707C30B67155",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "module",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T20:25:31.7457437-05:00",
+    "SHA256": null,
+    "Depth": 1
+  },
+  {
+    "RelativePath": "module\\actor",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\actor",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T20:27:06.3845112-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "module\\actor\\actor-sheet.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\actor\\actor-sheet.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 24715,
+    "LastModified": "2026-01-06T18:51:38.3743472-05:00",
+    "SHA256": "EA2FED9024924AFB260126F550EA15A778A96B638031A39682C61315A99E23B8",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\actor\\armor-init.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\actor\\armor-init.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 5321,
+    "LastModified": "2025-12-31T14:10:31.1231624-05:00",
+    "SHA256": "A69D5034812FCAD52844A1DC9CCFD527F0CB01948287BAA4D883289D84EFBB87",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\actor\\base-actor",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\actor\\base-actor",
+    "IsDirectory": false,
+    "Extension": "",
+    "SizeBytes": 111,
+    "LastModified": "2025-12-20T11:44:40.7437842-05:00",
+    "SHA256": "EF7CF97965863F29925181F33F7C08D5ECD43D1B9AF62AAE8517BA2D733CC3FC",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\actor\\base-actor.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\actor\\base-actor.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 170,
+    "LastModified": "2025-12-30T09:42:14.6923612-05:00",
+    "SHA256": "E867809EBBAEDC7E4CFE81D128552CDB0FFB43CC9E1773356C0E4BB72D80D5AA",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\actor\\driver-actor",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\actor\\driver-actor",
+    "IsDirectory": false,
+    "Extension": "",
+    "SizeBytes": 116,
+    "LastModified": "2025-12-20T11:48:53.9964868-05:00",
+    "SHA256": "B02BB81316584CC039A4099A4A6CFC24062E6AF25FCC80824F070BF5791C7983",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\actor\\driver-actor.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\actor\\driver-actor.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T17:09:17.2544359-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\actor\\driver-data.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\actor\\driver-data.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 403,
+    "LastModified": "2025-12-20T17:17:40.8045343-05:00",
+    "SHA256": "D28C2D12D1125394B36B04CAD8F2CD78E94BA4B7ECD80050AF1496C91AF5E527",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\actor\\register-sheets.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\actor\\register-sheets.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2425,
+    "LastModified": "2026-01-06T14:17:51.5132977-05:00",
+    "SHA256": "9A873D4DEBF2914D4B9C6DF6ED4054648B0C1BB463785E46E274A3EF01F4FF16",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\actor\\templates",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\actor\\templates",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T13:30:10.2704416-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\actor\\vehicle-actor",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\actor\\vehicle-actor",
+    "IsDirectory": false,
+    "Extension": "",
+    "SizeBytes": 111,
+    "LastModified": "2025-12-20T11:44:40.7437842-05:00",
+    "SHA256": "EF7CF97965863F29925181F33F7C08D5ECD43D1B9AF62AAE8517BA2D733CC3FC",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\actor\\vehicle-actor.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\actor\\vehicle-actor.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T17:09:00.9960624-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\actor\\vehicle-data",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\actor\\vehicle-data",
+    "IsDirectory": false,
+    "Extension": "",
+    "SizeBytes": 111,
+    "LastModified": "2025-12-20T11:44:40.7437842-05:00",
+    "SHA256": "EF7CF97965863F29925181F33F7C08D5ECD43D1B9AF62AAE8517BA2D733CC3FC",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\actor\\vehicle-data.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\actor\\vehicle-data.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 11202,
+    "LastModified": "2026-01-02T08:41:00.0713078-05:00",
+    "SHA256": "1FBA0D004F4AF6E23579A5D2A4EB71A3B8F0A55DF3AFBA30746747B3FB3E2FFF",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\carwars.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\carwars.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 6776,
+    "LastModified": "2026-01-07T10:35:33.7339043-05:00",
+    "SHA256": "D1E3DD1C7A380624981707C9EAA89211B41B4AECDFFAF88C3196DB4C43E45870",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "module\\carwars.js.bak",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\carwars.js.bak",
+    "IsDirectory": false,
+    "Extension": ".bak",
+    "SizeBytes": 17677,
+    "LastModified": "2026-01-06T19:00:53.3362219-05:00",
+    "SHA256": "B48BE65850B5C771F5FA8AA05CC78FA97D0B0FFE7F56DF8B5855D1D824C9CBC9",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "module\\config.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\config.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 9,
+    "LastModified": "2025-12-20T10:34:10.9036274-05:00",
+    "SHA256": "E8E9EEA3276B2DE9A74FD257902DC74C846F6FC8653BBDDF45D738B71201F93D",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "module\\construction",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T20:27:06.3687415-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "module\\construction\\armor-calculator.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\armor-calculator.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\construction\\catalog-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\catalog-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2730,
+    "LastModified": "2026-01-03T11:13:11.6186006-05:00",
+    "SHA256": "48E34C1B4F78F791566EB4C1BBCFAC51954CDFFFAEC9AE5BE252DC18AB47D597",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\construction\\chassis.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\chassis.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\construction\\derived-stats.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\derived-stats.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\construction\\load-calculator.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\load-calculator.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\construction\\validation",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\validation",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T20:26:30.8127303-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\construction\\validation.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\validation.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 5093,
+    "LastModified": "2025-12-30T20:34:04.7133125-05:00",
+    "SHA256": "C5A0E26AF9E6118E3156513E807FA98C4360DE9D2E6981F9DFC07172BFCB8B62",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\index.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\validation\\index.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2222,
+    "LastModified": "2025-12-31T15:32:56.1162367-05:00",
+    "SHA256": "6D2F4CDA2D69C664FDCC87F90702DF0808D40F67CF7217F52382EDCC73CF11FA",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-accessories.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\validation\\validate-accessories.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 8622,
+    "LastModified": "2025-12-31T15:19:45.6884947-05:00",
+    "SHA256": "1E8174FFDC256123A41B98C2837091511249EA0C3937B803AAB89C078C595C18",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-armor.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\validation\\validate-armor.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 7233,
+    "LastModified": "2025-12-31T15:15:33.6707944-05:00",
+    "SHA256": "ECC0FE40E69CB71D88548859FBB355D5984B9D7BD31185B607771C6C8EB133C4",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-body.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\validation\\validate-body.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 6662,
+    "LastModified": "2025-12-31T15:12:45.1420543-05:00",
+    "SHA256": "42064DD6D3B0EE4260BB0503FA3FF6451A81F5DBE445E0EDFD48913E1220773C",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-chassis.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\validation\\validate-chassis.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 6011,
+    "LastModified": "2025-12-31T15:13:35.4262828-05:00",
+    "SHA256": "CD0BDF72EF69EF734A4394A4859EBAF2892D6A4A85065E42D1A9BAAE0BF82736",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-crew.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\validation\\validate-crew.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 5740,
+    "LastModified": "2025-12-31T15:28:20.0589743-05:00",
+    "SHA256": "26582287C5DD1300002F13788E006D4B64CCF4D338C7D8BE0172E2B7021B0D5D",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-gas-tank.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\validation\\validate-gas-tank.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 6232,
+    "LastModified": "2025-12-31T15:22:39.5475625-05:00",
+    "SHA256": "1094B02B6786CA346933C887C13F8ADC91A4DFF3082FF75319C74543BA7026E0",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-internal.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\validation\\validate-internal.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 6447,
+    "LastModified": "2025-12-31T15:26:55.8337534-05:00",
+    "SHA256": "D4C945E6A1DA054B220444CF054784B5885A2A0780BA6B0220E6A8D09A00C875",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-performance.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\validation\\validate-performance.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 6213,
+    "LastModified": "2025-12-31T15:26:01.1044537-05:00",
+    "SHA256": "DD397B46FE95DEFCD5676EAA3E0FC76971200F0F7DD4C5EB244367D9769F92F6",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-powerplant.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\validation\\validate-powerplant.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 6819,
+    "LastModified": "2025-12-31T15:21:50.3872952-05:00",
+    "SHA256": "8B0544E0EB49AD0E5B9AD3C2D3252F3CF3464092ECBE825D265AF6013414D05F",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-spaces.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\validation\\validate-spaces.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 5564,
+    "LastModified": "2025-12-31T15:24:22.1470031-05:00",
+    "SHA256": "C7D925424C997CCC862A3CCD7484ACAF82E74FF42AA5A5E769B3EFAF95B19137",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-suspension.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\validation\\validate-suspension.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 4964,
+    "LastModified": "2025-12-31T15:14:42.5936107-05:00",
+    "SHA256": "D72255D34FDD260B4298E352DD6EF4E1FF6C1121F54772005582796DB09102DF",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-tires.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\validation\\validate-tires.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 6353,
+    "LastModified": "2025-12-31T15:23:25.3153143-05:00",
+    "SHA256": "21FC02807398FE7BC2CBC7B11BAE427E1EFB9F88761DF8BA19865AE14E8ECBAB",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-vehcile.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\validation\\validate-vehcile.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 3474,
+    "LastModified": "2025-12-31T15:30:56.2797199-05:00",
+    "SHA256": "EBE8E37E1AC5AA00A7F31C24150D8D7C0CF34E1B0DD9253B1067D8AF1BF4C33E",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-vehicle.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\validation\\validate-vehicle.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 3474,
+    "LastModified": "2025-12-31T15:30:56.2797199-05:00",
+    "SHA256": "EBE8E37E1AC5AA00A7F31C24150D8D7C0CF34E1B0DD9253B1067D8AF1BF4C33E",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-weapons.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\validation\\validate-weapons.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 8295,
+    "LastModified": "2025-12-31T15:18:42.8636467-05:00",
+    "SHA256": "EF90753333797CFDD3130D8E6E0631D10CF24A515A37BDB855C0374BE4C3D121",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-weight.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\construction\\validation\\validate-weight.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 6614,
+    "LastModified": "2025-12-31T15:25:08.2001803-05:00",
+    "SHA256": "97064AAA37FAEFA289D584A8BD257DD360A3491F0C18ED940CD3F8EF3E889EBC",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\helpers",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\helpers",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T09:40:45.1469291-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "module\\helpers\\template-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\helpers\\template-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 255,
+    "LastModified": "2026-01-06T09:52:38.8643485-05:00",
+    "SHA256": "E6AB70C031645D73B4326FCB9FFFEE074B9ACEAA56BC3D7E03F0BDBF7E425905",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\item",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\item",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-07T07:55:15.8582762-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "module\\item\\accessory-item.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\item\\accessory-item.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\item\\armor-item.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\item\\armor-item.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\item\\item-sheet.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\item\\item-sheet.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\item\\powerplant-item.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\item\\powerplant-item.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\item\\suspension-item.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\item\\suspension-item.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\item\\tire-item.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\item\\tire-item.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\item\\weapon-item.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\item\\weapon-item.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T20:26:30.8541385-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "module\\movement\\armor-damage-router.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\armor-damage-router.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 4109,
+    "LastModified": "2026-01-02T11:08:27.9008337-05:00",
+    "SHA256": "4388E05DDD99174CB9D88458F2D98AD9776CA0C4761FD834C64DCCA228014705",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\bootlegger-template.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\bootlegger-template.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2611,
+    "LastModified": "2025-12-31T10:43:40.0769314-05:00",
+    "SHA256": "0F2F6CD7D98394CA4EAC007052859FA8E7B49E1224943C56A45623C58C2DBB91",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\collision-detection.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\collision-detection.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 3399,
+    "LastModified": "2026-01-05T13:58:49.4672624-05:00",
+    "SHA256": "C53ED8126E032C3F983694022D6FA7B8E489C7ABE9FCED3E8E3BD4D927906BC1",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\collision-engine.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\collision-engine.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 5352,
+    "LastModified": "2026-01-05T13:27:15.3836101-05:00",
+    "SHA256": "319723B96BB8CDE7F6F9C0BD6B38F29B4C27EC9DC307C2AD152DD8A1001450C6",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\collision-physics.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\collision-physics.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 4527,
+    "LastModified": "2026-01-05T13:13:05.728462-05:00",
+    "SHA256": "AB3C74CBD4429E16D6328A49BDB3D642EBE45C2BA86860162FF463C5F52C0DF0",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\collision-router.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\collision-router.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2711,
+    "LastModified": "2026-01-05T13:28:12.4727722-05:00",
+    "SHA256": "5E7F1E15368BA1251E99312731164B5AE7CC033E0FF8A22D817774DB0A5C4ADC",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\collision-type.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\collision-type.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 3800,
+    "LastModified": "2026-01-05T13:13:52.0116694-05:00",
+    "SHA256": "E71FB1A201F997508561A3DD9A7397AD90EDB3753AF6506F978EF76802245636",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\conforming.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\conforming.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 3694,
+    "LastModified": "2026-01-05T12:47:57.8824888-05:00",
+    "SHA256": "2502CE51270AE2FB5DCA8EDC020206895141420E46ECDDC1EAFD77CC8937F4F5",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\control-table.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\control-table.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 3625,
+    "LastModified": "2026-01-05T12:45:20.0517966-05:00",
+    "SHA256": "A8BA40E59ECDFF82F6DEE4CD097DBE4C0599EDFD4D4ECC778AAFEBB12C60443E",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\crash-router.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\crash-router.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1794,
+    "LastModified": "2026-01-05T14:18:37.484575-05:00",
+    "SHA256": "2369B3EA32B3B1EAAB3A284A16C88A0491960C5577202535F968E7CEC3149F70",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\crash-table-1.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\crash-table-1.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2855,
+    "LastModified": "2026-01-05T13:12:07.4610643-05:00",
+    "SHA256": "5DA92937E0B2011FFDA644E363BDB401DD8B139A6979974CBCB2BADBC6C676A7",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\crash-table-2.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\crash-table-2.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 3170,
+    "LastModified": "2026-01-05T13:15:03.3345296-05:00",
+    "SHA256": "2DE3D422D3C7A79FDF52064E04E41DBC7AC48456476B5DBA5FF74DB488670CA5",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\damage-modifier.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\damage-modifier.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 5680,
+    "LastModified": "2026-01-05T13:11:06.1377044-05:00",
+    "SHA256": "4C7C8D17B8EB06913D219C5B7009D87639E11972E3741DC9D59B2B880961BCB4",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\fishtail-physics.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\fishtail-physics.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 4791,
+    "LastModified": "2026-01-02T10:20:41.7002108-05:00",
+    "SHA256": "0CDF3373E9870ADA91929FEF095B0E173BA7975CA6119072388389C9023358A3",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\hazard-engine.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\hazard-engine.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2147,
+    "LastModified": "2026-01-05T13:56:03.1701238-05:00",
+    "SHA256": "54AA491EEEC1807EFA0BF4B0A7CBA88B3549352A0C66FA7A9C0F2B372479FC59",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\hc-tracker.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\hc-tracker.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\index.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\index.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 816,
+    "LastModified": "2026-01-03T09:24:12.7008251-05:00",
+    "SHA256": "0BC7AE315F0272D2C094C0B92CA0377D23B79194139DB833BEA81CCEBF361852",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\lane-change-template.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\lane-change-template.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2739,
+    "LastModified": "2025-12-31T10:10:13.3139482-05:00",
+    "SHA256": "CE651EF39A0395EB1803C960DEA4C85CE9215BF215A6859EB25EFBB63D211455",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\maneuver-registry.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\maneuver-registry.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2317,
+    "LastModified": "2026-01-05T12:53:18.8911989-05:00",
+    "SHA256": "8CC6CE4D278E3654F86EDFDA283A3A50070A94CA814A962240AC89DDAFDCD660",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\maneuvers.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\maneuvers.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\movement-api.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\movement-api.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1324,
+    "LastModified": "2026-01-05T16:04:07.5033114-05:00",
+    "SHA256": "B40F244D586BEDB62A8171385F34763CC7C86E818FE6E7D992E0973250E14E05",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\movement-engine.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\movement-engine.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 4002,
+    "LastModified": "2026-01-05T16:51:14.6147485-05:00",
+    "SHA256": "BBA2595A424D13DCD5626138A4192F2672B8E74FFCCFD7F4DA84C70F051027DF",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\movement-phase-ui-adapter.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\movement-phase-ui-adapter.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1229,
+    "LastModified": "2026-01-03T09:30:24.4166379-05:00",
+    "SHA256": "D8FDEE3DDDB4C86554231BEBA672FACAA7E97C1D66FB631C93FE1D0C62111BAB",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\movement-state.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\movement-state.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 4090,
+    "LastModified": "2026-01-05T13:01:53.4786962-05:00",
+    "SHA256": "3C3112B19837B33763309DD37AE98070A3D1E179DF6132BAA956B14D0C8E41CC",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\movement-template.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\movement-template.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2794,
+    "LastModified": "2025-12-31T09:56:43.1476124-05:00",
+    "SHA256": "3EE9DE014C6C59E08405F7A62CE3B48639B8D6B524DF9719675BE34A3BEE1F05",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-05T14:13:29.980844-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\collision-flow.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\collision-flow.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 661,
+    "LastModified": "2026-01-05T14:13:29.9099341-05:00",
+    "SHA256": "4A118FF98C51F01CB0DFC8315681EF8CE23E3730E144FBBCA2D8F6625946EC0B",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\collision-flow.js.bak",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\collision-flow.js.bak",
+    "IsDirectory": false,
+    "Extension": ".bak",
+    "SizeBytes": 696,
+    "LastModified": "2026-01-05T13:17:03.5156919-05:00",
+    "SHA256": "2BBAAE5732780F566CEF7E3D5FE4736B8A29943803FCFA371B708748044C9746",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\control-flow.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\control-flow.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 530,
+    "LastModified": "2026-01-05T14:13:29.9160181-05:00",
+    "SHA256": "A5ED34D62F1FEF572037AC68C2F79887BFCC87001AFDE3E0977AE7D363920972",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\control-flow.js.bak",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\control-flow.js.bak",
+    "IsDirectory": false,
+    "Extension": ".bak",
+    "SizeBytes": 543,
+    "LastModified": "2026-01-02T12:30:02.7701379-05:00",
+    "SHA256": "A17DC7EF2126B7FF051DD6E7D4C8AE6B349CA7C9CEC1695E9EF726A86633FE77",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\crash-flow.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\crash-flow.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 593,
+    "LastModified": "2026-01-05T14:13:29.9224048-05:00",
+    "SHA256": "AD310CD0B16BFD7249DFBE1C9CE8F732C77F8227D976FCDB2F66A14EDDBFA411",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\crash-flow.js.bak",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\crash-flow.js.bak",
+    "IsDirectory": false,
+    "Extension": ".bak",
+    "SizeBytes": 605,
+    "LastModified": "2026-01-02T12:32:01.0241649-05:00",
+    "SHA256": "3E1C6308674A4DB454F93918446565639F0FEA71F156CB5A70D0F480CEE98B12",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\hazard-flow.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\hazard-flow.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 519,
+    "LastModified": "2026-01-05T14:13:29.9285237-05:00",
+    "SHA256": "94BE6F449C4A51873153990FCE1927964FE7F1E0A151D981BB82729F82488768",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\hazard-flow.js.bak",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\hazard-flow.js.bak",
+    "IsDirectory": false,
+    "Extension": ".bak",
+    "SizeBytes": 532,
+    "LastModified": "2026-01-02T12:29:13.1584732-05:00",
+    "SHA256": "198CAF9478F8FB92D60488F9362C3952F3236EBE2247EB2FCE512A9846CCF8B4",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\index.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\index.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 816,
+    "LastModified": "2026-01-02T16:49:00.675979-05:00",
+    "SHA256": "0BC7AE315F0272D2C094C0B92CA0377D23B79194139DB833BEA81CCEBF361852",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\maneuver-flow.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\maneuver-flow.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 761,
+    "LastModified": "2026-01-05T16:07:44.2674768-05:00",
+    "SHA256": "D4BCA96EA468553EE42803A04E37C667920C42719EE2FBDBF78190D945C96870",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\maneuver-flow.js.bak",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\maneuver-flow.js.bak",
+    "IsDirectory": false,
+    "Extension": ".bak",
+    "SizeBytes": 792,
+    "LastModified": "2026-01-05T13:25:10.2586299-05:00",
+    "SHA256": "084F816D2AC7425F3E976583168E36425F9F8ADABF00F43C7C78C6F49EB2ED1B",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-flow.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\movement-flow.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1018,
+    "LastModified": "2026-01-05T14:13:29.9465801-05:00",
+    "SHA256": "F85E14CCAB2BE3D96CAD5736915070C784DE7E2D73CA0753AF19B11C453C237A",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-flow.js.bak",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\movement-flow.js.bak",
+    "IsDirectory": false,
+    "Extension": ".bak",
+    "SizeBytes": 1033,
+    "LastModified": "2026-01-05T13:08:08.4747531-05:00",
+    "SHA256": "38EF5BA240B357AAE66986B8D4881ACA74A65A94ADB20A042757866097523244",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-orchestrator.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\movement-orchestrator.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1762,
+    "LastModified": "2026-01-05T14:13:29.9538655-05:00",
+    "SHA256": "3E54246C30B985CE228028CAB5EAAFD007DD22601360E60A5B2BF97C3726C1D7",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-orchestrator.js.bak",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\movement-orchestrator.js.bak",
+    "IsDirectory": false,
+    "Extension": ".bak",
+    "SizeBytes": 1757,
+    "LastModified": "2026-01-02T12:26:54.9833074-05:00",
+    "SHA256": "FA1886A3638DBDBCDBD38325B4A10E8F3F87B01C8AE78C8EE073950AD363E1F6",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-phase-orchestrator.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\movement-phase-orchestrator.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1741,
+    "LastModified": "2026-01-05T14:19:34.7218135-05:00",
+    "SHA256": "F23E7CEDD5DE73B65E65BB9201440BE342C5D7779BC0F1F759BB2450DB4A155D",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-phase-orchestrator.js.bak",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\movement-phase-orchestrator.js.bak",
+    "IsDirectory": false,
+    "Extension": ".bak",
+    "SizeBytes": 1724,
+    "LastModified": "2026-01-02T12:44:52.3057281-05:00",
+    "SHA256": "0FD9406F11D0FAA467A6C044998B6A6D1AAE60B1B337E7051849A9069EEF625D",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-phase-result.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\movement-phase-result.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 437,
+    "LastModified": "2026-01-02T12:40:26.5937079-05:00",
+    "SHA256": "1D60DB284CFF21C18ACB1A4E0714AA14AD099D036D74C3FAB4E20774E5496B1C",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-phase-schema.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\movement-phase-schema.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 979,
+    "LastModified": "2026-01-02T12:42:13.6281412-05:00",
+    "SHA256": "FDEBD89947FB9764650DDDEFD4B7AEBADC91E1E9A6BD6B3CFC70B104960D1C30",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-phase-ui-adapter.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\movement-phase-ui-adapter.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 559,
+    "LastModified": "2026-01-05T16:13:38.0730759-05:00",
+    "SHA256": "ED464C94E40C7441A68DC4B2B4B76B72CAE915D268F0FF50F61247D37569FDE8",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-phase-ui-adapter.js.bak",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\movement-phase-ui-adapter.js.bak",
+    "IsDirectory": false,
+    "Extension": ".bak",
+    "SizeBytes": 573,
+    "LastModified": "2026-01-02T13:02:45.972927-05:00",
+    "SHA256": "496F2942D97EA9CF62C972A481A2BB6AFE5C99568992E0EAFAF46ED18E198287",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-phase-validator.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\movement-phase-validator.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1721,
+    "LastModified": "2026-01-05T14:13:29.9840979-05:00",
+    "SHA256": "84F19EF2B6DCDF9497D4BD8FEED4E1C6428DECCA061FAE7689C4583FABB60DEC",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-phase-validator.js.bak",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\orchestrator\\movement-phase-validator.js.bak",
+    "IsDirectory": false,
+    "Extension": ".bak",
+    "SizeBytes": 1729,
+    "LastModified": "2026-01-02T12:43:26.415429-05:00",
+    "SHA256": "A61406CCCBDD985BAED055B25A2D315EECB179237C31CC5F4FE5EFF075FEC2DD",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\movement\\perform-maneuver.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\perform-maneuver.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 4824,
+    "LastModified": "2026-01-05T16:05:58.8387396-05:00",
+    "SHA256": "9C67C6CD86D35452ECD919BB2424793ACC537918316B05DA99C9DA7D39D33330",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\phase-tracker.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\phase-tracker.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2087,
+    "LastModified": "2026-01-02T10:40:41.8036985-05:00",
+    "SHA256": "5171BFED099836B341508DC36AE58D337F709250F501759E9B53D41F3FBE9BB5",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\roll-physics.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\roll-physics.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 3188,
+    "LastModified": "2026-01-02T10:26:05.8105583-05:00",
+    "SHA256": "36641B9840B70AFBC03931ACBC1569F4617D8D2BEBDCC5A3CE268264EC70957E",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\skid-physics.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\skid-physics.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2811,
+    "LastModified": "2026-01-02T10:24:48.4771394-05:00",
+    "SHA256": "C59BB3C3BBF3099BC667603FAF5C6E4C671C7EFB1F70C2683B01DF8E525E6A25",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\skid-template.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\skid-template.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1835,
+    "LastModified": "2025-12-31T10:13:17.8863111-05:00",
+    "SHA256": "ECB7B2EE8532AE45289C77FDD53F66CB3640DB8A0A9CD923962D45CD2E445BFB",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\spinout-template.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\spinout-template.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1196,
+    "LastModified": "2025-12-31T11:01:33.0935667-05:00",
+    "SHA256": "F837CF9A2B0141E5AABA83CD1A084B5D9B68A559AB222B0877A741DDCC17BA9A",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\spinout.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\spinout.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1448,
+    "LastModified": "2026-01-02T10:44:28.6741371-05:00",
+    "SHA256": "93AA8638491D082BEA2EFAAF1C96BECBC598D5BC9A7BA5925186DC7CF3008D57",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\templates.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\templates.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 3934,
+    "LastModified": "2026-01-05T16:54:19.3276585-05:00",
+    "SHA256": "9C9708023967BB21DADCDC3F328CF6FB9BFF5ADD6572F4F443B97BD1426FB5A0",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\temporary-speed.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\temporary-speed.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2991,
+    "LastModified": "2026-01-02T11:11:54.2880623-05:00",
+    "SHA256": "3620A61C0F5FF1EF8BE5A63DE4863DA37E6EDCB64AC01230C295C99643658BDD",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\turn-arc-template.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\turn-arc-template.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2945,
+    "LastModified": "2025-12-31T10:08:15.3304319-05:00",
+    "SHA256": "F66A1198205C57C6F3EC733010CCEFCAA73FE7BCD9825A97E674D8A03326906C",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\turningkey-measuredtemplate.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\turningkey-measuredtemplate.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2762,
+    "LastModified": "2026-01-05T16:48:19.3270358-05:00",
+    "SHA256": "5197E441EF88F95FA1515997A72186F11F6922F4A484804210027D2B42D122DD",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\turningkey-template.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\turningkey-template.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2972,
+    "LastModified": "2025-12-30T14:45:45.1847364-05:00",
+    "SHA256": "D9D7C3686B36818ED239304A726D5EABB506828B723461D765DAF177D5344C9F",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\movement\\vault-physics.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\movement\\vault-physics.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 4000,
+    "LastModified": "2026-01-02T10:27:47.9716667-05:00",
+    "SHA256": "C5F8F67205803AD0CA1BBF2907C6327224285BF26F4336213F69A346FBE45C17",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\rolls",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rolls",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:11:08.1328737-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "module\\rolls\\control-rolls.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rolls\\control-rolls.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 3108,
+    "LastModified": "2026-01-05T13:17:56.9957285-05:00",
+    "SHA256": "BCFFFFF78462F0B821CC6FA052EFBE5F1F24BB969109AD9806FA414FAF8D8A26",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\rolls\\hazard.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rolls\\hazard.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\rules",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-07T10:12:16.4914323-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "module\\rules\\apply",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\apply",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-31T08:15:06.8217928-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\rules\\apply\\apply-accessories.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\apply\\apply-accessories.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1094,
+    "LastModified": "2026-01-07T11:40:17.3625807-05:00",
+    "SHA256": "B73CB02CEFE5A20B508CB247AA8813B3BE1D410440151E91802D0BE1CB74673C",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\apply\\apply-armor.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\apply\\apply-armor.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 440,
+    "LastModified": "2026-01-07T11:39:14.2920567-05:00",
+    "SHA256": "57602ADF62B4FAF3BE1119CDF79F7B7F1B139339D3A782C4F384C3AD68C566D6",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\apply\\apply-body.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\apply\\apply-body.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 846,
+    "LastModified": "2026-01-07T11:05:44.7078194-05:00",
+    "SHA256": "3EEB5422BBEE6697C8B3D79148D64F5CB0ADF42FE2E506B943FC47016C27D072",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\apply\\apply-chassis.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\apply\\apply-chassis.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 411,
+    "LastModified": "2025-12-31T08:27:46.0595123-05:00",
+    "SHA256": "C982DD248DDCDAD73D69016B9EFFFB3F58FC15484746A31AE272C6D128EC36F8",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\apply\\apply-engine.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\apply\\apply-engine.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 432,
+    "LastModified": "2026-01-07T11:37:07.2012253-05:00",
+    "SHA256": "0BB55590C966D87040C46DD95CCA9DB57870E7B6228C5D03115ADDFBFE2BC5BD",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\apply\\apply-gas-tank.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\apply\\apply-gas-tank.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 384,
+    "LastModified": "2026-01-07T11:37:47.7132299-05:00",
+    "SHA256": "47AA09A2EB7B1CDCA933021083C2B3E4D3AEAEE121EBD4C20FDD151BD2D67E75",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\apply\\apply-suspension.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\apply\\apply-suspension.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 538,
+    "LastModified": "2026-01-07T11:35:41.6961953-05:00",
+    "SHA256": "4449601D7690F67008C03736BEEB248947E84D95B3D522738FCD78664DC17B28",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\apply\\apply-tires.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\apply\\apply-tires.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 540,
+    "LastModified": "2026-01-07T11:41:47.1093781-05:00",
+    "SHA256": "04A9DA4399FA6C67FB89636B2FC0BAC0E93F03B48498C73925F7F7D8786A6CF6",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\apply\\apply-weapons.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\apply\\apply-weapons.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 478,
+    "LastModified": "2026-01-07T11:39:42.9137776-05:00",
+    "SHA256": "682DB47380E3B950CCC94C4F4E87385ECCBFE94D36C699532885BA37DEEDCF0B",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\loaders",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\loaders",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-07T10:08:07.5654824-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\accessories-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\loaders\\accessories-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1181,
+    "LastModified": "2026-01-07T12:10:10.5141144-05:00",
+    "SHA256": "64A9B1736CC691EC1772F0D719933B9E4067F3E1BB92CCB5918D002BE2FE57F7",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\armor-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\loaders\\armor-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1264,
+    "LastModified": "2026-01-07T10:02:18.0552121-05:00",
+    "SHA256": "36F9F555D326F6B0A3B9B50ACE969023EBF1325AC7497932D393E0ACCBBEB976",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\body-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\loaders\\body-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1329,
+    "LastModified": "2026-01-07T12:09:25.8736577-05:00",
+    "SHA256": "8F8BB264D1F55318BE896C09B7AB7D707D70B924580A49FA9D1F11D775177832",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\chassis-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\loaders\\chassis-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1248,
+    "LastModified": "2026-01-07T09:47:24.9957365-05:00",
+    "SHA256": "648AF73010B278381B90CD1F022A5408AF08A6E8137122B63A2B17F6EB5824C2",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\engine-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\loaders\\engine-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1364,
+    "LastModified": "2026-01-07T09:49:16.6312394-05:00",
+    "SHA256": "2B6E4A9B8245A95CDF44C963ACA5E40294507F059A99A1B88A7252E900111887",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\engine-mods-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\loaders\\engine-mods-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1332,
+    "LastModified": "2026-01-07T10:06:24.6044994-05:00",
+    "SHA256": "2B5181E2E3B5C591E87C65F7890E33369B1DC94DAF47B4DB75C65A11FD1533BF",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\gas-tank-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\loaders\\gas-tank-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1270,
+    "LastModified": "2026-01-07T09:49:40.67327-05:00",
+    "SHA256": "F66A75D36744F0A75B9C6CEBEAD2920B7870F8D817B68071EFC9F0D19BE9CEC7",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\suspension-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\loaders\\suspension-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1302,
+    "LastModified": "2026-01-07T09:48:33.6323858-05:00",
+    "SHA256": "231C40D71AB2F99A0F4008E438A7DB88A38896D25700F5C860A1E4DD6945BA15",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\tire-options-laoder.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\loaders\\tire-options-laoder.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1371,
+    "LastModified": "2026-01-07T10:08:14.0315917-05:00",
+    "SHA256": "5F057D523844A114FB266243773110A1D07F897DF0D30428C9192EABD75598E9",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\tires-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\loaders\\tires-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1303,
+    "LastModified": "2026-01-07T10:01:38.6478204-05:00",
+    "SHA256": "AB68EADB470A59DF02D4E4526F8983AAB5700CA4CF4B3720BAC6CF336E79FD43",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\weapons-loader.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\loaders\\weapons-loader.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1399,
+    "LastModified": "2026-01-07T12:17:07.7284445-05:00",
+    "SHA256": "95D6484B3F64D0436AC873274A7A2590818D5BB752607C22E41485F30E071360",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\rules\\rule-engine.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\rule-engine.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2804,
+    "LastModified": "2026-01-07T11:46:37.1313445-05:00",
+    "SHA256": "02E0416A8BEA7337D791D428B3E22F8994B09446477F407DCC33A52E1B42400A",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\rules\\rules.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\rules\\rules.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2234,
+    "LastModified": "2026-01-07T10:13:44.1605608-05:00",
+    "SHA256": "B3460A3BE3125A3EDD646C4AF08835A916E21C29E87DC1738460987A48B95842",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\ui",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\ui",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T13:45:09.8774429-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "module\\ui\\chat",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\ui\\chat",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T13:52:34.6371584-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\ui\\chat\\control-roll-card.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\ui\\chat\\control-roll-card.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 641,
+    "LastModified": "2026-01-02T13:50:58.0274424-05:00",
+    "SHA256": "78C9D61161781287017ECE09357F9B61B99B1AEFAEECDE7621B088A54764F8A1",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\ui\\chat\\crash-card.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\ui\\chat\\crash-card.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 518,
+    "LastModified": "2026-01-02T13:52:41.0914328-05:00",
+    "SHA256": "A68846CA90F5F75C968C59E8A189269F5E1D19D4F252AAAEB111FFFCCFED52A6",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\ui\\chat\\hazard-card.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\ui\\chat\\hazard-card.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 547,
+    "LastModified": "2026-01-02T13:50:14.5628267-05:00",
+    "SHA256": "B709B612794CB2EBE8539C8CA603A22C44655ECBB19A6886ACBE9DF71E4B22DF",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\ui\\combat",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\ui\\combat",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T13:45:07.9055365-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\ui\\helpers.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\ui\\helpers.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\ui\\hud.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\ui\\hud.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\ui\\movement",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\ui\\movement",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T13:53:31.6675324-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\ui\\movement\\control-roll-result-handler.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\ui\\movement\\control-roll-result-handler.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1027,
+    "LastModified": "2026-01-02T16:47:17.4039778-05:00",
+    "SHA256": "9C37A7BDA6BF91856DE3011FB99E1EF8142ED6BCA65679A2AC84D954985F2776",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\ui\\movement\\maneuver-handler.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\ui\\movement\\maneuver-handler.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 532,
+    "LastModified": "2026-01-05T13:16:30.8778103-05:00",
+    "SHA256": "AD0F38346ACD18D6CACC904BB2860049271E7597DB8BF1E2CA2F13AA10C2CE6F",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\ui\\movement\\movement-panel-updater.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\ui\\movement\\movement-panel-updater.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 1378,
+    "LastModified": "2026-01-02T16:45:47.2220995-05:00",
+    "SHA256": "57DF7B563DA2B4BFDD283C0D403DA8E4346ADEBAF16D8CF68318192A3E94DA47",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\ui\\movement\\movement-phase-dispatcher.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\ui\\movement\\movement-phase-dispatcher.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 912,
+    "LastModified": "2026-01-02T16:45:13.9894552-05:00",
+    "SHA256": "D833889FAB6AFFEFC54B80A5A644F5643B0C5D42F986CB5A5D299373DD48E779",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\ui\\movement\\movement-phase-service.js",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\ui\\movement\\movement-phase-service.js",
+    "IsDirectory": false,
+    "Extension": ".js",
+    "SizeBytes": 2047,
+    "LastModified": "2026-01-05T16:15:35.2497696-05:00",
+    "SHA256": "D453E132D5B9EE805566653BC9EB0A0785EA5B4806DA07C84B791E4E89F8D3F0",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "module\\ui\\pedestrian",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\ui\\pedestrian",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T13:44:56.2382117-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "module\\ui\\utils",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\module\\ui\\utils",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T13:44:50.4326432-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "movepartials.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\movepartials.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 2319,
+    "LastModified": "2026-01-05T20:27:56.8023099-05:00",
+    "SHA256": "1D0788D8DB9C2F0FB046A2B4EEEEF3BD9AE27DA02818122E064FE027E357FC93",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "outputfilestructure.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\outputfilestructure.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 2182,
+    "LastModified": "2026-01-07T12:30:20.9968412-05:00",
+    "SHA256": "34ED87025F75B68169F4DBC5BEA707E6A22166E7C1C47E401CA09B0C3850C07E",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "packs",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\packs",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:42:44.0514738-05:00",
+    "SHA256": null,
+    "Depth": 1
+  },
+  {
+    "RelativePath": "packs\\accessories.db",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\packs\\accessories.db",
+    "IsDirectory": false,
+    "Extension": ".db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:41:17.8728037-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "packs\\armor.db",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\packs\\armor.db",
+    "IsDirectory": false,
+    "Extension": ".db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:38:59.5874707-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "packs\\chassis.db",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\packs\\chassis.db",
+    "IsDirectory": false,
+    "Extension": ".db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:41:56.266683-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "packs\\maneuvers.db",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\packs\\maneuvers.db",
+    "IsDirectory": false,
+    "Extension": ".db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:42:31.5117812-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "packs\\powerplants",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\packs\\powerplants",
+    "IsDirectory": false,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:39:11.4390073-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "packs\\suspension.db",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\packs\\suspension.db",
+    "IsDirectory": false,
+    "Extension": ".db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:41:29.2123635-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "packs\\tires.db",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\packs\\tires.db",
+    "IsDirectory": false,
+    "Extension": ".db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:40:30.4143855-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "packs\\vehicles.db",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\packs\\vehicles.db",
+    "IsDirectory": false,
+    "Extension": ".db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:42:44.0514738-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "packs\\weapons.db",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\packs\\weapons.db",
+    "IsDirectory": false,
+    "Extension": ".db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:38:38.7889336-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "phase1check",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\phase1check",
+    "IsDirectory": false,
+    "Extension": "",
+    "SizeBytes": 1520,
+    "LastModified": "2026-01-02T11:30:43.5804271-05:00",
+    "SHA256": "E9DC4764C2A944C86BBD8854245FF63126FBB2C8EAC41385E99FDCF365D4C581",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "phase1check.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\phase1check.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 3815,
+    "LastModified": "2026-01-05T09:18:12.1144598-05:00",
+    "SHA256": "677EFC1F318F1AA7E653C5D314E3542F82024B2F2CD00934F5F64039ABA30081",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "phase5check",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\phase5check",
+    "IsDirectory": false,
+    "Extension": "",
+    "SizeBytes": 1723,
+    "LastModified": "2026-01-03T09:27:51.6323523-05:00",
+    "SHA256": "DDA58AE8BF85085CF2A8AFB65E2C3174D5DB01E6C061CCFF834ECA034E6F9C4E",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "phase5check.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\phase5check.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 3191,
+    "LastModified": "2026-01-06T13:40:46.7529107-05:00",
+    "SHA256": "BF80E1A1B56BCF027698C0A948A9F5B291CEAD1E79F20E1B5CDAA758693AA1AC",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "project-file-structure.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\project-file-structure.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 498754,
+    "LastModified": "2026-01-07T12:28:51.7718074-05:00",
+    "SHA256": "19D6A085E87FC8923F291EB9EBB9DD6B0FC9E726F174B1FC98962DBB2C9D190E",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "projectbackup",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\projectbackup",
+    "IsDirectory": false,
+    "Extension": "",
+    "SizeBytes": 139,
+    "LastModified": "2026-01-06T20:30:13.5197763-05:00",
+    "SHA256": "5A7AA00D01885906D1DDF599740A0F85950AF0C1486521BEDD259E561055A81F",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "projectbackup.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\projectbackup.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 142,
+    "LastModified": "2026-01-06T20:37:32.4231906-05:00",
+    "SHA256": "D9E1C40763EDF1800386BEB65DC32D861A89673B9BA6DBBFD5452E65B57BBB83",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "read.md",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\read.md",
+    "IsDirectory": false,
+    "Extension": ".md",
+    "SizeBytes": 3716,
+    "LastModified": "2025-12-20T10:52:14.7714462-05:00",
+    "SHA256": "0608B8D4AC1A74751A34381C71262B8A935AB0FFD49063A6107567F7393E1982",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "rewriteorchestrator",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\rewriteorchestrator",
+    "IsDirectory": false,
+    "Extension": "",
+    "SizeBytes": 1478,
+    "LastModified": "2026-01-05T14:13:07.4979343-05:00",
+    "SHA256": "DE0D95FC6221E02E1F15378F343A4315D813BA9CE1CDEC35ECA8FEB636462EEF",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "rewriteorchestrator.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\rewriteorchestrator.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 1478,
+    "LastModified": "2026-01-05T14:13:27.1517177-05:00",
+    "SHA256": "DE0D95FC6221E02E1F15378F343A4315D813BA9CE1CDEC35ECA8FEB636462EEF",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "styles",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\styles",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:38:07.1905527-05:00",
+    "SHA256": null,
+    "Depth": 1
+  },
+  {
+    "RelativePath": "styles\\carwars.css",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\styles\\carwars.css",
+    "IsDirectory": false,
+    "Extension": ".css",
+    "SizeBytes": 9236,
+    "LastModified": "2026-01-05T20:03:10.4889947-05:00",
+    "SHA256": "3A32ABDB775FE00C6EA91E39F4A2D27CED0BED9E8F8A1F526755B29DC0F42E17",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "styles\\sheets.css",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\styles\\sheets.css",
+    "IsDirectory": false,
+    "Extension": ".css",
+    "SizeBytes": 868,
+    "LastModified": "2025-12-31T22:59:18.0485643-05:00",
+    "SHA256": "763D53AF833A46DE4A7C6361E966F020CAC0F743B65B09B3F357293BB26B3880",
+    "Depth": 2
+  },
+  {
+    "RelativePath": "synctofoundry.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\synctofoundry.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 3738,
+    "LastModified": "2026-01-06T10:59:06.9751004-05:00",
+    "SHA256": "34CCC073AA4EEA9DCC5B5D79D98B63373211B222288C9BFD60958314DB1BE314",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "system.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\system.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 657,
+    "LastModified": "2026-01-05T20:53:10.8560923-05:00",
+    "SHA256": "96DF1313708454AD9D0FF40A72CE32BDCFBB7D4B4FD3BD19F42CDAD235458126",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "systemanalysis.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\systemanalysis.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 1030,
+    "LastModified": "2026-01-02T13:01:02.3252675-05:00",
+    "SHA256": "BF01C014303DEC6C75B00D50C6A15CD51D508002E436917067CBCF69EE8521CA",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "template.json",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\template.json",
+    "IsDirectory": false,
+    "Extension": ".json",
+    "SizeBytes": 255,
+    "LastModified": "2025-12-20T10:19:22.3525087-05:00",
+    "SHA256": "DDA8F8A022D37EB0B845BA05F4BB3076210D5B56F0A24CF1015FF5F9215D82CE",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "templates",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:37:03.4745213-05:00",
+    "SHA256": null,
+    "Depth": 1
+  },
+  {
+    "RelativePath": "templates\\actor",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\actor",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:11:58.9971882-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "templates\\actor\\driver-sheet.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\actor\\driver-sheet.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 2089,
+    "LastModified": "2026-01-06T14:09:41.6604636-05:00",
+    "SHA256": "5EB74483199162F2C04DC6E735FA6E85732B6ACFA722C4149C697C731CC82E17",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "templates\\actor\\partials",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\actor\\partials",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T20:17:36.8881338-05:00",
+    "SHA256": null,
+    "Depth": 3
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\armor-panel.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\actor\\partials\\armor-panel.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 945,
+    "LastModified": "2026-01-05T18:57:27.198403-05:00",
+    "SHA256": "F819AB68FF188C7CBDFA44C44C8EE00A5396AE14510971D8C3CC44C1015F7F94",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\construction-panel.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\actor\\partials\\construction-panel.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 1820,
+    "LastModified": "2026-01-06T20:17:57.2820563-05:00",
+    "SHA256": "88D1825C04C936B34FFE0953992431024BECF3AD21CD14D25729D628C6ADD50B",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\construction-panel.html.bak",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\actor\\partials\\construction-panel.html.bak",
+    "IsDirectory": false,
+    "Extension": ".bak",
+    "SizeBytes": 1868,
+    "LastModified": "2026-01-06T20:14:58.1139453-05:00",
+    "SHA256": "05DDDBE4F33CCEF4C218DAA6A5CBF3BEABC92B7F1CA3B06CFDE061DA42302291",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\crew-panel.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\actor\\partials\\crew-panel.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 884,
+    "LastModified": "2026-01-06T14:12:34.1079552-05:00",
+    "SHA256": "B45C4C964AB66D1150BFD1F73DF688DCB2D9A46F088D61A84B304A72651FDC84",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\crew-role.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\actor\\partials\\crew-role.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 3184,
+    "LastModified": "2026-01-06T18:47:39.9691012-05:00",
+    "SHA256": "77ABB8AECE74D828D5695F98C1F9BB0541397B4D1583F0E95E4B655DDA96E340",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\engine-panel.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\actor\\partials\\engine-panel.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T11:06:01.9311413-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\hazard-display.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\actor\\partials\\hazard-display.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 1226,
+    "LastModified": "2026-01-05T19:54:06.2609588-05:00",
+    "SHA256": "E7D630492FCAED6587050F6BD48DB74B9CE16A31089C86AA05B6F137AFC2F7E9",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\hc-tracker.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\actor\\partials\\hc-tracker.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 736,
+    "LastModified": "2026-01-05T19:55:13.7038385-05:00",
+    "SHA256": "DB43A942F8A37DB624D46781EEFD3DE5E3F1B4C14C692C9A41B6B4AAC46F7AA1",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\movement-panel.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\actor\\partials\\movement-panel.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 6801,
+    "LastModified": "2026-01-05T19:53:09.2140618-05:00",
+    "SHA256": "3CC331D7CC6A2D4462A356AE0DEA73FC9BC75BFB44B556207F6A1C900F228224",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\speed-control.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\actor\\partials\\speed-control.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 992,
+    "LastModified": "2026-01-05T19:55:56.8793164-05:00",
+    "SHA256": "0879D89A963E3E72391B7A6C4422B52BC0B63EFD824AD7C0829238BFEE94B374",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\systems-panel.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\actor\\partials\\systems-panel.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 5123,
+    "LastModified": "2026-01-05T19:58:49.6910882-05:00",
+    "SHA256": "09BD6C9A25BD814042E63F09BE55D3E3108126A4DDAD261BE9A122A7AF33BD85",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\validation-panel.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\actor\\partials\\validation-panel.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 1229,
+    "LastModified": "2026-01-05T20:03:05.0479611-05:00",
+    "SHA256": "F781A8E0B7650A117664506547D2C6BB0C937036346D241A4F3CABDEF55A8A4D",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\weapon-panel.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\actor\\partials\\weapon-panel.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 2198,
+    "LastModified": "2026-01-05T19:44:39.4969437-05:00",
+    "SHA256": "A63D42A893E47D3821D290C3C4E2AEDF63E302576D031DCD1BCDBCFA25B626BA",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\weapon-summary.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\actor\\partials\\weapon-summary.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 723,
+    "LastModified": "2026-01-05T19:10:18.8980996-05:00",
+    "SHA256": "CCA0081B723248A8FACCF8C55A8C05F8117C8B17AB6FB5C12D23147EA5382DC1",
+    "Depth": 4
+  },
+  {
+    "RelativePath": "templates\\actor\\vehicle-sheet.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\actor\\vehicle-sheet.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 3697,
+    "LastModified": "2026-01-06T13:59:40.3623895-05:00",
+    "SHA256": "B5542DD4B46E814387DADCABACE2248B27AAB0B47860ABFDDC8F83BB837BA092",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "templates\\chat",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\chat",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:18:22.525403-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "templates\\chat\\control-roll-card.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\chat\\control-roll-card.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "templates\\chat\\maneuver-card.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\chat\\maneuver-card.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "templates\\item",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\item",
+    "IsDirectory": true,
+    "Extension": "",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:17:18.0076564-05:00",
+    "SHA256": null,
+    "Depth": 2
+  },
+  {
+    "RelativePath": "templates\\item\\accessory-sheet.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\item\\accessory-sheet.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "templates\\item\\armor-sheet.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\item\\armor-sheet.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "templates\\item\\powerplant-sheet.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\item\\powerplant-sheet.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "templates\\item\\suspension-sheet.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\item\\suspension-sheet.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "templates\\item\\tire-sheet.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\item\\tire-sheet.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "templates\\item\\weapon-sheet.html",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\templates\\item\\weapon-sheet.html",
+    "IsDirectory": false,
+    "Extension": ".html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "Depth": 3
+  },
+  {
+    "RelativePath": "test-carwarssystem.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\test-carwarssystem.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 5990,
+    "LastModified": "2026-01-05T20:20:12.0764674-05:00",
+    "SHA256": "069EB676619490E7278492693D167F0C7683C128053D4DB02B36AAC46889A7E1",
+    "Depth": 1
+  },
+  {
+    "RelativePath": "validationbuilder.ps1",
+    "FullPath": "C:\\Users\\Feindevil.SANCTUARY\\OneDrive\\carwars-system\\validationbuilder.ps1",
+    "IsDirectory": false,
+    "Extension": ".ps1",
+    "SizeBytes": 62,
+    "LastModified": "2026-01-06T20:33:32.4317411-05:00",
+    "SHA256": "3774061125CA783B792605B95B3F0A7980B63C83C196D5F8D8160BA5B37D8C5D",
+    "Depth": 1
+  }
+]

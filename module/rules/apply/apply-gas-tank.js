@@ -1,10 +1,8 @@
-// module/rules/apply/apply-gas-tank.js
-
-export function applyGasTank(actor, rules) {
+export function applyGasTank(actor, rules, rulesData) {
   const tankId = actor.system.gasTankType;
   if (!tankId) return;
 
-  const tankData = game.cw.catalog.gasTanks.find(t => t.id === tankId);
+  const tankData = rulesData.gasTanks?.[tankId];
   if (!tankData) return;
 
   const gallons = actor.system.gasGallons || 0;

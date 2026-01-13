@@ -42,15 +42,18 @@ export class RuleEngine {
   applyAll() {
     this.log("START", { actor: this.actor.name });
 
-    this._apply("Body", applyBody);
-    this._apply("Chassis", applyChassis);
-    this._apply("Suspension", applySuspension);
-    this._apply("Engine", applyEngine);
-    this._apply("Gas Tank", applyGasTank);
-    this._apply("Tires", applyTires);
-    this._apply("Armor", applyArmor);
-    this._apply("Weapons", applyWeapons);
-    this._apply("Accessories", applyAccessories);
+    // Pull rules data from the unified registry
+    const rulesData = game.carwars.rules.getAll();
+
+    this._apply("Body", applyBody, rulesData);
+    this._apply("Chassis", applyChassis, rulesData);
+    this._apply("Suspension", applySuspension, rulesData);
+    this._apply("Engine", applyEngine, rulesData);
+    this._apply("Gas Tank", applyGasTank, rulesData);
+    this._apply("Tires", applyTires, rulesData);
+    this._apply("Armor", applyArmor, rulesData);
+    this._apply("Weapons", applyWeapons, rulesData);
+    this._apply("Accessories", applyAccessories, rulesData);
 
     this.log("END TOTALS", structuredClone(this.rules));
 
@@ -64,9 +67,12 @@ export class RuleEngine {
     return this.rules;
   }
 
-  _apply(label, fn) {
+  _apply(label, fn, rulesData) {
     const before = structuredClone(this.rules);
-    fn(this.actor, this.rules);
+
+    // All apply modules now take (actor, rules, rulesData)
+    fn(this.actor, this.rules, rulesData);
+
     const after = this.rules;
 
     this.log(label, {

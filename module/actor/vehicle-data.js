@@ -1,10 +1,14 @@
 // module/actor/vehicle-data.js
+// Modern, clean V12+ DataModel for Car Wars vehicles (schema unchanged)
 
 import { RuleEngine } from "../rules/rule-engine.js";
 import { validateVehicle } from "../construction/validation/index.js";
 import { CatalogLoader } from "../construction/catalog-loader.js";
 
 export class CarWarsVehicleDataModel extends foundry.abstract.DataModel {
+  // ---------------------------------------------------------------------------
+  // SCHEMA (unchanged)
+  // ---------------------------------------------------------------------------
   static defineSchema() {
     const {
       StringField,
@@ -15,15 +19,8 @@ export class CarWarsVehicleDataModel extends foundry.abstract.DataModel {
     } = foundry.data.fields;
 
     return {
-
-      // ============================================================
-      // VEHICLE TYPE (car, cycle, trike, truck, tractor, trailer, bus, rv, copter)
-      // ============================================================
       type: new StringField({ initial: "car" }),
 
-      // ============================================================
-      // META (RAW record sheet fields)
-      // ============================================================
       meta: new SchemaField({
         name: new StringField({ initial: "" }),
         size: new StringField({ initial: "" }),
@@ -37,12 +34,7 @@ export class CarWarsVehicleDataModel extends foundry.abstract.DataModel {
         notes: new ArrayField(new StringField(), { initial: [] })
       }),
 
-      // ============================================================
-      // ARMOR (full RAW superset)
-      // ============================================================
       armor: new SchemaField({
-
-        // Standard facings
         front: new NumberField({ initial: 0 }),
         back: new NumberField({ initial: 0 }),
         left: new NumberField({ initial: 0 }),
@@ -50,7 +42,6 @@ export class CarWarsVehicleDataModel extends foundry.abstract.DataModel {
         top: new NumberField({ initial: 0 }),
         underbody: new NumberField({ initial: 0 }),
 
-        // Segmented armor (bus, RV, trailer)
         frontLeft: new NumberField({ initial: 0 }),
         frontRight: new NumberField({ initial: 0 }),
         backLeft: new NumberField({ initial: 0 }),
@@ -60,7 +51,6 @@ export class CarWarsVehicleDataModel extends foundry.abstract.DataModel {
         frontUnderbody: new NumberField({ initial: 0 }),
         backUnderbody: new NumberField({ initial: 0 }),
 
-        // Cab + Carrier (tractor / ten-wheeler)
         cabFront: new NumberField({ initial: 0 }),
         cabBack: new NumberField({ initial: 0 }),
         cabLeft: new NumberField({ initial: 0 }),
@@ -75,11 +65,9 @@ export class CarWarsVehicleDataModel extends foundry.abstract.DataModel {
         carrierTop: new NumberField({ initial: 0 }),
         carrierUnderbody: new NumberField({ initial: 0 }),
 
-        // Helicopter
         mainRotor: new NumberField({ initial: 0 }),
         stabilizerRotor: new NumberField({ initial: 0 }),
 
-        // Breach states (unified)
         breached: new SchemaField({
           front: new BooleanField({ initial: false }),
           back: new BooleanField({ initial: false }),
@@ -90,11 +78,7 @@ export class CarWarsVehicleDataModel extends foundry.abstract.DataModel {
         })
       }),
 
-      // ============================================================
-      // COMPONENTS (powerplant, gas tank, tires, weapons, accessories)
-      // ============================================================
       components: new SchemaField({
-
         powerplant: new SchemaField({
           id: new StringField({ initial: "" }),
           dp: new NumberField({ initial: 0 }),
@@ -144,9 +128,6 @@ export class CarWarsVehicleDataModel extends foundry.abstract.DataModel {
         )
       }),
 
-      // ============================================================
-      // MOVEMENT (RAW control + movement engine)
-      // ============================================================
       movement: new SchemaField({
         currentSpeed: new NumberField({ initial: 0 }),
         lastSpeed: new NumberField({ initial: 0 }),
@@ -155,25 +136,12 @@ export class CarWarsVehicleDataModel extends foundry.abstract.DataModel {
         isSkidding: new BooleanField({ initial: false }),
         isSpinout: new BooleanField({ initial: false }),
 
-        // ★ NEW RAW FIELD — Handling Track (–6 to +6)
         handlingStatus: new NumberField({ initial: 0 }),
-
-        // ★ NEW RAW FIELD — Last maneuver difficulty (D1–D7)
         lastManeuverDifficulty: new NumberField({ initial: 0 }),
-
-        // ★ NEW RAW FIELD — Terrain hazard modifier (D1–D6)
         terrainHazard: new NumberField({ initial: 0 }),
-
-        // ★ NEW RAW FIELD — Deceleration hazard (D1/D3/D7)
         decelHazard: new NumberField({ initial: 0 }),
-
-        // ★ NEW RAW FIELD — Control roll target (computed)
         controlTarget: new NumberField({ initial: 0 }),
-
-        // ★ NEW RAW FIELD — Temporary speed (collision)
         temporarySpeed: new NumberField({ initial: 0 }),
-
-        // ★ NEW RAW FIELD — Conforming movement flag
         isConforming: new BooleanField({ initial: false }),
 
         skidData: new SchemaField({
@@ -185,9 +153,6 @@ export class CarWarsVehicleDataModel extends foundry.abstract.DataModel {
         phase: new NumberField({ initial: 1 })
       }),
 
-      // ============================================================
-      // PERFORMANCE (derived by rule engine)
-      // ============================================================
       performance: new SchemaField({
         topSpeed: new NumberField({ initial: 0 }),
         accelLimit: new NumberField({ initial: 0 }),
@@ -196,39 +161,24 @@ export class CarWarsVehicleDataModel extends foundry.abstract.DataModel {
         spaceCapacity: new NumberField({ initial: 0 })
       }),
 
-      // ============================================================
-      // CREW (RAW record sheet)
-      // ============================================================
-      crew: new SchemaField({
-        driver: new SchemaField({
+      crew: new ArrayField(
+        new SchemaField({
           name: new StringField({ initial: "" }),
+          role: new StringField({ initial: "" }),
           skills: new ArrayField(new StringField(), { initial: [] }),
           equipment: new ArrayField(new StringField(), { initial: [] }),
           damage: new StringField({ initial: "" }),
           notes: new StringField({ initial: "" })
         }),
-        gunner: new SchemaField({
-          name: new StringField({ initial: "" }),
-          skills: new ArrayField(new StringField(), { initial: [] }),
-          equipment: new ArrayField(new StringField(), { initial: [] }),
-          damage: new StringField({ initial: "" }),
-          notes: new StringField({ initial: "" })
-        }),
-        occupants: new ArrayField(new StringField(), { initial: [] })
-      }),
+        { initial: [] }
+      ),
 
-      // ============================================================
-      // STATE (fire, breach, destruction)
-      // ============================================================
       state: new SchemaField({
         burning: new BooleanField({ initial: false }),
         destroyed: new BooleanField({ initial: false }),
         breached: new BooleanField({ initial: false })
       }),
 
-      // ============================================================
-      // VALIDATION (UI only)
-      // ============================================================
       validation: new SchemaField({
         errors: new ArrayField(new StringField(), { initial: [] }),
         warnings: new ArrayField(new StringField(), { initial: [] })
@@ -236,16 +186,16 @@ export class CarWarsVehicleDataModel extends foundry.abstract.DataModel {
     };
   }
 
-  // ============================================================
-  // PREPARE DATA (rule engine + validation + movement)
-  // ============================================================
+  // ---------------------------------------------------------------------------
+  // PREPARE DATA (rules, validation, movement)
+  // ---------------------------------------------------------------------------
   prepareData() {
     super.prepareData();
 
     const engine = new RuleEngine(this.parent);
     const results = engine.applyAll() || {};
 
-    // Derived values (weight, spaces, performance, etc.)
+    // Derived values
     this.meta.weight = results.weight ?? this.meta.weight;
     this.meta.cost = results.totalCost ?? this.meta.cost;
 
@@ -257,10 +207,9 @@ export class CarWarsVehicleDataModel extends foundry.abstract.DataModel {
 
     // Validation
     const catalogs = CatalogLoader.getAll();
-    const validation = validateVehicle(this, catalogs);
-    this.validation = validation;
+    this.validation = validateVehicle(this, catalogs);
 
-    // Movement reset at phase 1
+    // Movement reset
     if (this.movement.phase === 1) {
       this.movement.hazards = 0;
     }

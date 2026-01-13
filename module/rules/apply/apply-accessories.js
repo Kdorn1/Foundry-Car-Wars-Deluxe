@@ -1,11 +1,9 @@
-// module/rules/apply/apply-accessories.js
-
-export function applyAccessories(actor, rules) {
+export function applyAccessories(actor, rules, rulesData) {
   const accessories = actor.items.filter(i => i.type === "accessory");
 
   for (const acc of accessories) {
     const accId = acc.system.key;
-    const accData = game.cw.catalog.accessories.find(a => a.id === accId);
+    const accData = rulesData.accessories?.[accId];
     if (!accData) continue;
 
     rules.weight += accData.weight || 0;

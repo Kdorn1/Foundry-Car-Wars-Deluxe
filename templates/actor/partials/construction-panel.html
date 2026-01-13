@@ -1,66 +1,49 @@
-/* ========================================================= */
-/* Systems Panel Styles                                       */
-/* ========================================================= */
+<div class="tab" data-group="primary" data-tab="construction">
+  <section class="carwars construction-panel">
+    <header class="construction-header">
+      <h3>Construction</h3>
+    </header>
 
-.carwars .systems-panel {
-  padding: 0.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
+    <section class="construction-section">
+      <div class="construction-subheader">Parts</div>
+      <ul class="construction-list">
+        {{!-- Adjust the path below to match your data model if needed --}}
+        {{#if actor.system.construction.parts}}
+          {{#each actor.system.construction.parts}}
+            <li class="construction-entry">
+              <div class="construction-field">
+                <label>{{this.name}}</label>
+                <span class="construction-value">{{this.value}}</span>
+              </div>
+              {{#if this.notes}}
+                <div class="construction-sub">{{this.notes}}</div>
+              {{/if}}
+            </li>
+          {{/each}}
+        {{else}}
+          <li class="construction-empty">No construction parts defined.</li>
+        {{/if}}
+      </ul>
+    </section>
 
-.carwars .system-section {
-  border: 1px solid #333;
-  border-radius: 3px;
-  padding: 0.5rem;
-}
-
-.carwars .system-header {
-  margin: 0 0 0.5rem 0;
-  font-size: 1rem;
-  border-bottom: 1px solid #444;
-  padding-bottom: 0.25rem;
-}
-
-.carwars .system-field {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 0.35rem;
-}
-
-.carwars .system-field label {
-  font-size: 0.8rem;
-  opacity: 0.8;
-}
-
-.carwars .system-value {
-  font-weight: bold;
-}
-
-.carwars .system-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.carwars .system-entry {
-  padding: 0.25rem 0;
-  border-bottom: 1px solid #333;
-  display: flex;
-  flex-direction: column;
-  gap: 0.15rem;
-}
-
-.carwars .system-entry:last-child {
-  border-bottom: none;
-}
-
-.carwars .system-sub {
-  font-size: 0.75rem;
-  opacity: 0.85;
-}
-
-.carwars .system-empty {
-  opacity: 0.7;
-  font-style: italic;
-}
+    <section class="validation-panel">
+      <div class="validation-section {{#if validation.isValid}}validation-valid{{else}}validation-errors{{/if}}">
+        <h3>{{#if validation.isValid}}Build Valid{{else}}Validation{{/if}}</h3>
+        {{#if validation.isValid}}
+          <div class="validation-entry valid">No errors detected.</div>
+        {{else}}
+          {{#if validation.errors}}
+            {{#each validation.errors}}
+              <div class="validation-entry error">{{this}}</div>
+            {{/each}}
+          {{/if}}
+          {{#if validation.warnings}}
+            {{#each validation.warnings}}
+              <div class="validation-entry warning">{{this}}</div>
+            {{/each}}
+          {{/if}}
+        {{/if}}
+      </div>
+    </section>
+  </section>
+</div>

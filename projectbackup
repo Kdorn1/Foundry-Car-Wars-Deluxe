@@ -1,0 +1,2 @@
+# run from the project root
+Compress-Archive -Path .\* -DestinationPath ..\carwars-system-snapshot-$(Get-Date -Format yyyyMMdd-HHmm).zip

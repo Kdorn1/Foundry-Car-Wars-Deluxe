@@ -1,10 +1,8 @@
-// module/rules/apply/apply-engine.js
-
-export function applyEngine(actor, rules) {
+export function applyEngine(actor, rules, rulesData) {
   const engineId = actor.system.powerPlantType;
   if (!engineId) return;
 
-  const engineData = game.cw.catalog.powerplants.find(e => e.id === engineId);
+  const engineData = rulesData.powerplants?.[engineId];
   if (!engineData) return;
 
   rules.weight += engineData.weight;
@@ -16,4 +14,3 @@ export function applyEngine(actor, rules) {
 
   // Engine cost handled elsewhere
 }
-/* Auto-generated placeholder for apply-engine.js */

@@ -7,7 +7,19 @@
     }
   },
   "Item": {
-    "types": ["weapon", "armor", "powerplant", "tire", "accessory", "suspension"],
+    "types": [
+      "accessory",
+      "armor",
+      "body",
+      "chassis",
+      "engineMod",
+      "gasTank",
+      "powerplant",
+      "suspension",
+      "tire",
+      "tireOption",
+      "weapon"
+    ],
     "templates": {}
   }
 }

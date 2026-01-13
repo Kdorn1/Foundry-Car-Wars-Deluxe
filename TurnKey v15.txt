@@ -1,0 +1,256 @@
+// TurnKey v15– Turn Notification Now Heading-Aligned (CRT, D0 hidden, Full Visual Sync)
+const PreciseText = foundry.canvas.containers.PreciseText;
+
+let params = [{
+  filterType: "transform",
+  filterId: "dodgeStance",
+  padding: 10,
+  animated: {
+    translationX: { animType: "sinOscillation", val1: -0.00125, val2: +0.00125, loopDuration: 200 },
+    translationY: { animType: "cosOscillation", val1: -0.0015, val2: +0.0015, loopDuration: 200 }
+  }
+}];
+
+await TokenMagic.addUpdateFiltersOnSelected(params);
+
+const token = canvas.tokens.controlled[0];
+if (!token) return ui.notifications.warn("Select a vehicle token first!");
+
+const gridSize = canvas.scene.grid.size;
+if (!gridSize) return ui.notifications.warn("Grid size not found!");
+
+ui.notifications.info(`TurnKey 13.9 Active: ${token.name}`);
+
+let lastDriftContainer = null;
+let lastTurnText = null;
+let initialRotation = token.document.rotation;
+let driftOrigin = null;
+let resetTimer;
+let driftTimeout;
+let startZone = null;
+let startZoneTimeout;
+
+function fadeOutGroup(elements) {
+  let alpha = 1;
+  const fadeStep = 0.1;
+  const shakeAmount = 6;
+  function step() {
+    alpha -= fadeStep;
+    for (const e of elements) {
+      if (!e) continue;
+      e.alpha = alpha;
+      e.x += (Math.random() - 0.5) * shakeAmount;
+      e.y += (Math.random() - 0.5) * shakeAmount;
+    }
+    if (alpha <= 0) {
+      for (const e of elements) {
+        if (e?.parent) e.parent.removeChild(e);
+      }
+    } else {
+      requestAnimationFrame(step);
+    }
+  }
+  step();
+}
+
+function createStartZone(x, y) {
+  const square = new PIXI.Graphics();
+  square.beginFill(0x5F5F5F, 0.3);
+  square.lineStyle(4, 0x000000, 0.4);
+  square.drawRect(-gridSize / 2, -gridSize / 2, gridSize, gridSize);
+  square.endFill();
+  square.x = x;
+  square.y = y;
+  square.rotation = (driftOrigin.rotation * Math.PI) / 180;
+  canvas.interface.addChild(square);
+  return square;
+}
+
+function resetStartZoneTimer() {
+  if (startZoneTimeout) clearTimeout(startZoneTimeout);
+  startZoneTimeout = setTimeout(() => {
+    if (startZone && startZone.parent) fadeOutGroup([startZone]);
+    startZone = null;
+    driftOrigin = null;
+  }, 9000);
+}
+function buildCRTFrame(label, paddingX = 10, paddingTop = 3, paddingBottom = 3, radius = 2) {
+  const visualHeight = label.height * 0.75;
+  const bg = new PIXI.Graphics();
+  bg.beginFill(0x000000, 1.0);
+  bg.lineStyle(2, 0x00FF88, 0.3);
+  bg.drawRoundedRect(
+    -label.width / 2 - paddingX / 2,
+    -visualHeight / 2 - paddingTop,
+    label.width + paddingX,
+    visualHeight + paddingTop + paddingBottom,
+    radius
+  );
+  bg.endFill();
+  return bg;
+}
+
+function animateDriftTrail(originX, originY, endX, endY, driftLevel, color, rotation, holdTime = 9000) {
+  if (lastDriftContainer && lastDriftContainer.parent) {
+    lastDriftContainer.parent.removeChild(lastDriftContainer);
+  }
+
+  const container = new PIXI.Container();
+  const label = new PreciseText(driftLevel, {
+    fontFamily: "Courier",
+    fontWeight: "bold",
+    fontSize: 16,
+    fill: color,
+    stroke: "#000000",
+    strokeThickness: 3,
+    align: "center"
+  });
+  label.anchor.set(0.5);
+
+  const bg = buildCRTFrame(label);
+  container.addChild(bg);
+  container.addChild(label);
+  token.addChild(container);
+
+  const offsetX = driftLevel === "D0" ? 0 : (driftLevel === "X" ? 2.5 : 2.0);
+  const sign = driftLevel === "D0" ? 0 : (endX > originX ? +1 : -1);
+
+  const px = sign * offsetX * gridSize;
+  const py = -gridSize;
+  const cosA = Math.cos(rotation);
+  const sinA = Math.sin(rotation);
+  const rotatedX = px * cosA - py * sinA;
+  const rotatedY = px * sinA + py * cosA;
+
+  container.position.set(token.w / 2 + rotatedX, token.h / 2 + rotatedY);
+  container.rotation = rotation;
+
+  if (driftLevel === "D0") container.alpha = 0.0;
+
+  setTimeout(() => fadeOutGroup([container]), holdTime);
+  lastDriftContainer = container;
+}
+
+function animateTurnLabel(difficulty, turnAngle, rotation, color) {
+  if (lastTurnText && lastTurnText.parent) {
+    lastTurnText.parent.removeChild(lastTurnText);
+  }
+
+  const label = new PreciseText(`${difficulty} ${turnAngle}°`, {
+    fontFamily: "Courier",
+    fontWeight: "bold",
+    fontSize: 16,
+    fill: color,
+    stroke: "#000000",
+    strokeThickness: 3,
+    align: "center",
+  });
+  label.anchor.set(0.5);
+
+  const bg = buildCRTFrame(label);
+  const container = new PIXI.Container();
+  container.addChild(bg);
+  container.addChild(label);
+  token.addChild(container);
+
+  const forward = -4 * gridSize;
+  const px = 0;
+  const py = forward;
+  const cosA = Math.cos(rotation);
+  const sinA = Math.sin(rotation);
+  const offsetX = px * cosA - py * sinA;
+  const offsetY = px * sinA + py * cosA;
+
+  container.position.set(token.w / 2 + offsetX, token.h / 2 + offsetY);
+  container.rotation = rotation;
+
+  setTimeout(() => fadeOutGroup([container]), 9000);
+  lastTurnText = container;
+}
+function updateDriftNotification(lateralMovement, driftDirection) {
+  let driftLevel = "";
+  let color = "";
+
+  if (lateralMovement < 0.25) {
+    driftLevel = "D0";
+    color = "#777777";
+  }
+  else if (lateralMovement <= 1) {
+    driftLevel = "D1";
+    color = "#3B9C9C";
+  }
+  else if (lateralMovement <= 2) {
+    driftLevel = "D3";
+    color = "#FDD835";
+  }
+  else {
+    driftLevel = "X";
+    color = "#8B0000";
+  }
+
+  const angle = (token.document.rotation * Math.PI) / 180;
+  const startX = token.center.x;
+  const startY = token.center.y;
+  const endX = token.center.x + (driftDirection > 0 ? gridSize * 2.5 : -gridSize * 2.5);
+  const endY = token.center.y;
+
+  animateDriftTrail(startX, startY, endX, endY, driftLevel, color, angle);
+  console.log(`📏 DrNo Displayed: ${driftLevel} (${lateralMovement.toFixed(2)} grids)`);
+}
+
+function updateTurnNotification(turnAngle, newRotation) {
+  turnAngle = Math.round(turnAngle / 5) * 5;
+  let difficulty = "D0";
+  let color = "#FFFFFF";
+
+  if (turnAngle >= 16 && turnAngle <= 30) { difficulty = "D1"; color = "#3B9C9C"; }
+  else if (turnAngle >= 31 && turnAngle <= 45) { difficulty = "D2"; color = "#4CAF50"; }
+  else if (turnAngle >= 46 && turnAngle <= 60) { difficulty = "D3"; color = "#FDD835"; }
+  else if (turnAngle >= 61 && turnAngle <= 75) { difficulty = "D4"; color = "#FFA500"; }
+  else if (turnAngle >= 76 && turnAngle <= 90) { difficulty = "D5"; color = "#C63737"; }
+  else if (turnAngle >= 91 && turnAngle <= 180) { difficulty = "D7"; color = "#FFFFFF"; }
+
+  const angle = (newRotation * Math.PI) / 180;
+  animateTurnLabel(difficulty, turnAngle, angle, color);
+}
+
+function resetDriftOrigin(doc) {
+  if (!driftOrigin) {
+    driftOrigin = { x: doc.x, y: doc.y, rotation: doc.rotation };
+    startZone = createStartZone(token.center.x, token.center.y);
+    console.log(`🧱 Drift Origin Set: x=${driftOrigin.x}, y=${driftOrigin.y}, heading=${driftOrigin.rotation}°`);
+  }
+  resetStartZoneTimer();
+}
+
+function calculateDrift() {
+  const dx = token.document.x - driftOrigin.x;
+  const dy = token.document.y - driftOrigin.y;
+  const rad = (driftOrigin.rotation * Math.PI) / 180;
+  const rotatedX = dx * Math.cos(rad) + dy * Math.sin(rad);
+  const lateral = Math.abs(rotatedX) / gridSize;
+  const direction = Math.sign(rotatedX);
+  updateDriftNotification(lateral, direction);
+}
+Hooks.on("updateToken", (doc, change) => {
+  if (doc.id !== token.id) return;
+
+  if (change.hasOwnProperty("x") || change.hasOwnProperty("y")) {
+    resetDriftOrigin(doc);
+    if (driftTimeout) clearTimeout(driftTimeout);
+    driftTimeout = setTimeout(() => calculateDrift(), 150);
+  }
+
+  if (change.hasOwnProperty("rotation")) {
+    let angle = Math.abs(change.rotation - initialRotation);
+    if (angle > 180) angle = 360 - angle;
+    updateTurnNotification(angle, change.rotation);
+
+    if (resetTimer) clearTimeout(resetTimer);
+    resetTimer = setTimeout(() => {
+      initialRotation = doc.rotation;
+    }, 9000);
+  }
+});
+
+console.log("✅ TurnKey v15 – Turn & Drift Labels Now Directionally Aligned");

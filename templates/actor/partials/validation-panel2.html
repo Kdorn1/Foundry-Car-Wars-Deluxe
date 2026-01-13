@@ -1,0 +1,42 @@
+<div class="validation-panel">
+
+  {{!-- ========================= --}}
+  {{!-- ERRORS                    --}}
+  {{!-- ========================= --}}
+  {{#if system.validation.errors.length}}
+  <div class="validation-section validation-errors">
+    <h3>Errors ({{system.validation.errors.length}})</h3>
+    <ul>
+      {{#each system.validation.errors}}
+      <li class="validation-entry error">{{this}}</li>
+      {{/each}}
+    </ul>
+  </div>
+  {{/if}}
+
+  {{!-- ========================= --}}
+  {{!-- WARNINGS                  --}}
+  {{!-- ========================= --}}
+  {{#if system.validation.warnings.length}}
+  <div class="validation-section validation-warnings">
+    <h3>Warnings ({{system.validation.warnings.length}})</h3>
+    <ul>
+      {{#each system.validation.warnings}}
+      <li class="validation-entry warning">{{this}}</li>
+      {{/each}}
+    </ul>
+  </div>
+  {{/if}}
+
+  {{!-- ========================= --}}
+  {{!-- VALID BUILD MESSAGE       --}}
+  {{!-- ========================= --}}
+  {{#unless system.validation.errors.length}}
+  <div class="validation-section validation-valid">
+    <h3>Build Valid</h3>
+    <p>No errors detected.</p>
+  </div>
+  {{/unless}}
+
+</div>
+// End of validation-panel

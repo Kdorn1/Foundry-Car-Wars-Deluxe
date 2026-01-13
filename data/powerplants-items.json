@@ -1,0 +1,386 @@
+[
+  {
+    "name": "10 cid Gas Engine",
+    "type": "powerplant",
+    "system": {
+      "id": "gas-10cid",
+      "name": "10 cid Gas Engine",
+      "type": "gas",
+      "weight": 60,
+      "spaces": 1,
+      "dp": 1,
+      "cost": 400,
+      "pf": 300,
+      "baseMPG": 80,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "30 cid Gas Engine",
+    "type": "powerplant",
+    "system": {
+      "id": "gas-30cid",
+      "name": "30 cid Gas Engine",
+      "type": "gas",
+      "weight": 115,
+      "spaces": 1,
+      "dp": 2,
+      "cost": 750,
+      "pf": 500,
+      "baseMPG": 70,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "50 cid Gas Engine",
+    "type": "powerplant",
+    "system": {
+      "id": "gas-50cid",
+      "name": "50 cid Gas Engine",
+      "type": "gas",
+      "weight": 150,
+      "spaces": 1,
+      "dp": 3,
+      "cost": 1250,
+      "pf": 700,
+      "baseMPG": 60,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "100 cid Gas Engine",
+    "type": "powerplant",
+    "system": {
+      "id": "gas-100cid",
+      "name": "100 cid Gas Engine",
+      "type": "gas",
+      "weight": 265,
+      "spaces": 2,
+      "dp": 6,
+      "cost": 2500,
+      "pf": 1300,
+      "baseMPG": 50,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "150 cid Gas Engine",
+    "type": "powerplant",
+    "system": {
+      "id": "gas-150cid",
+      "name": "150 cid Gas Engine",
+      "type": "gas",
+      "weight": 375,
+      "spaces": 3,
+      "dp": 9,
+      "cost": 4000,
+      "pf": 1900,
+      "baseMPG": 45,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "200 cid Gas Engine",
+    "type": "powerplant",
+    "system": {
+      "id": "gas-200cid",
+      "name": "200 cid Gas Engine",
+      "type": "gas",
+      "weight": 480,
+      "spaces": 4,
+      "dp": 12,
+      "cost": 5500,
+      "pf": 2500,
+      "baseMPG": 35,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "250 cid Gas Engine",
+    "type": "powerplant",
+    "system": {
+      "id": "gas-250cid",
+      "name": "250 cid Gas Engine",
+      "type": "gas",
+      "weight": 715,
+      "spaces": 5,
+      "dp": 14,
+      "cost": 6500,
+      "pf": 3200,
+      "baseMPG": 28,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "300 cid Gas Engine",
+    "type": "powerplant",
+    "system": {
+      "id": "gas-300cid",
+      "name": "300 cid Gas Engine",
+      "type": "gas",
+      "weight": 825,
+      "spaces": 6,
+      "dp": 16,
+      "cost": 7800,
+      "pf": 4000,
+      "baseMPG": 22,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "350 cid Gas Engine",
+    "type": "powerplant",
+    "system": {
+      "id": "gas-350cid",
+      "name": "350 cid Gas Engine",
+      "type": "gas",
+      "weight": 975,
+      "spaces": 7,
+      "dp": 19,
+      "cost": 9500,
+      "pf": 5000,
+      "baseMPG": 18,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "400 cid Gas Engine",
+    "type": "powerplant",
+    "system": {
+      "id": "gas-400cid",
+      "name": "400 cid Gas Engine",
+      "type": "gas",
+      "weight": 1050,
+      "spaces": 8,
+      "dp": 22,
+      "cost": 10500,
+      "pf": 6300,
+      "baseMPG": 15,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "450 cid Gas Engine",
+    "type": "powerplant",
+    "system": {
+      "id": "gas-450cid",
+      "name": "450 cid Gas Engine",
+      "type": "gas",
+      "weight": 1125,
+      "spaces": 9,
+      "dp": 24,
+      "cost": 11700,
+      "pf": 7800,
+      "baseMPG": 13,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "500 cid Gas Engine",
+    "type": "powerplant",
+    "system": {
+      "id": "gas-500cid",
+      "name": "500 cid Gas Engine",
+      "type": "gas",
+      "weight": 1200,
+      "spaces": 10,
+      "dp": 26,
+      "cost": 13000,
+      "pf": 9500,
+      "baseMPG": 12,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "700 cid Gas Engine",
+    "type": "powerplant",
+    "system": {
+      "id": "gas-700cid",
+      "name": "700 cid Gas Engine",
+      "type": "gas",
+      "weight": 1275,
+      "spaces": 14,
+      "dp": 30,
+      "cost": 19000,
+      "pf": 13000,
+      "baseMPG": 10,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Small Cycle Electric",
+    "type": "powerplant",
+    "system": {
+      "id": "elec-small-cycle",
+      "name": "Small Cycle Electric",
+      "type": "electric",
+      "weight": 100,
+      "spaces": 1,
+      "dp": 2,
+      "cost": 500,
+      "pf": 400,
+      "baseMPG": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Medium Cycle Electric",
+    "type": "powerplant",
+    "system": {
+      "id": "elec-medium-cycle",
+      "name": "Medium Cycle Electric",
+      "type": "electric",
+      "weight": 150,
+      "spaces": 1,
+      "dp": 3,
+      "cost": 1000,
+      "pf": 600,
+      "baseMPG": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Large Cycle Electric",
+    "type": "powerplant",
+    "system": {
+      "id": "elec-large-cycle",
+      "name": "Large Cycle Electric",
+      "type": "electric",
+      "weight": 175,
+      "spaces": 2,
+      "dp": 4,
+      "cost": 1500,
+      "pf": 800,
+      "baseMPG": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Super Cycle Electric",
+    "type": "powerplant",
+    "system": {
+      "id": "elec-super-cycle",
+      "name": "Super Cycle Electric",
+      "type": "electric",
+      "weight": 200,
+      "spaces": 2,
+      "dp": 5,
+      "cost": 2000,
+      "pf": 1000,
+      "baseMPG": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Super Trike Electric",
+    "type": "powerplant",
+    "system": {
+      "id": "elec-super-trike",
+      "name": "Super Trike Electric",
+      "type": "electric",
+      "weight": 250,
+      "spaces": 3,
+      "dp": 6,
+      "cost": 3000,
+      "pf": 1200,
+      "baseMPG": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Small Electric",
+    "type": "powerplant",
+    "system": {
+      "id": "elec-small",
+      "name": "Small Electric",
+      "type": "electric",
+      "weight": 500,
+      "spaces": 3,
+      "dp": 5,
+      "cost": 500,
+      "pf": 800,
+      "baseMPG": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Medium Electric",
+    "type": "powerplant",
+    "system": {
+      "id": "elec-medium",
+      "name": "Medium Electric",
+      "type": "electric",
+      "weight": 700,
+      "spaces": 4,
+      "dp": 8,
+      "cost": 1000,
+      "pf": 1400,
+      "baseMPG": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Large Electric",
+    "type": "powerplant",
+    "system": {
+      "id": "elec-large",
+      "name": "Large Electric",
+      "type": "electric",
+      "weight": 900,
+      "spaces": 5,
+      "dp": 10,
+      "cost": 2000,
+      "pf": 2000,
+      "baseMPG": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Super Electric",
+    "type": "powerplant",
+    "system": {
+      "id": "elec-super",
+      "name": "Super Electric",
+      "type": "electric",
+      "weight": 1100,
+      "spaces": 6,
+      "dp": 12,
+      "cost": 3000,
+      "pf": 2600,
+      "baseMPG": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Sport Electric",
+    "type": "powerplant",
+    "system": {
+      "id": "elec-sport",
+      "name": "Sport Electric",
+      "type": "electric",
+      "weight": 1000,
+      "spaces": 6,
+      "dp": 12,
+      "cost": 6000,
+      "pf": 3000,
+      "baseMPG": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "ThunderCat Electric",
+    "type": "powerplant",
+    "system": {
+      "id": "elec-thundercat",
+      "name": "ThunderCat Electric",
+      "type": "electric",
+      "weight": 2000,
+      "spaces": 8,
+      "dp": 15,
+      "cost": 12000,
+      "pf": 6700,
+      "baseMPG": 0,
+      "specialRules": []
+    }
+  }
+]

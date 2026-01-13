@@ -1,0 +1,70 @@
+Car Wars System JSON Audit Report
+Generated: 01/07/2026 12:12:29
+Root: C:\Users\Feindevil.SANCTUARY\OneDrive\carwars-system
+==============================================
+
+Scanning folder: C:\Users\Feindevil.SANCTUARY\OneDrive\carwars-system\data
+----------------------------------------------
+File: accessories.json
+  Structure: OBJECT
+  Top-level keys: accessories
+    Key 'accessories': ARRAY (20 entries)
+      First entry keys: id, name, category, cost, spaces, weight, dp, specialRules, notes
+
+File: armor.json
+  Structure: OBJECT
+  Top-level keys: armor
+    Key 'armor': OBJECT (keys: normal, fp, lr, lrfp, rp, rpfp, metal, lr-metal)
+
+File: bodies.json
+  Structure: OBJECT
+  Top-level keys: bodies
+    Key 'bodies': OBJECT (keys: cycle, trike, reverse-trike, car, pickup, camper, van, racing, body-mod)
+
+File: chassis.json
+  Structure: OBJECT
+  Top-level keys: chassis
+    Key 'chassis': OBJECT (keys: cycle, light, standard, heavy, extra-heavy)
+
+File: engine-mods.json
+  Structure: OBJECT
+  Top-level keys: engineMods
+    Key 'engineMods': OBJECT (keys: single, combo)
+
+File: gas-tanks.json
+  Structure: OBJECT
+  Top-level keys: gasTanks
+    Key 'gasTanks': OBJECT (keys: perGallon, spaceRules)
+
+File: powerplants.json
+  Structure: OBJECT
+  Top-level keys: powerplants
+    Key 'powerplants': OBJECT (keys: gas, electric)
+
+File: suspension.json
+  Structure: OBJECT
+  Top-level keys: suspension
+    Key 'suspension': OBJECT (keys: cycle, car, racing)
+
+File: tire-options.json
+  Structure: OBJECT
+  Top-level keys: tireOptions
+    Key 'tireOptions': OBJECT (keys: base, combo)
+
+File: tires.json
+  Structure: OBJECT
+  Top-level keys: tires
+    Key 'tires': OBJECT (keys: standard, heavy-duty, pr, solid, plasticore)
+
+File: weapons.json
+  Structure: OBJECT
+  Top-level keys: weapons
+    Key 'weapons': OBJECT (keys: smallBore, largeBore, bombs, rocketsMissiles, lasers, flamethrowers, droppedGasses, droppedLiquids, droppedSolids, dischargers)
+
+
+Scanning folder: C:\Users\Feindevil.SANCTUARY\OneDrive\carwars-system\packs
+----------------------------------------------
+No JSON files found.
+
+==============================================
+End of report.

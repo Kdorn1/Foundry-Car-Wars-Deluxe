@@ -13,14 +13,44 @@ Write-Host "Foundry:  $FoundryPath"
 Write-Host ""
 
 # ------------------------------------------------------------
-# Exclude the carwars\ folder from both trees
+# OneDrive hydration — ensure all files are visible to PowerShell
 # ------------------------------------------------------------
+try {
+    attrib -P -S -H "$DevPath\*" /S | Out-Null
+} catch {
+    Write-Host "⚠️ OneDrive hydration skipped (attrib not available)" -ForegroundColor Yellow
+}
+
+# ------------------------------------------------------------
+# Exclude ONLY the root /carwars/ folder (literal match, not regex)
+# ------------------------------------------------------------
+$ExcludePattern = "*\carwars\*"
+
 $DevFiles = Get-ChildItem -Path $DevPath -Recurse -File |
-    Where-Object { $_.FullName -notmatch "\\carwars(\\|$)" }
+    Where-Object { $_.FullName -notlike $ExcludePattern }
 
 $FoundryFiles = Get-ChildItem -Path $FoundryPath -Recurse -File |
-    Where-Object { $_.FullName -notmatch "\\carwars(\\|$)" }
+    Where-Object { $_.FullName -notlike $ExcludePattern }
 
+# ------------------------------------------------------------
+# Ensure all directories exist in Foundry
+# ------------------------------------------------------------
+$DevDirs = Get-ChildItem -Path $DevPath -Recurse -Directory |
+    Where-Object { $_.FullName -notlike $ExcludePattern }
+
+foreach ($Dir in $DevDirs) {
+    $Relative = $Dir.FullName.Substring($DevPath.Length).TrimStart("\")
+    $DestDir = Join-Path $FoundryPath $Relative
+
+    if (!(Test-Path $DestDir)) {
+        New-Item -ItemType Directory -Path $DestDir | Out-Null
+        Write-Host "📁 Created directory: $Relative" -ForegroundColor DarkYellow
+    }
+}
+
+# ------------------------------------------------------------
+# Prepare tracking arrays
+# ------------------------------------------------------------
 $NewFiles     = @()
 $UpdatedFiles = @()
 $MatchedFiles = @()
@@ -34,7 +64,7 @@ foreach ($File in $DevFiles) {
     $Relative = $File.FullName.Substring($DevPath.Length).TrimStart("\")
     $DestFile = Join-Path $FoundryPath $Relative
 
-    # Ensure directory exists
+    # Ensure directory exists (safety)
     $DestDir = Split-Path $DestFile
     if (!(Test-Path $DestDir)) {
         New-Item -ItemType Directory -Path $DestDir | Out-Null

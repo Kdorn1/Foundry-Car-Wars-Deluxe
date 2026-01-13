@@ -1,0 +1,34 @@
+
+FILE: accessories.json
+  accessories → array(object keys: id, name, category, cost, spaces, weight, dp, specialRules, notes)
+
+FILE: armor.json
+  armor → object(keys: normal, fp, lr, lrfp, rp, rpfp, metal, lr-metal)
+
+FILE: bodies.json
+  bodies → object(keys: cycle, trike, reverse-trike, car, pickup, camper, van, racing, body-mod)
+
+FILE: chassis.json
+  chassis → object(keys: cycle, light, standard, heavy, extra-heavy)
+
+FILE: engine-mods.json
+  engineMods → object(keys: single, combo)
+
+FILE: gas-tanks.json
+  gasTanks → object(keys: perGallon, spaceRules)
+
+FILE: powerplants.json
+  powerplants → object(keys: gas, electric)
+
+FILE: suspension.json
+  suspension → object(keys: cycle, car, racing)
+
+FILE: tire-options.json
+  tireOptions → object(keys: base, combo)
+
+FILE: tires.json
+  tires → object(keys: standard, heavy-duty, pr, solid, plasticore)
+
+FILE: weapons.json
+  weapons → object(keys: smallBore, largeBore, bombs, rocketsMissiles, lasers, flamethrowers, droppedGasses, droppedLiquids, droppedSolids, dischargers)
+

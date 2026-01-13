@@ -1,0 +1,2222 @@
+[
+  {
+    "RelativePath": "apibuild",
+    "SizeBytes": 2379,
+    "LastModified": "2026-01-05T14:04:12.1002173-05:00"
+  },
+  {
+    "RelativePath": "apibuild.ps1",
+    "SizeBytes": 4322,
+    "LastModified": "2026-01-05T14:51:49.9264971-05:00"
+  },
+  {
+    "RelativePath": "archive",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T13:30:10.2704416-05:00"
+  },
+  {
+    "RelativePath": "archive\\driver-sheet.hbs",
+    "SizeBytes": 3941,
+    "LastModified": "2026-01-05T20:09:31.2380493-05:00"
+  },
+  {
+    "RelativePath": "archive\\vehicle-sheet.hbs",
+    "SizeBytes": 6010,
+    "LastModified": "2026-01-05T20:05:47.3696646-05:00"
+  },
+  {
+    "RelativePath": "assets",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-05T17:03:22.6407427-05:00"
+  },
+  {
+    "RelativePath": "assets\\CW-Turning-Key.webp",
+    "SizeBytes": 158020,
+    "LastModified": "2026-01-05T17:01:02.2142077-05:00"
+  },
+  {
+    "RelativePath": "assets\\icons",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:18:40.8588531-05:00"
+  },
+  {
+    "RelativePath": "assets\\templates",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:18:54.4619002-05:00"
+  },
+  {
+    "RelativePath": "assets\\turning-key,svg.xml",
+    "SizeBytes": 2116,
+    "LastModified": "2026-01-05T17:03:22.7085052-05:00"
+  },
+  {
+    "RelativePath": "assets\\ui",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:18:49.4592657-05:00"
+  },
+  {
+    "RelativePath": "carwars",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:56.2732301-05:00"
+  },
+  {
+    "RelativePath": "carwars-report.txt",
+    "SizeBytes": 222610,
+    "LastModified": "2026-01-06T12:44:05.8901659-05:00"
+  },
+  {
+    "RelativePath": "carwars-system.code-workspace",
+    "SizeBytes": 246,
+    "LastModified": "2026-01-06T09:42:25.611118-05:00"
+  },
+  {
+    "RelativePath": "carwars\\assets",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:54.8147542-05:00"
+  },
+  {
+    "RelativePath": "carwars\\assets\\icons",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:18:40.8588531-05:00"
+  },
+  {
+    "RelativePath": "carwars\\assets\\templates",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:18:54.4619002-05:00"
+  },
+  {
+    "RelativePath": "carwars\\assets\\ui",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:18:49.4592657-05:00"
+  },
+  {
+    "RelativePath": "carwars\\carwars-system.code-workspace",
+    "SizeBytes": 207,
+    "LastModified": "2025-12-20T10:31:56.8619794-05:00"
+  },
+  {
+    "RelativePath": "carwars\\createfilestructure",
+    "SizeBytes": 1417,
+    "LastModified": "2025-12-31T08:14:23.382255-05:00"
+  },
+  {
+    "RelativePath": "carwars\\createfilestructure.ps1",
+    "SizeBytes": 1417,
+    "LastModified": "2025-12-31T08:15:03.4512691-05:00"
+  },
+  {
+    "RelativePath": "carwars\\data",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:54.9066937-05:00"
+  },
+  {
+    "RelativePath": "carwars\\data\\accessories.json",
+    "SizeBytes": 6941,
+    "LastModified": "2025-12-30T23:30:20.9530389-05:00"
+  },
+  {
+    "RelativePath": "carwars\\data\\armor.json",
+    "SizeBytes": 1746,
+    "LastModified": "2025-12-30T20:57:30.796909-05:00"
+  },
+  {
+    "RelativePath": "carwars\\data\\bodies.json",
+    "SizeBytes": 12594,
+    "LastModified": "2025-12-30T20:22:03.6439415-05:00"
+  },
+  {
+    "RelativePath": "carwars\\data\\chassis.json",
+    "SizeBytes": 2272,
+    "LastModified": "2025-12-30T20:26:46.8185943-05:00"
+  },
+  {
+    "RelativePath": "carwars\\data\\engine-mods.json",
+    "SizeBytes": 7350,
+    "LastModified": "2025-12-30T20:51:26.0600603-05:00"
+  },
+  {
+    "RelativePath": "carwars\\data\\gas-tanks.json",
+    "SizeBytes": 709,
+    "LastModified": "2025-12-30T20:52:24.6976663-05:00"
+  },
+  {
+    "RelativePath": "carwars\\data\\powerplants.json",
+    "SizeBytes": 6666,
+    "LastModified": "2025-12-30T20:50:14.4504879-05:00"
+  },
+  {
+    "RelativePath": "carwars\\data\\suspension.json",
+    "SizeBytes": 2505,
+    "LastModified": "2025-12-30T20:38:20.25331-05:00"
+  },
+  {
+    "RelativePath": "carwars\\data\\tire-options.json",
+    "SizeBytes": 3598,
+    "LastModified": "2025-12-30T20:43:13.4483471-05:00"
+  },
+  {
+    "RelativePath": "carwars\\data\\tires.json",
+    "SizeBytes": 1227,
+    "LastModified": "2025-12-30T20:41:59.4903822-05:00"
+  },
+  {
+    "RelativePath": "carwars\\data\\weapons.json",
+    "SizeBytes": 83570,
+    "LastModified": "2025-12-30T22:43:25.7350395-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.7548241-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\actor",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.0642726-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\actor\\actor-sheet.js",
+    "SizeBytes": 1388,
+    "LastModified": "2025-12-31T23:01:13.7598059-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\actor\\armor-init.js",
+    "SizeBytes": 5321,
+    "LastModified": "2025-12-31T14:10:31.1231624-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\actor\\base-actor.js",
+    "SizeBytes": 170,
+    "LastModified": "2025-12-30T09:42:14.6923612-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\actor\\driver-data.js",
+    "SizeBytes": 403,
+    "LastModified": "2025-12-20T17:17:40.8045343-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\actor\\vehicle-data.js",
+    "SizeBytes": 11202,
+    "LastModified": "2026-01-02T08:41:00.0713078-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\carwars.js",
+    "SizeBytes": 7818,
+    "LastModified": "2025-12-31T11:19:05.4360425-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\config.js",
+    "SizeBytes": 9,
+    "LastModified": "2025-12-20T10:34:10.9036274-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.1023417-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\catalog-loader.js",
+    "SizeBytes": 1305,
+    "LastModified": "2025-12-30T20:35:30.9652109-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.2155184-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation.js",
+    "SizeBytes": 5093,
+    "LastModified": "2025-12-30T20:34:04.7133125-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\index.js",
+    "SizeBytes": 2222,
+    "LastModified": "2025-12-31T15:32:56.1162367-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-accessories.js",
+    "SizeBytes": 8622,
+    "LastModified": "2025-12-31T15:19:45.6884947-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-armor.js",
+    "SizeBytes": 7233,
+    "LastModified": "2025-12-31T15:15:33.6707944-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-body.js",
+    "SizeBytes": 6662,
+    "LastModified": "2025-12-31T15:12:45.1420543-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-chassis.js",
+    "SizeBytes": 6011,
+    "LastModified": "2025-12-31T15:13:35.4262828-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-crew.js",
+    "SizeBytes": 5740,
+    "LastModified": "2025-12-31T15:28:20.0589743-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-gas-tank.js",
+    "SizeBytes": 6232,
+    "LastModified": "2025-12-31T15:22:39.5475625-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-internal.js",
+    "SizeBytes": 6447,
+    "LastModified": "2025-12-31T15:26:55.8337534-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-performance.js",
+    "SizeBytes": 6213,
+    "LastModified": "2025-12-31T15:26:01.1044537-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-powerplant.js",
+    "SizeBytes": 6819,
+    "LastModified": "2025-12-31T15:21:50.3872952-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-spaces.js",
+    "SizeBytes": 5564,
+    "LastModified": "2025-12-31T15:24:22.1470031-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-suspension.js",
+    "SizeBytes": 4964,
+    "LastModified": "2025-12-31T15:14:42.5936107-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-tires.js",
+    "SizeBytes": 6353,
+    "LastModified": "2025-12-31T15:23:25.3153143-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-vehicle.js",
+    "SizeBytes": 3474,
+    "LastModified": "2025-12-31T15:30:56.2797199-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-weapons.js",
+    "SizeBytes": 8295,
+    "LastModified": "2025-12-31T15:18:42.8636467-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validation\\validate-weight.js",
+    "SizeBytes": 6614,
+    "LastModified": "2025-12-31T15:25:08.2001803-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\construction\\validationbuilder.ps1",
+    "SizeBytes": 1395,
+    "LastModified": "2025-12-31T14:17:38.1504862-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\item",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-31T08:21:25.499977-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.4588225-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\armor-damage-router.js",
+    "SizeBytes": 4109,
+    "LastModified": "2026-01-02T11:08:27.9008337-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\bootlegger-template.js",
+    "SizeBytes": 2611,
+    "LastModified": "2025-12-31T10:43:40.0769314-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\collision-detection.js",
+    "SizeBytes": 3306,
+    "LastModified": "2026-01-02T10:54:25.6835369-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\collision-engine.js",
+    "SizeBytes": 5145,
+    "LastModified": "2026-01-02T11:09:34.5663233-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\collision-physics.js",
+    "SizeBytes": 4287,
+    "LastModified": "2026-01-02T10:51:02.3543671-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\collision-router.js",
+    "SizeBytes": 2473,
+    "LastModified": "2026-01-02T10:49:15.8123508-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\collision-type.js",
+    "SizeBytes": 3564,
+    "LastModified": "2025-12-31T12:28:37.0064907-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\conforming.js",
+    "SizeBytes": 3486,
+    "LastModified": "2026-01-02T10:41:51.45103-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\control-table.js",
+    "SizeBytes": 3625,
+    "LastModified": "2026-01-05T12:39:36.4730485-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\crash-router.js",
+    "SizeBytes": 1464,
+    "LastModified": "2026-01-02T10:45:24.2222822-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\crash-table-1.js",
+    "SizeBytes": 2626,
+    "LastModified": "2026-01-02T10:14:59.8540733-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\crash-table-2.js",
+    "SizeBytes": 2944,
+    "LastModified": "2026-01-02T10:16:43.6464082-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\fishtail-physics.js",
+    "SizeBytes": 4791,
+    "LastModified": "2026-01-02T10:20:41.7002108-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\hazard-engine.js",
+    "SizeBytes": 1392,
+    "LastModified": "2026-01-02T11:17:42.3283106-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\index.js",
+    "SizeBytes": 718,
+    "LastModified": "2026-01-02T12:48:37.6094704-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\lane-change-template.js",
+    "SizeBytes": 2739,
+    "LastModified": "2025-12-31T10:10:13.3139482-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\maneuver-registry.js",
+    "SizeBytes": 1999,
+    "LastModified": "2026-01-02T11:12:50.8249105-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\movement-engine.js",
+    "SizeBytes": 4694,
+    "LastModified": "2026-01-02T10:39:44.676436-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\movement-state.js",
+    "SizeBytes": 3857,
+    "LastModified": "2026-01-02T11:14:55.3969359-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\movement-template.js",
+    "SizeBytes": 2794,
+    "LastModified": "2025-12-31T09:56:43.1476124-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.5472274-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\collision-flow.js",
+    "SizeBytes": 620,
+    "LastModified": "2026-01-02T12:31:04.4090474-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\control-flow.js",
+    "SizeBytes": 543,
+    "LastModified": "2026-01-02T12:30:02.7701379-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\crash-flow.js",
+    "SizeBytes": 605,
+    "LastModified": "2026-01-02T12:32:01.0241649-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\hazard-flow.js",
+    "SizeBytes": 532,
+    "LastModified": "2026-01-02T12:29:13.1584732-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\index.js",
+    "SizeBytes": 496,
+    "LastModified": "2026-01-02T13:03:14.023417-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\maneuver-flow.js",
+    "SizeBytes": 713,
+    "LastModified": "2026-01-02T12:27:48.0224531-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\movement-flow.js",
+    "SizeBytes": 555,
+    "LastModified": "2026-01-02T12:58:59.5137672-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\movement-orchestrator.js",
+    "SizeBytes": 1757,
+    "LastModified": "2026-01-02T12:26:54.9833074-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\movement-phase-orchestrator.js",
+    "SizeBytes": 1724,
+    "LastModified": "2026-01-02T12:44:52.3057281-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\movement-phase-result.js",
+    "SizeBytes": 437,
+    "LastModified": "2026-01-02T12:40:26.5937079-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\movement-phase-schema.js",
+    "SizeBytes": 979,
+    "LastModified": "2026-01-02T12:42:13.6281412-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\movement-phase-ui-adapter.js",
+    "SizeBytes": 573,
+    "LastModified": "2026-01-02T13:02:45.972927-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\orchestrator\\movement-phase-validator.js",
+    "SizeBytes": 1729,
+    "LastModified": "2026-01-02T12:43:26.415429-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\perform-maneuver.js",
+    "SizeBytes": 4724,
+    "LastModified": "2026-01-02T10:29:40.7202571-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\phase-tracker.js",
+    "SizeBytes": 2087,
+    "LastModified": "2026-01-02T10:40:41.8036985-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\roll-physics.js",
+    "SizeBytes": 3188,
+    "LastModified": "2026-01-02T10:26:05.8105583-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\skid-physics.js",
+    "SizeBytes": 2811,
+    "LastModified": "2026-01-02T10:24:48.4771394-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\skid-template.js",
+    "SizeBytes": 1835,
+    "LastModified": "2025-12-31T10:13:17.8863111-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\spinout-template.js",
+    "SizeBytes": 1196,
+    "LastModified": "2025-12-31T11:01:33.0935667-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\spinout.js",
+    "SizeBytes": 1448,
+    "LastModified": "2026-01-02T10:44:28.6741371-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\templates.js",
+    "SizeBytes": 4091,
+    "LastModified": "2025-12-30T12:34:41.0699454-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\temporary-speed.js",
+    "SizeBytes": 2991,
+    "LastModified": "2026-01-02T11:11:54.2880623-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\turn-arc-template.js",
+    "SizeBytes": 2945,
+    "LastModified": "2025-12-31T10:08:15.3304319-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\turningkey-measuredtemplate.js",
+    "SizeBytes": 2856,
+    "LastModified": "2025-12-30T13:56:14.4749119-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\turningkey-template.js",
+    "SizeBytes": 2972,
+    "LastModified": "2025-12-30T14:45:45.1847364-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\movement\\vault-physics.js",
+    "SizeBytes": 4000,
+    "LastModified": "2026-01-02T10:27:47.9716667-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rolls",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.5718981-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rolls\\control-rolls.js",
+    "SizeBytes": 3038,
+    "LastModified": "2026-01-02T10:31:03.6204747-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rolls\\hazard.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.6765518-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.6643178-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply\\apply-accessories.js",
+    "SizeBytes": 1152,
+    "LastModified": "2025-12-31T08:29:21.716446-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply\\apply-armor.js",
+    "SizeBytes": 469,
+    "LastModified": "2025-12-31T08:28:54.683602-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply\\apply-body.js",
+    "SizeBytes": 846,
+    "LastModified": "2025-12-31T09:37:08.7248604-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply\\apply-chassis.js",
+    "SizeBytes": 357,
+    "LastModified": "2026-01-07T11:33:26.9395154-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply\\apply-engine.js",
+    "SizeBytes": 539,
+    "LastModified": "2025-12-31T08:28:18.2788617-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply\\apply-gas-tank.js",
+    "SizeBytes": 439,
+    "LastModified": "2025-12-31T08:28:31.974364-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply\\apply-suspension.js",
+    "SizeBytes": 594,
+    "LastModified": "2025-12-31T08:28:02.9903175-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply\\apply-tires.js",
+    "SizeBytes": 411,
+    "LastModified": "2025-12-31T08:28:43.2395458-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\apply\\apply-weapons.js",
+    "SizeBytes": 534,
+    "LastModified": "2025-12-31T08:29:09.075392-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.744516-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders\\accessories-loader.js",
+    "SizeBytes": 60,
+    "LastModified": "2025-12-31T08:15:05.5907942-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders\\armor-loader.js",
+    "SizeBytes": 54,
+    "LastModified": "2025-12-31T08:15:05.5860978-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders\\body-loader.js",
+    "SizeBytes": 53,
+    "LastModified": "2025-12-31T08:15:05.5727799-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders\\chassis-loader.js",
+    "SizeBytes": 56,
+    "LastModified": "2025-12-31T08:15:05.57596-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders\\engine-loader.js",
+    "SizeBytes": 55,
+    "LastModified": "2025-12-31T08:15:05.5788208-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders\\gas-tank-loader.js",
+    "SizeBytes": 57,
+    "LastModified": "2025-12-31T08:15:05.5811974-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders\\suspension-loader.js",
+    "SizeBytes": 59,
+    "LastModified": "2025-12-31T08:15:05.5769656-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders\\tires-loader.js",
+    "SizeBytes": 54,
+    "LastModified": "2025-12-31T08:15:05.5832206-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\loaders\\weapons-loader.js",
+    "SizeBytes": 56,
+    "LastModified": "2025-12-31T08:15:05.5888159-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\rules\\rule-engine.js",
+    "SizeBytes": 2514,
+    "LastModified": "2025-12-31T09:34:55.4813505-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\ui",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.8704672-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\chat",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.798447-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\chat\\control-roll-card.js",
+    "SizeBytes": 641,
+    "LastModified": "2026-01-02T13:50:58.0274424-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\chat\\crash-card.js",
+    "SizeBytes": 518,
+    "LastModified": "2026-01-02T13:52:41.0914328-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\chat\\hazard-card.js",
+    "SizeBytes": 547,
+    "LastModified": "2026-01-02T13:50:14.5628267-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\combat",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T13:45:07.9055365-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\helpers.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\hud.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\movement",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.8525466-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\movement\\control-roll-result-handler.js",
+    "SizeBytes": 928,
+    "LastModified": "2026-01-02T13:51:58.6948794-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\movement\\maneuver-handler.js",
+    "SizeBytes": 525,
+    "LastModified": "2026-01-02T16:46:41.20569-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\movement\\movement-panel-updater.js",
+    "SizeBytes": 479,
+    "LastModified": "2026-01-02T13:53:45.0469813-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\movement\\movement-phase-dispatcher.js",
+    "SizeBytes": 749,
+    "LastModified": "2026-01-02T13:49:23.9024361-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\movement\\movement-phase-service.js",
+    "SizeBytes": 513,
+    "LastModified": "2026-01-02T13:47:41.9958079-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\pedestrian",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T13:44:56.2382117-05:00"
+  },
+  {
+    "RelativePath": "carwars\\module\\ui\\utils",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T13:44:50.4326432-05:00"
+  },
+  {
+    "RelativePath": "carwars\\outputfilestructure.ps1",
+    "SizeBytes": 821,
+    "LastModified": "2026-01-02T11:59:01.3568778-05:00"
+  },
+  {
+    "RelativePath": "carwars\\packs",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.9509237-05:00"
+  },
+  {
+    "RelativePath": "carwars\\packs\\accessories.db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:41:17.8728037-05:00"
+  },
+  {
+    "RelativePath": "carwars\\packs\\armor.db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:38:59.5874707-05:00"
+  },
+  {
+    "RelativePath": "carwars\\packs\\chassis.db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:41:56.266683-05:00"
+  },
+  {
+    "RelativePath": "carwars\\packs\\maneuvers.db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:42:31.5117812-05:00"
+  },
+  {
+    "RelativePath": "carwars\\packs\\powerplants",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:39:11.4390073-05:00"
+  },
+  {
+    "RelativePath": "carwars\\packs\\suspension.db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:41:29.2123635-05:00"
+  },
+  {
+    "RelativePath": "carwars\\packs\\tires.db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:40:30.4143855-05:00"
+  },
+  {
+    "RelativePath": "carwars\\packs\\vehicles.db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:42:44.0514738-05:00"
+  },
+  {
+    "RelativePath": "carwars\\packs\\weapons.db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:38:38.7889336-05:00"
+  },
+  {
+    "RelativePath": "carwars\\phase1check",
+    "SizeBytes": 1520,
+    "LastModified": "2026-01-02T11:30:43.5804271-05:00"
+  },
+  {
+    "RelativePath": "carwars\\phase1check.ps1",
+    "SizeBytes": 2173,
+    "LastModified": "2026-01-02T11:39:43.6805919-05:00"
+  },
+  {
+    "RelativePath": "carwars\\README.md",
+    "SizeBytes": 12,
+    "LastModified": "2026-01-02T16:18:12.2359411-05:00"
+  },
+  {
+    "RelativePath": "carwars\\styles",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:55.9851842-05:00"
+  },
+  {
+    "RelativePath": "carwars\\styles\\carwars.css",
+    "SizeBytes": 213,
+    "LastModified": "2025-12-20T17:20:16.4133814-05:00"
+  },
+  {
+    "RelativePath": "carwars\\styles\\sheets.css",
+    "SizeBytes": 868,
+    "LastModified": "2025-12-31T22:59:18.0485643-05:00"
+  },
+  {
+    "RelativePath": "carwars\\synctofoundry.ps1",
+    "SizeBytes": 2170,
+    "LastModified": "2025-12-30T10:18:51.0662175-05:00"
+  },
+  {
+    "RelativePath": "carwars\\system.json",
+    "SizeBytes": 455,
+    "LastModified": "2025-12-30T19:18:04.1711448-05:00"
+  },
+  {
+    "RelativePath": "carwars\\systemanalysis.ps1",
+    "SizeBytes": 1030,
+    "LastModified": "2026-01-02T13:01:02.3252675-05:00"
+  },
+  {
+    "RelativePath": "carwars\\template.json",
+    "SizeBytes": 255,
+    "LastModified": "2025-12-20T10:19:22.3525087-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:56.1326678-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:56.0486914-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\driver-sheet.html",
+    "SizeBytes": 567,
+    "LastModified": "2025-12-20T17:19:46.9673868-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\partials",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:56.0995863-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\partials\\armor-panel.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\partials\\construction-panel.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\partials\\hazard-display.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\partials\\hc-tracker.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\partials\\movement-panel.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\partials\\speed-control.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\partials\\validation-panel.html",
+    "SizeBytes": 980,
+    "LastModified": "2025-12-31T22:58:51.562795-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\actor\\vehicle-sheet.html",
+    "SizeBytes": 845,
+    "LastModified": "2025-12-31T22:59:56.2150732-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\chat",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:56.1244497-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\chat\\control-roll-card.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\chat\\maneuver-card.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\item",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T16:18:56.173186-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\item\\accessory-sheet.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\item\\armor-sheet.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\item\\powerplant-sheet.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\item\\suspension-sheet.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\item\\tire-sheet.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "carwars\\templates\\item\\weapon-sheet.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "comparefiles.ps1",
+    "SizeBytes": 3950,
+    "LastModified": "2026-01-05T14:02:11.1492505-05:00"
+  },
+  {
+    "RelativePath": "console-export-2026-1-3_10-14-10.log",
+    "SizeBytes": 14917,
+    "LastModified": "2026-01-03T10:14:30.8119457-05:00"
+  },
+  {
+    "RelativePath": "convert-json-to-items.ps1",
+    "SizeBytes": 3107,
+    "LastModified": "2026-01-07T09:24:59.7007357-05:00"
+  },
+  {
+    "RelativePath": "createfilestructure",
+    "SizeBytes": 1417,
+    "LastModified": "2025-12-31T08:14:23.382255-05:00"
+  },
+  {
+    "RelativePath": "createfilestructure.ps1",
+    "SizeBytes": 1417,
+    "LastModified": "2025-12-31T08:15:03.4512691-05:00"
+  },
+  {
+    "RelativePath": "data",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-07T08:08:26.7337216-05:00"
+  },
+  {
+    "RelativePath": "data-audit-report.txt",
+    "SizeBytes": 2226,
+    "LastModified": "2026-01-07T12:12:29.2150937-05:00"
+  },
+  {
+    "RelativePath": "data\\accessories.json",
+    "SizeBytes": 6941,
+    "LastModified": "2025-12-30T23:30:20.9530389-05:00"
+  },
+  {
+    "RelativePath": "data\\armor.json",
+    "SizeBytes": 1746,
+    "LastModified": "2025-12-30T20:57:30.796909-05:00"
+  },
+  {
+    "RelativePath": "data\\bodies.json",
+    "SizeBytes": 12594,
+    "LastModified": "2025-12-30T20:22:03.6439415-05:00"
+  },
+  {
+    "RelativePath": "data\\chassis.json",
+    "SizeBytes": 2272,
+    "LastModified": "2025-12-30T20:26:46.8185943-05:00"
+  },
+  {
+    "RelativePath": "data\\engine-mods.json",
+    "SizeBytes": 7350,
+    "LastModified": "2025-12-30T20:51:26.0600603-05:00"
+  },
+  {
+    "RelativePath": "data\\gas-tanks.json",
+    "SizeBytes": 709,
+    "LastModified": "2025-12-30T20:52:24.6976663-05:00"
+  },
+  {
+    "RelativePath": "data\\powerplants.json",
+    "SizeBytes": 6666,
+    "LastModified": "2025-12-30T20:50:14.4504879-05:00"
+  },
+  {
+    "RelativePath": "data\\suspension.json",
+    "SizeBytes": 2505,
+    "LastModified": "2025-12-30T20:38:20.25331-05:00"
+  },
+  {
+    "RelativePath": "data\\tire-options.json",
+    "SizeBytes": 3598,
+    "LastModified": "2025-12-30T20:43:13.4483471-05:00"
+  },
+  {
+    "RelativePath": "data\\tires.json",
+    "SizeBytes": 1227,
+    "LastModified": "2025-12-30T20:41:59.4903822-05:00"
+  },
+  {
+    "RelativePath": "data\\weapons.json",
+    "SizeBytes": 83570,
+    "LastModified": "2026-01-03T15:51:11.0790858-05:00"
+  },
+  {
+    "RelativePath": "file-list.txt",
+    "SizeBytes": 14522,
+    "LastModified": "2026-01-07T12:26:10.1381654-05:00"
+  },
+  {
+    "RelativePath": "filelisting",
+    "SizeBytes": 501,
+    "LastModified": "2026-01-06T19:45:08.8729064-05:00"
+  },
+  {
+    "RelativePath": "filelisting.ps1",
+    "SizeBytes": 501,
+    "LastModified": "2026-01-06T19:45:24.6371795-05:00"
+  },
+  {
+    "RelativePath": "fixranges.ps1",
+    "SizeBytes": 1721,
+    "LastModified": "2026-01-06T11:59:09.2041823-05:00"
+  },
+  {
+    "RelativePath": "getcarwarsinfo",
+    "SizeBytes": 141,
+    "LastModified": "2026-01-05T09:54:42.6011869-05:00"
+  },
+  {
+    "RelativePath": "getcarwarsinfo.ps1",
+    "SizeBytes": 2363,
+    "LastModified": "2026-01-05T12:59:45.4719352-05:00"
+  },
+  {
+    "RelativePath": "importexportmap.ps1",
+    "SizeBytes": 2668,
+    "LastModified": "2026-01-05T20:22:18.337666-05:00"
+  },
+  {
+    "RelativePath": "json-scanner.ps1",
+    "SizeBytes": 1954,
+    "LastModified": "2026-01-07T12:14:26.5950905-05:00"
+  },
+  {
+    "RelativePath": "json-structure-summary.txt",
+    "SizeBytes": 1059,
+    "LastModified": "2026-01-07T12:14:27.9039496-05:00"
+  },
+  {
+    "RelativePath": "jsonaudit.ps1",
+    "SizeBytes": 3743,
+    "LastModified": "2026-01-07T08:09:00.2032707-05:00"
+  },
+  {
+    "RelativePath": "module",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T20:25:31.7457437-05:00"
+  },
+  {
+    "RelativePath": "module\\actor",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T20:27:06.3845112-05:00"
+  },
+  {
+    "RelativePath": "module\\actor\\actor-sheet.js",
+    "SizeBytes": 24715,
+    "LastModified": "2026-01-06T18:51:38.3743472-05:00"
+  },
+  {
+    "RelativePath": "module\\actor\\armor-init.js",
+    "SizeBytes": 5321,
+    "LastModified": "2025-12-31T14:10:31.1231624-05:00"
+  },
+  {
+    "RelativePath": "module\\actor\\base-actor",
+    "SizeBytes": 111,
+    "LastModified": "2025-12-20T11:44:40.7437842-05:00"
+  },
+  {
+    "RelativePath": "module\\actor\\base-actor.js",
+    "SizeBytes": 170,
+    "LastModified": "2025-12-30T09:42:14.6923612-05:00"
+  },
+  {
+    "RelativePath": "module\\actor\\driver-actor",
+    "SizeBytes": 116,
+    "LastModified": "2025-12-20T11:48:53.9964868-05:00"
+  },
+  {
+    "RelativePath": "module\\actor\\driver-actor.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T17:09:17.2544359-05:00"
+  },
+  {
+    "RelativePath": "module\\actor\\driver-data.js",
+    "SizeBytes": 403,
+    "LastModified": "2025-12-20T17:17:40.8045343-05:00"
+  },
+  {
+    "RelativePath": "module\\actor\\register-sheets.js",
+    "SizeBytes": 2425,
+    "LastModified": "2026-01-06T14:17:51.5132977-05:00"
+  },
+  {
+    "RelativePath": "module\\actor\\templates",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T13:30:10.2704416-05:00"
+  },
+  {
+    "RelativePath": "module\\actor\\vehicle-actor",
+    "SizeBytes": 111,
+    "LastModified": "2025-12-20T11:44:40.7437842-05:00"
+  },
+  {
+    "RelativePath": "module\\actor\\vehicle-actor.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T17:09:00.9960624-05:00"
+  },
+  {
+    "RelativePath": "module\\actor\\vehicle-data",
+    "SizeBytes": 111,
+    "LastModified": "2025-12-20T11:44:40.7437842-05:00"
+  },
+  {
+    "RelativePath": "module\\actor\\vehicle-data.js",
+    "SizeBytes": 11202,
+    "LastModified": "2026-01-02T08:41:00.0713078-05:00"
+  },
+  {
+    "RelativePath": "module\\carwars.js",
+    "SizeBytes": 6776,
+    "LastModified": "2026-01-07T10:35:33.7339043-05:00"
+  },
+  {
+    "RelativePath": "module\\carwars.js.bak",
+    "SizeBytes": 17677,
+    "LastModified": "2026-01-06T19:00:53.3362219-05:00"
+  },
+  {
+    "RelativePath": "module\\config.js",
+    "SizeBytes": 9,
+    "LastModified": "2025-12-20T10:34:10.9036274-05:00"
+  },
+  {
+    "RelativePath": "module\\construction",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T20:27:06.3687415-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\armor-calculator.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\catalog-loader.js",
+    "SizeBytes": 2730,
+    "LastModified": "2026-01-03T11:13:11.6186006-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\chassis.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\derived-stats.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\load-calculator.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\validation",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T20:26:30.8127303-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\validation.js",
+    "SizeBytes": 5093,
+    "LastModified": "2025-12-30T20:34:04.7133125-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\index.js",
+    "SizeBytes": 2222,
+    "LastModified": "2025-12-31T15:32:56.1162367-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-accessories.js",
+    "SizeBytes": 8622,
+    "LastModified": "2025-12-31T15:19:45.6884947-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-armor.js",
+    "SizeBytes": 7233,
+    "LastModified": "2025-12-31T15:15:33.6707944-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-body.js",
+    "SizeBytes": 6662,
+    "LastModified": "2025-12-31T15:12:45.1420543-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-chassis.js",
+    "SizeBytes": 6011,
+    "LastModified": "2025-12-31T15:13:35.4262828-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-crew.js",
+    "SizeBytes": 5740,
+    "LastModified": "2025-12-31T15:28:20.0589743-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-gas-tank.js",
+    "SizeBytes": 6232,
+    "LastModified": "2025-12-31T15:22:39.5475625-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-internal.js",
+    "SizeBytes": 6447,
+    "LastModified": "2025-12-31T15:26:55.8337534-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-performance.js",
+    "SizeBytes": 6213,
+    "LastModified": "2025-12-31T15:26:01.1044537-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-powerplant.js",
+    "SizeBytes": 6819,
+    "LastModified": "2025-12-31T15:21:50.3872952-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-spaces.js",
+    "SizeBytes": 5564,
+    "LastModified": "2025-12-31T15:24:22.1470031-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-suspension.js",
+    "SizeBytes": 4964,
+    "LastModified": "2025-12-31T15:14:42.5936107-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-tires.js",
+    "SizeBytes": 6353,
+    "LastModified": "2025-12-31T15:23:25.3153143-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-vehcile.js",
+    "SizeBytes": 3474,
+    "LastModified": "2025-12-31T15:30:56.2797199-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-vehicle.js",
+    "SizeBytes": 3474,
+    "LastModified": "2025-12-31T15:30:56.2797199-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-weapons.js",
+    "SizeBytes": 8295,
+    "LastModified": "2025-12-31T15:18:42.8636467-05:00"
+  },
+  {
+    "RelativePath": "module\\construction\\validation\\validate-weight.js",
+    "SizeBytes": 6614,
+    "LastModified": "2025-12-31T15:25:08.2001803-05:00"
+  },
+  {
+    "RelativePath": "module\\helpers",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T09:40:45.1469291-05:00"
+  },
+  {
+    "RelativePath": "module\\helpers\\template-loader.js",
+    "SizeBytes": 255,
+    "LastModified": "2026-01-06T09:52:38.8643485-05:00"
+  },
+  {
+    "RelativePath": "module\\item",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-07T07:55:15.8582762-05:00"
+  },
+  {
+    "RelativePath": "module\\item\\accessory-item.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00"
+  },
+  {
+    "RelativePath": "module\\item\\armor-item.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00"
+  },
+  {
+    "RelativePath": "module\\item\\item-sheet.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00"
+  },
+  {
+    "RelativePath": "module\\item\\powerplant-item.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00"
+  },
+  {
+    "RelativePath": "module\\item\\suspension-item.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00"
+  },
+  {
+    "RelativePath": "module\\item\\tire-item.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00"
+  },
+  {
+    "RelativePath": "module\\item\\weapon-item.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00"
+  },
+  {
+    "RelativePath": "module\\movement",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T20:26:30.8541385-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\armor-damage-router.js",
+    "SizeBytes": 4109,
+    "LastModified": "2026-01-02T11:08:27.9008337-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\bootlegger-template.js",
+    "SizeBytes": 2611,
+    "LastModified": "2025-12-31T10:43:40.0769314-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\collision-detection.js",
+    "SizeBytes": 3399,
+    "LastModified": "2026-01-05T13:58:49.4672624-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\collision-engine.js",
+    "SizeBytes": 5352,
+    "LastModified": "2026-01-05T13:27:15.3836101-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\collision-physics.js",
+    "SizeBytes": 4527,
+    "LastModified": "2026-01-05T13:13:05.728462-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\collision-router.js",
+    "SizeBytes": 2711,
+    "LastModified": "2026-01-05T13:28:12.4727722-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\collision-type.js",
+    "SizeBytes": 3800,
+    "LastModified": "2026-01-05T13:13:52.0116694-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\conforming.js",
+    "SizeBytes": 3694,
+    "LastModified": "2026-01-05T12:47:57.8824888-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\control-table.js",
+    "SizeBytes": 3625,
+    "LastModified": "2026-01-05T12:45:20.0517966-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\crash-router.js",
+    "SizeBytes": 1794,
+    "LastModified": "2026-01-05T14:18:37.484575-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\crash-table-1.js",
+    "SizeBytes": 2855,
+    "LastModified": "2026-01-05T13:12:07.4610643-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\crash-table-2.js",
+    "SizeBytes": 3170,
+    "LastModified": "2026-01-05T13:15:03.3345296-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\damage-modifier.js",
+    "SizeBytes": 5680,
+    "LastModified": "2026-01-05T13:11:06.1377044-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\fishtail-physics.js",
+    "SizeBytes": 4791,
+    "LastModified": "2026-01-02T10:20:41.7002108-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\hazard-engine.js",
+    "SizeBytes": 2147,
+    "LastModified": "2026-01-05T13:56:03.1701238-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\hc-tracker.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\index.js",
+    "SizeBytes": 816,
+    "LastModified": "2026-01-03T09:24:12.7008251-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\lane-change-template.js",
+    "SizeBytes": 2739,
+    "LastModified": "2025-12-31T10:10:13.3139482-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\maneuver-registry.js",
+    "SizeBytes": 2317,
+    "LastModified": "2026-01-05T12:53:18.8911989-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\maneuvers.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\movement-api.js",
+    "SizeBytes": 1324,
+    "LastModified": "2026-01-05T16:04:07.5033114-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\movement-engine.js",
+    "SizeBytes": 4002,
+    "LastModified": "2026-01-05T16:51:14.6147485-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\movement-phase-ui-adapter.js",
+    "SizeBytes": 1229,
+    "LastModified": "2026-01-03T09:30:24.4166379-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\movement-state.js",
+    "SizeBytes": 4090,
+    "LastModified": "2026-01-05T13:01:53.4786962-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\movement-template.js",
+    "SizeBytes": 2794,
+    "LastModified": "2025-12-31T09:56:43.1476124-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-05T14:13:29.980844-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\collision-flow.js",
+    "SizeBytes": 661,
+    "LastModified": "2026-01-05T14:13:29.9099341-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\collision-flow.js.bak",
+    "SizeBytes": 696,
+    "LastModified": "2026-01-05T13:17:03.5156919-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\control-flow.js",
+    "SizeBytes": 530,
+    "LastModified": "2026-01-05T14:13:29.9160181-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\control-flow.js.bak",
+    "SizeBytes": 543,
+    "LastModified": "2026-01-02T12:30:02.7701379-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\crash-flow.js",
+    "SizeBytes": 593,
+    "LastModified": "2026-01-05T14:13:29.9224048-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\crash-flow.js.bak",
+    "SizeBytes": 605,
+    "LastModified": "2026-01-02T12:32:01.0241649-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\hazard-flow.js",
+    "SizeBytes": 519,
+    "LastModified": "2026-01-05T14:13:29.9285237-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\hazard-flow.js.bak",
+    "SizeBytes": 532,
+    "LastModified": "2026-01-02T12:29:13.1584732-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\index.js",
+    "SizeBytes": 816,
+    "LastModified": "2026-01-02T16:49:00.675979-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\maneuver-flow.js",
+    "SizeBytes": 761,
+    "LastModified": "2026-01-05T16:07:44.2674768-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\maneuver-flow.js.bak",
+    "SizeBytes": 792,
+    "LastModified": "2026-01-05T13:25:10.2586299-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-flow.js",
+    "SizeBytes": 1018,
+    "LastModified": "2026-01-05T14:13:29.9465801-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-flow.js.bak",
+    "SizeBytes": 1033,
+    "LastModified": "2026-01-05T13:08:08.4747531-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-orchestrator.js",
+    "SizeBytes": 1762,
+    "LastModified": "2026-01-05T14:13:29.9538655-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-orchestrator.js.bak",
+    "SizeBytes": 1757,
+    "LastModified": "2026-01-02T12:26:54.9833074-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-phase-orchestrator.js",
+    "SizeBytes": 1741,
+    "LastModified": "2026-01-05T14:19:34.7218135-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-phase-orchestrator.js.bak",
+    "SizeBytes": 1724,
+    "LastModified": "2026-01-02T12:44:52.3057281-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-phase-result.js",
+    "SizeBytes": 437,
+    "LastModified": "2026-01-02T12:40:26.5937079-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-phase-schema.js",
+    "SizeBytes": 979,
+    "LastModified": "2026-01-02T12:42:13.6281412-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-phase-ui-adapter.js",
+    "SizeBytes": 559,
+    "LastModified": "2026-01-05T16:13:38.0730759-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-phase-ui-adapter.js.bak",
+    "SizeBytes": 573,
+    "LastModified": "2026-01-02T13:02:45.972927-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-phase-validator.js",
+    "SizeBytes": 1721,
+    "LastModified": "2026-01-05T14:13:29.9840979-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\orchestrator\\movement-phase-validator.js.bak",
+    "SizeBytes": 1729,
+    "LastModified": "2026-01-02T12:43:26.415429-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\perform-maneuver.js",
+    "SizeBytes": 4824,
+    "LastModified": "2026-01-05T16:05:58.8387396-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\phase-tracker.js",
+    "SizeBytes": 2087,
+    "LastModified": "2026-01-02T10:40:41.8036985-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\roll-physics.js",
+    "SizeBytes": 3188,
+    "LastModified": "2026-01-02T10:26:05.8105583-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\skid-physics.js",
+    "SizeBytes": 2811,
+    "LastModified": "2026-01-02T10:24:48.4771394-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\skid-template.js",
+    "SizeBytes": 1835,
+    "LastModified": "2025-12-31T10:13:17.8863111-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\spinout-template.js",
+    "SizeBytes": 1196,
+    "LastModified": "2025-12-31T11:01:33.0935667-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\spinout.js",
+    "SizeBytes": 1448,
+    "LastModified": "2026-01-02T10:44:28.6741371-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\templates.js",
+    "SizeBytes": 3934,
+    "LastModified": "2026-01-05T16:54:19.3276585-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\temporary-speed.js",
+    "SizeBytes": 2991,
+    "LastModified": "2026-01-02T11:11:54.2880623-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\turn-arc-template.js",
+    "SizeBytes": 2945,
+    "LastModified": "2025-12-31T10:08:15.3304319-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\turningkey-measuredtemplate.js",
+    "SizeBytes": 2762,
+    "LastModified": "2026-01-05T16:48:19.3270358-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\turningkey-template.js",
+    "SizeBytes": 2972,
+    "LastModified": "2025-12-30T14:45:45.1847364-05:00"
+  },
+  {
+    "RelativePath": "module\\movement\\vault-physics.js",
+    "SizeBytes": 4000,
+    "LastModified": "2026-01-02T10:27:47.9716667-05:00"
+  },
+  {
+    "RelativePath": "module\\rolls",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:11:08.1328737-05:00"
+  },
+  {
+    "RelativePath": "module\\rolls\\control-rolls.js",
+    "SizeBytes": 3108,
+    "LastModified": "2026-01-05T13:17:56.9957285-05:00"
+  },
+  {
+    "RelativePath": "module\\rolls\\hazard.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00"
+  },
+  {
+    "RelativePath": "module\\rules",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-07T10:12:16.4914323-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\apply",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-31T08:15:06.8217928-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\apply\\apply-accessories.js",
+    "SizeBytes": 1094,
+    "LastModified": "2026-01-07T11:40:17.3625807-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\apply\\apply-armor.js",
+    "SizeBytes": 440,
+    "LastModified": "2026-01-07T11:39:14.2920567-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\apply\\apply-body.js",
+    "SizeBytes": 846,
+    "LastModified": "2026-01-07T11:05:44.7078194-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\apply\\apply-chassis.js",
+    "SizeBytes": 411,
+    "LastModified": "2025-12-31T08:27:46.0595123-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\apply\\apply-engine.js",
+    "SizeBytes": 432,
+    "LastModified": "2026-01-07T11:37:07.2012253-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\apply\\apply-gas-tank.js",
+    "SizeBytes": 384,
+    "LastModified": "2026-01-07T11:37:47.7132299-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\apply\\apply-suspension.js",
+    "SizeBytes": 538,
+    "LastModified": "2026-01-07T11:35:41.6961953-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\apply\\apply-tires.js",
+    "SizeBytes": 540,
+    "LastModified": "2026-01-07T11:41:47.1093781-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\apply\\apply-weapons.js",
+    "SizeBytes": 478,
+    "LastModified": "2026-01-07T11:39:42.9137776-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\loaders",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-07T10:08:07.5654824-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\accessories-loader.js",
+    "SizeBytes": 1181,
+    "LastModified": "2026-01-07T12:10:10.5141144-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\armor-loader.js",
+    "SizeBytes": 1264,
+    "LastModified": "2026-01-07T10:02:18.0552121-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\body-loader.js",
+    "SizeBytes": 1329,
+    "LastModified": "2026-01-07T12:09:25.8736577-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\chassis-loader.js",
+    "SizeBytes": 1248,
+    "LastModified": "2026-01-07T09:47:24.9957365-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\engine-loader.js",
+    "SizeBytes": 1364,
+    "LastModified": "2026-01-07T09:49:16.6312394-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\engine-mods-loader.js",
+    "SizeBytes": 1332,
+    "LastModified": "2026-01-07T10:06:24.6044994-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\gas-tank-loader.js",
+    "SizeBytes": 1270,
+    "LastModified": "2026-01-07T09:49:40.67327-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\suspension-loader.js",
+    "SizeBytes": 1302,
+    "LastModified": "2026-01-07T09:48:33.6323858-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\tire-options-laoder.js",
+    "SizeBytes": 1371,
+    "LastModified": "2026-01-07T10:08:14.0315917-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\tires-loader.js",
+    "SizeBytes": 1303,
+    "LastModified": "2026-01-07T10:01:38.6478204-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\loaders\\weapons-loader.js",
+    "SizeBytes": 1399,
+    "LastModified": "2026-01-07T12:17:07.7284445-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\rule-engine.js",
+    "SizeBytes": 2804,
+    "LastModified": "2026-01-07T11:46:37.1313445-05:00"
+  },
+  {
+    "RelativePath": "module\\rules\\rules.js",
+    "SizeBytes": 2234,
+    "LastModified": "2026-01-07T10:13:44.1605608-05:00"
+  },
+  {
+    "RelativePath": "module\\ui",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T13:45:09.8774429-05:00"
+  },
+  {
+    "RelativePath": "module\\ui\\chat",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T13:52:34.6371584-05:00"
+  },
+  {
+    "RelativePath": "module\\ui\\chat\\control-roll-card.js",
+    "SizeBytes": 641,
+    "LastModified": "2026-01-02T13:50:58.0274424-05:00"
+  },
+  {
+    "RelativePath": "module\\ui\\chat\\crash-card.js",
+    "SizeBytes": 518,
+    "LastModified": "2026-01-02T13:52:41.0914328-05:00"
+  },
+  {
+    "RelativePath": "module\\ui\\chat\\hazard-card.js",
+    "SizeBytes": 547,
+    "LastModified": "2026-01-02T13:50:14.5628267-05:00"
+  },
+  {
+    "RelativePath": "module\\ui\\combat",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T13:45:07.9055365-05:00"
+  },
+  {
+    "RelativePath": "module\\ui\\helpers.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00"
+  },
+  {
+    "RelativePath": "module\\ui\\hud.js",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:02:18.0409752-05:00"
+  },
+  {
+    "RelativePath": "module\\ui\\movement",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T13:53:31.6675324-05:00"
+  },
+  {
+    "RelativePath": "module\\ui\\movement\\control-roll-result-handler.js",
+    "SizeBytes": 1027,
+    "LastModified": "2026-01-02T16:47:17.4039778-05:00"
+  },
+  {
+    "RelativePath": "module\\ui\\movement\\maneuver-handler.js",
+    "SizeBytes": 532,
+    "LastModified": "2026-01-05T13:16:30.8778103-05:00"
+  },
+  {
+    "RelativePath": "module\\ui\\movement\\movement-panel-updater.js",
+    "SizeBytes": 1378,
+    "LastModified": "2026-01-02T16:45:47.2220995-05:00"
+  },
+  {
+    "RelativePath": "module\\ui\\movement\\movement-phase-dispatcher.js",
+    "SizeBytes": 912,
+    "LastModified": "2026-01-02T16:45:13.9894552-05:00"
+  },
+  {
+    "RelativePath": "module\\ui\\movement\\movement-phase-service.js",
+    "SizeBytes": 2047,
+    "LastModified": "2026-01-05T16:15:35.2497696-05:00"
+  },
+  {
+    "RelativePath": "module\\ui\\pedestrian",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T13:44:56.2382117-05:00"
+  },
+  {
+    "RelativePath": "module\\ui\\utils",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-02T13:44:50.4326432-05:00"
+  },
+  {
+    "RelativePath": "movepartials.ps1",
+    "SizeBytes": 2319,
+    "LastModified": "2026-01-05T20:27:56.8023099-05:00"
+  },
+  {
+    "RelativePath": "outputfilestructure.ps1",
+    "SizeBytes": 1057,
+    "LastModified": "2026-01-07T12:31:06.5769406-05:00"
+  },
+  {
+    "RelativePath": "packs",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:42:44.0514738-05:00"
+  },
+  {
+    "RelativePath": "packs\\accessories.db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:41:17.8728037-05:00"
+  },
+  {
+    "RelativePath": "packs\\armor.db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:38:59.5874707-05:00"
+  },
+  {
+    "RelativePath": "packs\\chassis.db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:41:56.266683-05:00"
+  },
+  {
+    "RelativePath": "packs\\maneuvers.db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:42:31.5117812-05:00"
+  },
+  {
+    "RelativePath": "packs\\powerplants",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:39:11.4390073-05:00"
+  },
+  {
+    "RelativePath": "packs\\suspension.db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:41:29.2123635-05:00"
+  },
+  {
+    "RelativePath": "packs\\tires.db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:40:30.4143855-05:00"
+  },
+  {
+    "RelativePath": "packs\\vehicles.db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:42:44.0514738-05:00"
+  },
+  {
+    "RelativePath": "packs\\weapons.db",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:38:38.7889336-05:00"
+  },
+  {
+    "RelativePath": "phase1check",
+    "SizeBytes": 1520,
+    "LastModified": "2026-01-02T11:30:43.5804271-05:00"
+  },
+  {
+    "RelativePath": "phase1check.ps1",
+    "SizeBytes": 3815,
+    "LastModified": "2026-01-05T09:18:12.1144598-05:00"
+  },
+  {
+    "RelativePath": "phase5check",
+    "SizeBytes": 1723,
+    "LastModified": "2026-01-03T09:27:51.6323523-05:00"
+  },
+  {
+    "RelativePath": "phase5check.ps1",
+    "SizeBytes": 3191,
+    "LastModified": "2026-01-06T13:40:46.7529107-05:00"
+  },
+  {
+    "RelativePath": "project-file-structure.json",
+    "SizeBytes": 181758,
+    "LastModified": "2026-01-07T12:30:30.5186304-05:00"
+  },
+  {
+    "RelativePath": "projectbackup",
+    "SizeBytes": 139,
+    "LastModified": "2026-01-06T20:30:13.5197763-05:00"
+  },
+  {
+    "RelativePath": "projectbackup.ps1",
+    "SizeBytes": 142,
+    "LastModified": "2026-01-06T20:37:32.4231906-05:00"
+  },
+  {
+    "RelativePath": "read.md",
+    "SizeBytes": 3716,
+    "LastModified": "2025-12-20T10:52:14.7714462-05:00"
+  },
+  {
+    "RelativePath": "rewriteorchestrator",
+    "SizeBytes": 1478,
+    "LastModified": "2026-01-05T14:13:07.4979343-05:00"
+  },
+  {
+    "RelativePath": "rewriteorchestrator.ps1",
+    "SizeBytes": 1478,
+    "LastModified": "2026-01-05T14:13:27.1517177-05:00"
+  },
+  {
+    "RelativePath": "styles",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:38:07.1905527-05:00"
+  },
+  {
+    "RelativePath": "styles\\carwars.css",
+    "SizeBytes": 9236,
+    "LastModified": "2026-01-05T20:03:10.4889947-05:00"
+  },
+  {
+    "RelativePath": "styles\\sheets.css",
+    "SizeBytes": 868,
+    "LastModified": "2025-12-31T22:59:18.0485643-05:00"
+  },
+  {
+    "RelativePath": "synctofoundry.ps1",
+    "SizeBytes": 3738,
+    "LastModified": "2026-01-06T10:59:06.9751004-05:00"
+  },
+  {
+    "RelativePath": "system.json",
+    "SizeBytes": 657,
+    "LastModified": "2026-01-05T20:53:10.8560923-05:00"
+  },
+  {
+    "RelativePath": "systemanalysis.ps1",
+    "SizeBytes": 1030,
+    "LastModified": "2026-01-02T13:01:02.3252675-05:00"
+  },
+  {
+    "RelativePath": "template.json",
+    "SizeBytes": 255,
+    "LastModified": "2025-12-20T10:19:22.3525087-05:00"
+  },
+  {
+    "RelativePath": "templates",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T10:37:03.4745213-05:00"
+  },
+  {
+    "RelativePath": "templates\\actor",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:11:58.9971882-05:00"
+  },
+  {
+    "RelativePath": "templates\\actor\\driver-sheet.html",
+    "SizeBytes": 2089,
+    "LastModified": "2026-01-06T14:09:41.6604636-05:00"
+  },
+  {
+    "RelativePath": "templates\\actor\\partials",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T20:17:36.8881338-05:00"
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\armor-panel.html",
+    "SizeBytes": 945,
+    "LastModified": "2026-01-05T18:57:27.198403-05:00"
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\construction-panel.html",
+    "SizeBytes": 1820,
+    "LastModified": "2026-01-06T20:17:57.2820563-05:00"
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\construction-panel.html.bak",
+    "SizeBytes": 1868,
+    "LastModified": "2026-01-06T20:14:58.1139453-05:00"
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\crew-panel.html",
+    "SizeBytes": 884,
+    "LastModified": "2026-01-06T14:12:34.1079552-05:00"
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\crew-role.html",
+    "SizeBytes": 3184,
+    "LastModified": "2026-01-06T18:47:39.9691012-05:00"
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\engine-panel.html",
+    "SizeBytes": 0,
+    "LastModified": "2026-01-06T11:06:01.9311413-05:00"
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\hazard-display.html",
+    "SizeBytes": 1226,
+    "LastModified": "2026-01-05T19:54:06.2609588-05:00"
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\hc-tracker.html",
+    "SizeBytes": 736,
+    "LastModified": "2026-01-05T19:55:13.7038385-05:00"
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\movement-panel.html",
+    "SizeBytes": 6801,
+    "LastModified": "2026-01-05T19:53:09.2140618-05:00"
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\speed-control.html",
+    "SizeBytes": 992,
+    "LastModified": "2026-01-05T19:55:56.8793164-05:00"
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\systems-panel.html",
+    "SizeBytes": 5123,
+    "LastModified": "2026-01-05T19:58:49.6910882-05:00"
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\validation-panel.html",
+    "SizeBytes": 1229,
+    "LastModified": "2026-01-05T20:03:05.0479611-05:00"
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\weapon-panel.html",
+    "SizeBytes": 2198,
+    "LastModified": "2026-01-05T19:44:39.4969437-05:00"
+  },
+  {
+    "RelativePath": "templates\\actor\\partials\\weapon-summary.html",
+    "SizeBytes": 723,
+    "LastModified": "2026-01-05T19:10:18.8980996-05:00"
+  },
+  {
+    "RelativePath": "templates\\actor\\vehicle-sheet.html",
+    "SizeBytes": 3697,
+    "LastModified": "2026-01-06T13:59:40.3623895-05:00"
+  },
+  {
+    "RelativePath": "templates\\chat",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:18:22.525403-05:00"
+  },
+  {
+    "RelativePath": "templates\\chat\\control-roll-card.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "templates\\chat\\maneuver-card.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "templates\\item",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:17:18.0076564-05:00"
+  },
+  {
+    "RelativePath": "templates\\item\\accessory-sheet.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "templates\\item\\armor-sheet.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "templates\\item\\powerplant-sheet.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "templates\\item\\suspension-sheet.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "templates\\item\\tire-sheet.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "templates\\item\\weapon-sheet.html",
+    "SizeBytes": 0,
+    "LastModified": "2025-12-20T11:13:56.4967677-05:00"
+  },
+  {
+    "RelativePath": "test-carwarssystem.ps1",
+    "SizeBytes": 5990,
+    "LastModified": "2026-01-05T20:20:12.0764674-05:00"
+  },
+  {
+    "RelativePath": "validationbuilder.ps1",
+    "SizeBytes": 62,
+    "LastModified": "2026-01-06T20:33:32.4317411-05:00"
+  }
+]

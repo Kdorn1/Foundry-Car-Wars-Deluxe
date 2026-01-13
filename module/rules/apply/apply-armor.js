@@ -1,6 +1,4 @@
-// module/rules/apply/apply-armor.js
-
-export function applyArmor(actor, rules) {
+export function applyArmor(actor, rules, rulesData) {
   const armor = actor.system.armor;
   if (!armor) return;
 

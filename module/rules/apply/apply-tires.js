@@ -1,13 +1,17 @@
-// module/rules/apply/apply-tires.js
-
-export function applyTires(actor, rules) {
+export function applyTires(actor, rules, rulesData) {
   const tireId = actor.system.tireType;
   if (!tireId) return;
 
-  const tireData = game.cw.catalog.tires.find(t => t.id === tireId);
+  const tireData = rulesData.tires?.[tireId];
   if (!tireData) return;
 
-  const quantity = actor.system.tireCount || 4;
+  // Determine tire quantity
+  const vehicleType = actor.system.vehicleType;
+
+  const defaultCount =
+    rulesData.vehicleDefaults?.[vehicleType]?.tireCount ?? 4;
+
+  const quantity = actor.system.tireCount || defaultCount;
 
   rules.weight += tireData.weight * quantity;
 

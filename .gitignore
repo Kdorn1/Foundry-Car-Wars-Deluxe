@@ -1,11 +1,58 @@
-# Node / common
+# Node / build artifacts
 node_modules/
 dist/
-.DS_Store
+build/
 
-# Editor / OS
+# Editor and IDE
 .vscode/
-*.log
+*.code-workspace
 
-# Secrets
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+
+# Secrets and environment
 .env
+.env.local
+*.secret
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+file-list.txt
+
+# PowerShell and script outputs
+*.ps1.xml
+*.ps1.log
+console-export-*.log
+
+# Backup and swap files
+*.bak
+*~ 
+*.swp
+
+# OneDrive / sync metadata
+# (OneDrive may create extra files; ignore common patterns)
+~$*
+*.lnk
+
+# Foundry pack artifacts (optional)
+# If you want to keep generated compendia in the repo, remove these lines
+packs/*.db
+packs/*.sqlite
+packs/*.db-journal
+
+# Local helper scripts / outputs you don't want tracked
+apibuild/
+apibuild.ps1
+createfilestructure
+createfilestructure.ps1
+filelisting
+filelisting.ps1
+outputfilestructure.ps1
+carwars-report.txt
+test-carwarssystem.ps1
+console-export-*.log

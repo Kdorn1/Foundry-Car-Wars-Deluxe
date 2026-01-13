@@ -1,0 +1,29 @@
+<form class="carwars item-sheet" autocomplete="off" style="border: 5px solid red; padding: 10px; background: #ffeeee;">
+  
+  <!-- GIANT DEBUG HEADER -->
+  <div style="background: red; color: white; padding: 10px; text-align: center; font-size: 24px; font-weight: bold;">
+    🚨 CUSTOM SUSPENSION SHEET LOADED 🚨
+  </div>
+
+  <header class="sheet-header flexrow" style="margin-top: 10px;">
+    <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" style="border: 3px solid red;"/>
+
+    <div class="header-fields">
+      <h1 class="item-name" style="color: red;">
+        <input name="name" type="text" value="{{item.name}}" placeholder="Suspension Name"/>
+      </h1>
+
+      <div class="item-type-label" style="font-size: 18px; color: darkred;">
+        Suspension (Custom Debug Sheet)
+      </div>
+    </div>
+  </header>
+
+  <section class="sheet-body" style="margin-top: 20px;">
+    <div class="form-group">
+      <label style="color: red; font-weight: bold;">Notes</label>
+      <textarea name="system.notes" style="border: 2px solid red; background: #fff0f0;">{{system.notes}}</textarea>
+    </div>
+  </section>
+
+</form>

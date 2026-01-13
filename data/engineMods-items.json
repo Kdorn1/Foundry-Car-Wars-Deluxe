@@ -1,0 +1,376 @@
+[
+  {
+    "name": "Carburetor",
+    "type": "engineMod",
+    "system": {
+      "id": "carburetor",
+      "name": "Carburetor",
+      "type": "gas-mod",
+      "addedWeight": 0,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Multi-Barrel Carburetor",
+    "type": "engineMod",
+    "system": {
+      "id": "multi-barrel",
+      "name": "Multi-Barrel Carburetor",
+      "type": "gas-mod",
+      "addedWeight": 0,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Tube Headers",
+    "type": "engineMod",
+    "system": {
+      "id": "tube-headers",
+      "name": "Tube Headers",
+      "type": "gas-mod",
+      "addedWeight": 0,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Blue Printing",
+    "type": "engineMod",
+    "system": {
+      "id": "blueprinting",
+      "name": "Blue Printing",
+      "type": "gas-mod",
+      "addedWeight": 0,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Turbocharger",
+    "type": "engineMod",
+    "system": {
+      "id": "turbo",
+      "name": "Turbocharger",
+      "type": "gas-mod",
+      "addedWeight": 5,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "VP Turbo",
+    "type": "engineMod",
+    "system": {
+      "id": "vp-turbo",
+      "name": "VP Turbo",
+      "type": "gas-mod",
+      "addedWeight": 5,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Supercharger",
+    "type": "engineMod",
+    "system": {
+      "id": "supercharger",
+      "name": "Supercharger",
+      "type": "gas-mod",
+      "addedWeight": 5,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Tube Headers + Blue Printing",
+    "type": "engineMod",
+    "system": {
+      "id": "tubes-blue",
+      "name": "Tube Headers + Blue Printing",
+      "type": "gas-mod",
+      "addedWeight": 0,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Tube Headers + Turbo",
+    "type": "engineMod",
+    "system": {
+      "id": "tubes-turbo",
+      "name": "Tube Headers + Turbo",
+      "type": "gas-mod",
+      "addedWeight": 5,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Tube Headers + VP Turbo",
+    "type": "engineMod",
+    "system": {
+      "id": "tubes-vp-turbo",
+      "name": "Tube Headers + VP Turbo",
+      "type": "gas-mod",
+      "addedWeight": 5,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Tube Headers + Supercharger",
+    "type": "engineMod",
+    "system": {
+      "id": "tubes-supercharger",
+      "name": "Tube Headers + Supercharger",
+      "type": "gas-mod",
+      "addedWeight": 5,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Blue Printing + Turbo",
+    "type": "engineMod",
+    "system": {
+      "id": "blue-turbo",
+      "name": "Blue Printing + Turbo",
+      "type": "gas-mod",
+      "addedWeight": 5,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Blue Printing + VP Turbo",
+    "type": "engineMod",
+    "system": {
+      "id": "blue-vp-turbo",
+      "name": "Blue Printing + VP Turbo",
+      "type": "gas-mod",
+      "addedWeight": 5,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Blue Printing + Supercharger",
+    "type": "engineMod",
+    "system": {
+      "id": "blue-supercharger",
+      "name": "Blue Printing + Supercharger",
+      "type": "gas-mod",
+      "addedWeight": 5,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Turbo + Supercharger",
+    "type": "engineMod",
+    "system": {
+      "id": "turbo-supercharger",
+      "name": "Turbo + Supercharger",
+      "type": "gas-mod",
+      "addedWeight": 5,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "VP Turbo + Supercharger",
+    "type": "engineMod",
+    "system": {
+      "id": "vp-turbo-supercharger",
+      "name": "VP Turbo + Supercharger",
+      "type": "gas-mod",
+      "addedWeight": 10,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Tube Headers + Blue Printing + Turbo",
+    "type": "engineMod",
+    "system": {
+      "id": "tubes-blue-turbo",
+      "name": "Tube Headers + Blue Printing + Turbo",
+      "type": "gas-mod",
+      "addedWeight": 5,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Tube Headers + Blue Printing + VP Turbo",
+    "type": "engineMod",
+    "system": {
+      "id": "tubes-blue-vp-turbo",
+      "name": "Tube Headers + Blue Printing + VP Turbo",
+      "type": "gas-mod",
+      "addedWeight": 5,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Tube Headers + Blue Printing + Supercharger",
+    "type": "engineMod",
+    "system": {
+      "id": "tubes-blue-supercharger",
+      "name": "Tube Headers + Blue Printing + Supercharger",
+      "type": "gas-mod",
+      "addedWeight": 10,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Blue Printing + Turbo + Supercharger",
+    "type": "engineMod",
+    "system": {
+      "id": "blue-turbo-supercharger",
+      "name": "Blue Printing + Turbo + Supercharger",
+      "type": "gas-mod",
+      "addedWeight": 10,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Blue Printing + VP Turbo + Supercharger",
+    "type": "engineMod",
+    "system": {
+      "id": "blue-vp-turbo-supercharger",
+      "name": "Blue Printing + VP Turbo + Supercharger",
+      "type": "gas-mod",
+      "addedWeight": 10,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Tube Headers + Blue Printing + Turbo + Supercharger",
+    "type": "engineMod",
+    "system": {
+      "id": "tubes-blue-turbo-supercharger",
+      "name": "Tube Headers + Blue Printing + Turbo + Supercharger",
+      "type": "gas-mod",
+      "addedWeight": 10,
+      "addedSpaces": 0,
+      "addedDP": 0,
+      "addedCost": 0,
+      "pfBonus": 0,
+      "mpgBonus": 0,
+      "accelBonus": 0,
+      "specialRules": []
+    }
+  }
+]

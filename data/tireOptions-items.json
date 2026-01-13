@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Normal Tire Option",
+    "type": "tireOption",
+    "system": {
+      "id": "normal",
+      "name": "Normal Tire Option",
+      "category": "option",
+      "cost": 50,
+      "weight": 30,
+      "dp": 4,
+      "handlingBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Steelbelting",
+    "type": "tireOption",
+    "system": {
+      "id": "steelbelting",
+      "name": "Steelbelting",
+      "category": "option",
+      "cost": 75,
+      "weight": 45,
+      "dp": 5,
+      "handlingBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Radial",
+    "type": "tireOption",
+    "system": {
+      "id": "radial",
+      "name": "Radial",
+      "category": "option",
+      "cost": 125,
+      "weight": 36,
+      "dp": 5,
+      "handlingBonus": 1,
+      "specialRules": [
+        "HC +1"
+      ]
+    }
+  },
+  {
+    "name": "Off-Road",
+    "type": "tireOption",
+    "system": {
+      "id": "off-road",
+      "name": "Off-Road",
+      "category": "option",
+      "cost": 60,
+      "weight": 33,
+      "dp": 4,
+      "handlingBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Fireproofing",
+    "type": "tireOption",
+    "system": {
+      "id": "fireproofing",
+      "name": "Fireproofing",
+      "category": "option",
+      "cost": 100,
+      "weight": 30,
+      "dp": 4,
+      "handlingBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Racing Slick",
+    "type": "tireOption",
+    "system": {
+      "id": "racing-slick",
+      "name": "Racing Slick",
+      "category": "option",
+      "cost": 150,
+      "weight": 50,
+      "dp": 5,
+      "handlingBonus": 2,
+      "specialRules": [
+        "HC +2",
+        "Cannot combine with Radial or Off-Road"
+      ]
+    }
+  },
+  {
+    "name": "Steel/Radial HC+1",
+    "type": "tireOption",
+    "system": {
+      "id": "steel-radial",
+      "name": "Steel/Radial HC+1",
+      "category": "combo",
+      "cost": 187.5,
+      "weight": 54,
+      "dp": 5,
+      "handlingBonus": 1,
+      "specialRules": [
+        "HC +1"
+      ]
+    }
+  },
+  {
+    "name": "Steel/Off-Road",
+    "type": "tireOption",
+    "system": {
+      "id": "steel-offroad",
+      "name": "Steel/Off-Road",
+      "category": "combo",
+      "cost": 90,
+      "weight": 50,
+      "dp": 5,
+      "handlingBonus": 0,
+      "specialRules": []
+    }
+  },
+  {
+    "name": "Racing Slick / Steel",
+    "type": "tireOption",
+    "system": {
+      "id": "racing-steel",
+      "name": "Racing Slick / Steel",
+      "category": "combo",
+      "cost": 225,
+      "weight": 90,
+      "dp": 6,
+      "handlingBonus": 2,
+      "specialRules": [
+        "HC +2",
+        "Cannot combine with Radial or Off-Road"
+      ]
+    }
+  },
+  {
+    "name": "Racing Slick / Fireproof",
+    "type": "tireOption",
+    "system": {
+      "id": "racing-fireproof",
+      "name": "Racing Slick / Fireproof",
+      "category": "combo",
+      "cost": 250,
+      "weight": 90,
+      "dp": 6,
+      "handlingBonus": 2,
+      "specialRules": [
+        "HC +2",
+        "Cannot combine with Radial or Off-Road"
+      ]
+    }
+  },
+  {
+    "name": "Racing Slick / FP / Steel",
+    "type": "tireOption",
+    "system": {
+      "id": "racing-fireproof-steel",
+      "name": "Racing Slick / FP / Steel",
+      "category": "combo",
+      "cost": 450,
+      "weight": 90,
+      "dp": 6,
+      "handlingBonus": 2,
+      "specialRules": [
+        "HC +2",
+        "Cannot combine with Radial or Off-Road"
+      ]
+    }
+  },
+  {
+    "name": "Steel/Radial HC+1 / FP",
+    "type": "tireOption",
+    "system": {
+      "id": "steel-radial-fireproof",
+      "name": "Steel/Radial HC+1 / FP",
+      "category": "combo",
+      "cost": 375,
+      "weight": 54,
+      "dp": 5,
+      "handlingBonus": 1,
+      "specialRules": [
+        "HC +1"
+      ]
+    }
+  },
+  {
+    "name": "Steel/Off-Road / FP",
+    "type": "tireOption",
+    "system": {
+      "id": "steel-offroad-fireproof",
+      "name": "Steel/Off-Road / FP",
+      "category": "combo",
+      "cost": 180,
+      "weight": 50,
+      "dp": 5,
+      "handlingBonus": 0,
+      "specialRules": []
+    }
+  }
+]

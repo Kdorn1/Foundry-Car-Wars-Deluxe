@@ -1,0 +1,46 @@
+[
+  {
+    "type": "gasTank",
+    "system": {
+      "weightPerGallon": 1,
+      "costPerGallon": 2,
+      "dpPerTank": 2
+    }
+  },
+  {
+    "type": "gasTank",
+    "system": {
+      "id": "tank-size-0-5",
+      "minGallons": 0,
+      "maxGallons": 5,
+      "spacesPerGallon": 0
+    }
+  },
+  {
+    "type": "gasTank",
+    "system": {
+      "id": "tank-size-6-15",
+      "minGallons": 6,
+      "maxGallons": 15,
+      "spacesPerGallon": 1
+    }
+  },
+  {
+    "type": "gasTank",
+    "system": {
+      "id": "tank-size-16-25",
+      "minGallons": 16,
+      "maxGallons": 25,
+      "spacesPerGallon": 2
+    }
+  },
+  {
+    "type": "gasTank",
+    "system": {
+      "id": "tank-size-26-plus",
+      "minGallons": 26,
+      "maxGallons": null,
+      "spacesPerGallon": 3
+    }
+  }
+]

@@ -1,0 +1,274 @@
+/**
+ * Control Table Macro v3.3
+ * - Stats‐row shows only “X maneuvers per turn” and “Crash Mod”
+ * - Bold Speed & HS inputs/labels
+ * - Added CM column
+ * - Restored your exact CTM-v2 preview dialogue
+ * - Table constrained to its measured width and centered
+ * - Dialog auto‐height (no scroll bars)
+ * - Updated roll API (use roll.evaluate())
+ */
+(async () => {
+  // ─── 1. Immutable Control Table Data ────────────────────────────────────────
+  const controlTable = {
+    10:  { "0":"safe","-1":"safe","-2":"safe","-3":"safe","-4":"safe","-5":"safe","-6":"safe","-7":5, "-8":4, "-9":3, "-10":2, "-11":1, "-12":"XX" },
+    20:  { "0":"safe","-1":"safe","-2":"safe","-3":"safe","-4":"safe","-5":"safe","-6":5, "-7":5, "-8":4, "-9":3, "-10":2, "-11":1, "-12":"XX" },
+    30:  { "0":"safe","-1":"safe","-2":"safe","-3":"safe","-4":"safe","-5":5, "-6":4, "-7":4, "-8":3, "-9":2, "-10":1, "-11":"XX","-12":"XX" },
+    40:  { "0":"safe","-1":"safe","-2":"safe","-3":"safe","-4":5, "-5":5, "-6":4, "-7":4, "-8":3, "-9":2, "-10":1, "-11":"XX","-12":"XX" },
+    50:  { "0":"safe","-1":"safe","-2":"safe","-3":5, "-4":5, "-5":4, "-6":3, "-7":3, "-8":2, "-9":1, "-10":"XX","-11":"XX","-12":"XX" },
+    60:  { "0":"safe","-1":"safe","-2":"safe","-3":5, "-4":4, "-5":4, "-6":3, "-7":3, "-8":2, "-9":1, "-10":"XX","-11":"XX","-12":"XX" },
+    70:  { "0":"safe","-1":"safe","-2":5, "-3":4, "-4":4, "-5":3, "-6":2, "-7":2, "-8":1, "-9":"XX","-10":"XX","-11":"XX","-12":"XX" },
+    80:  { "0":"safe","-1":"safe","-2":5, "-3":4, "-4":3, "-5":3, "-6":2, "-7":2, "-8":1, "-9":"XX","-10":"XX","-11":"XX","-12":"XX" },
+    90:  { "0":"safe","-1":5,    "-2":4, "-3":3, "-4":3, "-5":2, "-6":1, "-7":1, "-8":"XX","-9":"XX","-10":"XX","-11":"XX","-12":"XX" },
+   100:  { "0":"safe","-1":5,    "-2":4, "-3":3, "-4":2, "-5":2, "-6":1, "-7":1, "-8":"XX","-9":"XX","-10":"XX","-11":"XX","-12":"XX" },
+   110:  { "0":5,     "-1":4,    "-2":3, "-3":2, "-4":2, "-5":1, "-6":"XX","-7":"XX","-8":"XX","-9":"XX","-10":"XX","-11":"XX","-12":"XX" },
+   120:  { "0":5,     "-1":4,    "-2":3, "-3":2, "-4":1, "-5":1, "-6":"XX","-7":"XX","-8":"XX","-9":"XX","-10":"XX","-11":"XX","-12":"XX" }
+  };
+
+  // ─── 2. Helpers ────────────────────────────────────────────────────────────
+  function getToken() {
+    const sel = canvas.tokens.controlled;
+    if (sel.length !== 1) {
+      ui.notifications.error("Select exactly one token.");
+      throw new Error("Invalid selection");
+    }
+    return sel[0];
+  }
+  async function getPhaseData(tok) {
+    return {
+      phase: await tok.document.getFlag("world","cwPhase") ?? 1,
+      speed: await tok.document.getFlag("world","cwSpeed") ?? 0,
+      hs:    await tok.document.getFlag("world","cwHS")    ?? 0
+    };
+  }
+  async function setPhaseData(tok, data) {
+    await tok.document.setFlag("world","cwPhase", data.phase);
+    await tok.document.setFlag("world","cwSpeed", data.speed);
+    await tok.document.setFlag("world","cwHS",    data.hs);
+  }
+  async function clearPhaseData(tok) {
+    await tok.document.unsetFlag("world","cwPhase");
+    await tok.document.unsetFlag("world","cwSpeed");
+    await tok.document.unsetFlag("world","cwHS");
+  }
+  const crashModFromSpeed = spd => {
+    if (spd <= 10) return -3;
+    if (spd <= 20) return -2;
+    if (spd <= 30) return -1;
+    if (spd <= 40) return 0;
+    if (spd <= 60) return 1;
+    if (spd <= 90) return 2;
+    return 3;
+  };
+  const maneuversFromSpeed = spd => {
+    const abs = Math.abs(spd);
+    return abs <= 30 ? 1 : abs <= 60 ? 2 : abs <= 90 ? 3 : 4;
+  };
+
+  // ─── 3. Preview & Table Builders ──────────────────────────────────────────
+  function buildPreview(spd, hsVal) {
+    const absSpd = Math.abs(spd);
+    const clamp  = Math.max(10, Math.min(absSpd, 120));
+    const cm     = crashModFromSpeed(spd) + (spd < 0 ? 1 : 0);
+    const key    = String(hsVal);
+    const target = hsVal > 0 ? "safe" : controlTable[clamp]?.[key];
+    const minRoll= 1 + cm;
+
+    let border = "#a00", warning = "", summary = "";
+    if (spd < 0) {
+      warning = `⚠️ Reverse movement — you can only move up to 20 mph in reverse. All maneuvers are +1 difficulty.<br><br>`;
+    }
+    if (!target) {
+      summary = `<span style="color:red;">Invalid speed or handling status.</span>`;
+    } else if (target === "safe") {
+      border  = "#00a";
+      summary = `🟦 <strong>At ${spd} mph and HS ${hsVal}, the Control Table indicates a safe result.</strong><br>No control roll was required — you remain in control.`;
+    } else if (target === "XX") {
+      summary = `💀 <strong>At ${spd} mph and HS ${hsVal}, the Control Table result is XX — you automatically lose control.</strong>`;
+    } else if (minRoll > target) {
+      summary = `⛔ <strong>At ${spd} mph and HS ${hsVal}, the Control Table required a roll of 1d6 + ${cm} ≤ ${target} to remain in control.</strong><br>Unfortunately, the lowest possible result is ${minRoll} — you automatically lose control.`;
+    } else {
+      summary = `🟥 <strong>At ${spd} mph and HS ${hsVal}, the Control Table requires a roll of 1d6 + ${cm} ≤ ${target} to remain in control.</strong>`;
+    }
+
+    return `<div style="border:2px solid ${border}; padding:10px; margin-top:10px;">${warning}${summary}</div>`;
+  }
+
+  function buildTableHTML() {
+    const speeds = Object.keys(controlTable).map(Number).sort((a,b)=>a-b);
+    const hsCols = ["0","-1","-2","-3","-4","-5","-6","-7","-8","-9","-10","-11","-12"];
+    return `
+      <div class="ascii-crt">
+        <style>
+          .ascii-crt{position:relative;display:inline-block;}
+          .ascii-crt::before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(0,0,0,0.04)50%,transparent50%);background-size:100% 4px;}
+          .ascii-crt::after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 80px rgba(0,0,0,0.5);}
+          table.ctd{border-collapse:collapse;table-layout:fixed;background:#EDE8DC;font-family:"Courier New",monospace;font-size:14px;color:#2F2F2F;border:2px solid #000;width:auto;}
+          .ctd th,.ctd td{border:1px solid rgba(0,0,0,0.1);padding:0.25em;text-align:center;}
+          .ctd thead th{background:#444;color:#fff;}
+          .ctd tbody tr:nth-child(odd){background:rgba(0,100,0,0.1);}
+          .ctd tbody tr:nth-child(even){background:rgba(0,100,0,0.05);}
+          .row-highlight td,.row-highlight th{background:rgba(255,0,0,0.2);}
+          .col-highlight{background:rgba(0,120,200,0.2);}
+          .cell-highlight{outline:2px solid #fff;}
+        </style>
+        <table class="ctd">
+          <thead>
+            <tr>
+              <th>Speed</th>
+              <th>CM</th>
+              ${hsCols.map(h=>`<th data-hs="${h}">${h}</th>`).join('')}
+            </tr>
+          </thead>
+          <tbody>
+            ${speeds.map(s=>`
+              <tr data-speed="${s}">
+                <th>${s}</th>
+                <td>${crashModFromSpeed(s)}</td>
+                ${hsCols.map(h=>`<td data-speed="${s}" data-hs="${h}">${controlTable[s][h]}</td>`).join('')}
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>`;
+  }
+
+  // ─── 4. UI & Actions ───────────────────────────────────────────────────────
+  async function renderDialog() {
+    const tok   = getToken();
+    const { phase, speed, hs } = await getPhaseData(tok);
+    const cm    = crashModFromSpeed(speed);
+    const man   = maneuversFromSpeed(speed);
+    const preview   = buildPreview(speed, hs);
+    const tableHTML = buildTableHTML();
+
+    // Measure table
+    const measure = document.createElement('div');
+    Object.assign(measure.style,{position:'absolute',top:0,left:-9999,visibility:'hidden'});
+    measure.innerHTML = tableHTML;
+    document.body.appendChild(measure);
+    const wrap = measure.querySelector('.ascii-crt');
+    const cw   = wrap.offsetWidth, ch = wrap.offsetHeight;
+    document.body.removeChild(measure);
+
+    const dlg = new Dialog({
+      title: `Control Table — Phase ${phase} (${tok.name})`,
+      content: `
+        <form style="display:flex;gap:1em;align-items:center;justify-content:center;margin-bottom:8px;">
+          <label style="font-weight:bold;">Speed:
+            <input type="number" name="speed" value="${speed}" step="10" style="width:4em;font-weight:bold;"/>
+          </label>
+          <label style="font-weight:bold;">Handling Status:
+            <input type="number" name="hs" value="${hs}" min="-12" max="12" style="width:3em;font-weight:bold;"/>
+          </label>
+        </form>
+        <div id="stats-row" style="text-align:center;margin-bottom:8px;">
+          <span>${man} maneuvers per turn</span> – 
+          <span>Crash Mod: ${cm>=0?'+':''}${cm}</span>
+        </div>
+        <div id="ct-preview">${preview}</div>
+        <hr/>
+        <div id="ct-table" style="width:${cw}px;margin:0 auto;">${tableHTML}</div>
+      `,
+      buttons: {
+        endPhase: {
+          icon: "<i class='fas fa-flag-checkered'></i>",
+          label: `End Phase ${phase}`,
+          callback: async html => {
+            const newSpeed = parseInt(html.find('[name="speed"]').val())||0;
+            const newHS    = parseInt(html.find('[name="hs"]').val())||0;
+            const nextP    = phase === 3 ? 1 : phase + 1;
+            await setPhaseData(tok, { phase: nextP, speed: newSpeed, hs: newHS });
+            await rollControl(tok, newSpeed, newHS, phase);
+            renderDialog();
+          }
+        },
+        reset: {
+          icon: "<i class='fas fa-undo'></i>",
+          label: "Reset Turn",
+          callback: async () => {
+            await clearPhaseData(tok);
+            ui.notifications.info("Turn data cleared.");
+          }
+        }
+      },
+      default: "endPhase",
+      render(html) {
+        const $win = html.closest(".window-app");
+        const $cnt = $win.find(".window-content");
+        $win.css({ "max-height": "none", "overflow": "visible" });
+        $cnt.css({ "max-height": "none", "overflow": "visible", "height": "auto" });
+
+        html.find('[name="speed"],[name="hs"]').on("input", () => {
+          const spd = parseInt(html.find('[name="speed"]').val())||0;
+          const hst = parseInt(html.find('[name="hs"]').val())||0;
+          const cmn = crashModFromSpeed(spd);
+          const mnv = maneuversFromSpeed(spd);
+
+          html.find("#stats-row").html(
+            `<span>${mnv} maneuvers per turn</span> – ` +
+            `<span>Crash Mod: ${cmn>=0?'+':''}${cmn}</span>`
+          );
+          html.find("#ct-preview").html(buildPreview(spd, hst));
+          html.find("#ct-table").html(
+            `<div style="width:${cw}px;margin:0 auto;">${buildTableHTML()}</div>`
+          );
+          html.find("tr").removeClass("row-highlight");
+          html.find("th,td").removeClass("col-highlight cell-highlight");
+          html.find(`tr[data-speed="${Math.abs(spd)}"]`).addClass("row-highlight");
+          html.find(`th[data-hs="${hst}"],td[data-hs="${hst}"]`).addClass("col-highlight");
+          html.find(`td[data-speed="${Math.abs(spd)}"][data-hs="${hst}"]`).addClass("cell-highlight");
+
+          requestAnimationFrame(() => {
+            const h = $win[0].scrollHeight;
+            $win.css({ height: `${h}px` });
+          });
+        });
+
+        requestAnimationFrame(() => {
+          const h = $win[0].scrollHeight;
+          $win.css({ height: `${h}px` });
+        });
+      }
+    }, { width: cw, height: ch + 300, resizable: false });
+
+    dlg.render(true);
+  }
+
+  // ─── 5. Roll & Chat Output ─────────────────────────────────────────────────
+  async function rollControl(tok, spd, hsVal, phase) {
+    const absSpd = Math.abs(spd);
+    const clamp  = Math.max(10, Math.min(absSpd, 120));
+    const cm     = crashModFromSpeed(spd) + (spd < 0 ? 1 : 0);
+    const key    = String(hsVal);
+    const target = hsVal > 0 ? "safe" : controlTable[clamp]?.[key];
+    const minRoll= 1 + cm;
+
+    let content = `<h2>🧭 Control Table – Phase ${phase} (${tok.name})</h2>
+      <p><strong>Speed:</strong> ${spd} mph<br>
+      <strong>HS:</strong> ${hsVal}<br>
+      <strong>Crash Mod:</strong> +${cm}</p>`;
+
+    if (spd < 0)      content += `<p>⚠️ Reverse movement — up to 20 mph reverse. All maneuvers +1 difficulty.</p>`;
+    else if (!target) content += `<p style="color:red;">Invalid status.</p>`;
+    else if (target === "safe")  content += `<p>🟦 Safe — no roll required.</p>`;
+    else if (target === "XX")    content += `<p>💀 XX — automatic loss.</p>`;
+    else if (minRoll > target)   content += `<p>⛔ Min ${minRoll} > ${target} — auto loss.</p>`;
+    else {
+      content += `<p>🟥 Roll 1d6 + ${cm} ≤ ${target}.</p>`;
+      const roll = new Roll(`1d6+${cm}`);
+      await roll.evaluate();  // updated API
+      game.dice3d?.showForRoll(roll);
+      const die = roll.terms[0].results[0].result, tot = roll.total;
+      content += `<p>🎲 1d6=${die} +${cm} =${tot}</p>`;
+      content += tot <= target
+        ? `<p>✅ You rolled ${tot} — control maintained.</p>`
+        : `<p>❌ You rolled ${tot} — you lose control.</p>`;
+    }
+
+    await ChatMessage.create({ speaker: ChatMessage.getSpeaker(), content });
+  }
+
+  // Launch
+  renderDialog();
+})();

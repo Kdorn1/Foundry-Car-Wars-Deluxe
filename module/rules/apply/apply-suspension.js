@@ -1,10 +1,8 @@
-// module/rules/apply/apply-suspension.js
-
-export function applySuspension(actor, rules) {
+export function applySuspension(actor, rules, rulesData) {
   const suspensionId = actor.system.suspensionType;
   if (!suspensionId) return;
 
-  const suspData = game.cw.catalog.suspension.find(s => s.id === suspensionId);
+  const suspData = rulesData.suspensions?.[suspensionId];
   if (!suspData) return;
 
   // HC modifiers

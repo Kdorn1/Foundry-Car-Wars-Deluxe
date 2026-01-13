@@ -1,0 +1,242 @@
+/**
+ * CCV2.0 – Crash Chart Prototype with Async Roll Evaluation
+ */
+(async () => {
+  // 1️⃣ Ensure a token is selected
+  const token = canvas.tokens.controlled[0];
+  if (!token) return ui.notifications.error("Please select a token first.");
+
+  // 2️⃣ Speed → Speed Mod lookup
+  const getSpeedMod = speed => {
+    if (speed >= 100) return 3;
+    if (speed >=  70) return 2;
+    if (speed >=  40) return 1;
+    return 0;
+  };
+
+  // 3️⃣ Load saved flags or default
+  let saved = {};
+  try { saved = (await token.document.getFlag("world", "carwars")) || {}; }
+  catch { saved = {}; }
+  const currentSpeed   = saved.speed      || 0;
+  const currentHS      = saved.hs         || 0;
+  const currentTerrain = saved.terrainMod ?? 0;
+
+  // 4️⃣ Input Dialog
+  new Dialog({
+    title: "CCV2.0 – Crash Chart Input",
+    content: `
+      <form>
+        <div class="form-group">
+          <label>Speed (mph):</label>
+          <input type="number" name="speed" value="${currentSpeed}" step="10" min="0" />
+        </div>
+        <div class="form-group">
+          <label>Handling Status (HS):</label>
+          <input type="number" name="hs" value="${currentHS}" step="1" />
+        </div>
+        <div class="form-group">
+          <label>Terrain (Crash Mod 0–5):</label>
+          <input type="number" name="terrain" value="${currentTerrain}" step="1" min="0" max="5" />
+        </div>
+      </form>
+    `,
+    buttons: {
+      ok: {
+        label: "OK",
+        callback: async html => {
+          // 5️⃣ Read inputs
+          const speed      = parseInt(html.find('[name="speed"]').val())   || 0;
+          const hs         = parseInt(html.find('[name="hs"]').val())      || 0;
+          const terrainMod = parseInt(html.find('[name="terrain"]').val()) || 0;
+
+          // 6️⃣ Compute & persist flags
+          const baseSpeedMod = getSpeedMod(speed);
+          await token.document.setFlag("world", "carwars", { speed, hs, baseSpeedMod, terrainMod });
+
+          const totalMod = baseSpeedMod + terrainMod;
+
+          // 7️⃣ Lost Control panel
+          ChatMessage.create({
+            content: `
+<h2>⛔ YOU HAVE LOST CONTROL!</h2>
+<p><strong>Crash Check:</strong> 1d6 + Speed Mod + Terrain Mod</p>
+<p>= 1d6 + (${speed} mph ⇒ +${baseSpeedMod}) + (+${terrainMod}) = <strong>1d6 + ${totalMod}</strong></p>
+<ul>
+  <li>3 or less → Fishtail</li>
+  <li>4–6       → Skid</li>
+  <li>7+         → Spin (then possible Rolls)</li>
+</ul>
+<button class="roll-crash" data-mod="${totalMod}">Roll Crash Check</button>
+            `,
+            speaker: ChatMessage.getSpeaker({ token })
+          });
+
+          // 8️⃣ Crash Check listener
+          $(document).off("click", ".roll-crash").on("click", ".roll-crash", async ev => {
+            const mod = Number(ev.currentTarget.dataset.mod);
+            const roll = new Roll(`1d6 + ${mod}`);
+            await roll.evaluate();
+            await roll.toMessage({ speaker: ChatMessage.getSpeaker({ token }), flavor: "Crash Check" });
+            const total = roll.total;
+            $(document).off("click", ".roll-crash");
+
+            // 9️⃣ Branch to panels
+            if (total <= 3) {
+              await token.document.setFlag("world", "carwars", { ...saved, lastCrash: "fishtail" });
+              return ChatMessage.create({
+                content: `
+<h3>🐟 FISHTAIL SEQUENCE</h3>
+<p>First move straight ahead 3″ (or all your remaining movement, whichever is less).  
+Now roll 1d6 to determine the severity of the fishtail:</p>
+<pre>
+1 – 15°
+2 – 30°
+3 – 45°
+4 – 60°
+5 – 75°
+6 – 90°
+</pre>
+<button class="roll-fishtail">Roll Fishtail Angle (1d6)</button>
+                `,
+                speaker: ChatMessage.getSpeaker({ token })
+              });
+            }
+            else if (total <= 6) {
+              await token.document.setFlag("world", "carwars", { ...saved, lastCrash: "skid" });
+              return ChatMessage.create({
+                content: `
+<h3>🛞 SKID SEQUENCE</h3>
+<p>Roll a die and add the total Crash Modifier (+${totalMod}).</p>
+<button class="roll-skid" data-mod="${totalMod}">Roll Skid (1d6 + ${totalMod})</button>
+                `,
+                speaker: ChatMessage.getSpeaker({ token })
+              });
+            }
+            else {
+              await token.document.setFlag("world", "carwars", { ...saved, lastCrash: "spin", postCrashPenalty: 30 });
+              return ChatMessage.create({
+                content: `
+<h3>🌀 SPIN SEQUENCE</h3>
+<p>Start by taking 1 point of damage to each tire.</p>
+<p><strong>If you lost control when attempting a Bend or Drift:</strong><br>
+– Move forward 1½″ (or your remaining distance, whichever is less).<br>
+– Move your counter to “cross the T” pointing in your attempted direction.<br>
+– You have now done 90° of spin and used a total of 3″ of movement.</p>
+<p>Next, roll 1d6:</p>
+<button class="roll-spin">Roll Spin Continuation (1d6)</button>
+<pre>
+1 – A further 30° of spin  
+2 – A further 45° of spin  
+3 – A further 90° of spin  
+4 – Car skids sideways another 1″  
+5 – Car skids sideways as above, but moves 2″  
+6 – Car begins to roll → Skip to Rolls Sequence  
+</pre>
+                `,
+                speaker: ChatMessage.getSpeaker({ token })
+              });
+            }
+          });
+
+          // 🔟 Fishtail listener & summary
+          $(document).off("click", ".roll-fishtail").on("click", ".roll-fishtail", async () => {
+            const r = new Roll("1d6");
+            await r.evaluate();
+            await r.toMessage({ speaker: ChatMessage.getSpeaker({ token }), flavor: "Fishtail Angle" });
+            const angle = [15,30,45,60,75,90][r.total - 1];
+            await ChatMessage.create({
+              content: `
+<p><strong>Fishtail Result:</strong> ${angle}°</p>
+<p><strong>Summary:</strong> You fishtailed ${angle}°.  
+If you lost control when attempting a Bend, fishtail your rear-end away from the curve.  
+If during a Drift, fishtail your rear-end into the curve.  
+If from a Collision Hazard, fishtail away from the collision.  
+If for any other reason, you may roll 1d6 to choose direction (optional): 1–3 = left, 4–6 = right.  
+Only your rear wheels move along that arc.  
+If any movement remains, continue your phase normally. <strong>END.</strong></p>
+              `,
+              speaker: ChatMessage.getSpeaker({ token })
+            });
+          });
+
+          // 1️⃣1️⃣ Skid listener & summary
+          $(document).off("click", ".roll-skid").on("click", ".roll-skid", async ev => {
+            const m = Number(ev.currentTarget.dataset.mod);
+            const r = new Roll(`1d6 + ${m}`);
+            await r.evaluate();
+            await r.toMessage({ speaker: ChatMessage.getSpeaker({ token }), flavor: "Skid Roll" });
+            const dist = r.total;
+            await ChatMessage.create({
+              content: `
+<p><strong>Skid Result:</strong> ${dist}″</p>
+<p><strong>Summary:</strong> You skid forward ${dist}″ (or all remaining movement, whichever is less).  
+If you have any movement left and were attempting a Bend or Drift, you may make that maneuver, or any less difficult one of the same type, <strong>without rolling again</strong>.  
+After this optional “free” maneuver, continue your phase normally. <strong>END.</strong></p>
+              `,
+              speaker: ChatMessage.getSpeaker({ token })
+            });
+          });
+
+          // 1️⃣2️⃣ Spin listener & summary or Rolls branch
+          $(document).off("click", ".roll-spin").on("click", ".roll-spin", async () => {
+            const r = new Roll("1d6");
+            await r.evaluate();
+            await r.toMessage({ speaker: ChatMessage.getSpeaker({ token }), flavor: "Spin Continuation" });
+            const cont = r.total;
+
+            if (cont === 6) {
+              return ChatMessage.create({
+                content: `
+<h3>🎲 ROLLS SEQUENCE</h3>
+<p>Move your remaining distance this phase sideways, as shown by the “Roll” arrow.</p>
+<p><strong>Tumbling Order (per inch moved):</strong><br>
+1. Left side down<br>
+2. Roof down<br>
+3. Right side down<br>
+4. Right-side-up<br>
+5. Repeat until movement is exhausted</p>
+<p>Every time you land on a side, roll 1d6 for collision damage:</p>
+<button class="roll-roll-damage">Roll Collision Damage (1d6)</button>
+<p><strong>END</strong>, then apply continuing effects next phase.</p>
+                `,
+                speaker: ChatMessage.getSpeaker({ token })
+              });
+            }
+
+            // Final spin summary
+            const totalSpin = 90 + (cont === 1 ? 30 : cont === 2 ? 45 : 90);
+            await ChatMessage.create({
+              content: `
+<p><strong>Spin Result:</strong> ${cont}</p>
+<p><strong>Summary:</strong> You spun a total of ${totalSpin}° and took 1 point of damage to each tire.  
+Now reduce your speed by 30 mph (cuts 3″ from next phase).  
+Handling Status goes to –6.  
+If any movement remains, go straight forward. <strong>END.</strong></p>
+              `,
+              speaker: ChatMessage.getSpeaker({ token })
+            });
+          });
+
+          // 1️⃣3️⃣ Rolls damage listener & summary
+          $(document).off("click", ".roll-roll-damage").on("click", ".roll-roll-damage", async () => {
+            const r = new Roll("1d6");
+            await r.evaluate();
+            await r.toMessage({ speaker: ChatMessage.getSpeaker({ token }), flavor: "Collision Damage" });
+            const dmg = r.total;
+            await ChatMessage.create({
+              content: `
+<p><strong>Collision Damage:</strong> ${dmg}</p>
+<p><strong>Summary:** You took ${dmg} points of collision damage.  
+At the start of the next phase, reduce speed by 10 mph and continue rolling remaining inches until at rest.  
+Occupants may jump free at any time. <strong>END.</strong></p>
+                `,
+              speaker: ChatMessage.getSpeaker({ token })
+            });
+          });
+        }
+      }
+    },
+    default: "ok"
+  }).render(true);
+})();
